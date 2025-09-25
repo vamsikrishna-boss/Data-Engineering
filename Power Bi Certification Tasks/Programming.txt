@@ -1,0 +1,249 @@
+1. Reverse a string?
+
+   String originalStr = "Hello";
+    String reversedStr = "";
+
+for (int i = 0; i < originalStr.length(); i++) {
+  reversedStr = originalStr.charAt(i) + reversedStr;
+}
+
+System.out.println("Reversed string: "+ reversedStr);
+
+                                          (or)
+										  
+										  Public class Reverseofstring {
+										  public static void main(String args[]);
+										  String str = "Geeks", nstr = " ";
+										  char ch;
+										  System.out.print("original word: ");
+										  System.out.println("Geeks");
+										  
+										  for(int i=0;i<str.length;i++)
+										  {
+										  ch=str.charAt(i);
+										  nstr = ch+nstr;
+										  }
+										  System.out.println("Reverse of word:" +nstr);
+										  }
+										  }
+===========================================================================================================================================
+
+2. Largest program in array?
+
+public class Largest {
+
+    public static void main(String[] args) {
+        double[] numArray = { 23.4, -34.5, 50.0, 33.5, 55.5, 43.7, 5.7, -66.5 };
+        double largest = numArray[0];
+
+        for (double num: numArray) {
+            if(largest < num)
+                largest = num;
+        }
+
+        System.out.format("Largest element = %.2f", largest);
+		
+    }
+}
+========================================================================================================================================================================
+3. palindrome:
+
+import java.util.Scanner;
+ class expalindrome 
+{
+public static void main(String args[]) 
+{
+int x,number, y=0,temp=0;
+Scanner s=new Scanner(System.in);
+System.out.println("Enter any number: ");
+number=s.nextInt();
+x=number;
+while(number>0)
+{
+x=number%10;
+number=number/10;
+temp=temp*10+x;
+}
+if(temp==y)
+{
+System.out.println("Number is Palindrome");
+}
+else
+{
+System.out.println("not Palindrome");
+}
+}
+}
+
+                                                                                    (or)
+public class Palindrome {
+public static void main (string arg[]){
+int x,number = 0, temp;
+int n = 454;
+
+temp = n;
+while (n>0){
+x=n%10;
+sum=(sum*10)+x
+n=n/10;
+}
+if (temp==number)
+{
+System.out.println("palindrome number");
+else
+System.out.println("not palindrome");
+}
+}
+																					
+																				
+=================================================================================================================================================
+4. Factorial
+
+
+
+public class Fac
+{ 
+public static void main (string args[])
+{ 
+int num=5,fact=1;
+for(i=5;i>=1;i++)
+{
+fact=fact*i;
+}
+sop(fact);
+}
+===================================================================================================================================================================
+45.Prime number:
+ 
+ a number is called prime number it is devided into 1 it self
+   code:
+   public class div
+   {
+   public static void main(string args[])
+   {
+     int num=11,count=0;
+     if(i=1;i<11;i++)
+    {
+        if(num%i==0)
+     {
+        count++;
+       }
+if (count==2)
+sop(num+" is pn);
+else
+sop(num+" is not pn);
+}
+}
+---------------------------------------------------------------------------------------------------------------
+46.Reverse of a number:
+  
+public class reverse
+{
+public static void main(string args[])
+{
+int num123,rev=0.rem;
+while(num>0)
+{
+rem=rev%10;
+num=num/10;
+rev=rev*10+rem;
+}
+sop(rev);
+}
+}
+------------------------------------------------------------------------------------------------
+47. fibnoci series:
+ 
+ it is a series of two numbers 0&1 other thirs bnumber is even number
+code:
+public class div
+{
+public static void main(string args[])
+{ 
+int f1=0,f2=1,f3;
+sop(f1+" "+f3);
+for(i=1;i<12;i++)
+}
+f3=f1+f2;
+sop(" "+f3);
+f1=f2;
+f2=f3;
+}
+}
+--------------------------------------------------------------------------------------------------------
+48. swappin of two numbers
+  code:
+public class swapping
+{
+public static void main(string args[])
+{
+int a=10,b=20,c=?;
+sop("before swapping_"+a" "+b");
+c=a;
+a=b;
+b=c;
+sop("after swapping_"+A" "+B):
+}
+}
+---------------------------------------------------------------------------------------------------------
+49.Armstrong number:
+   a number is called armstrong number it is individually qube and factorial of num same result same number is called armstrong number.
+public class arm
+{
+public static void main(string args[])
+{
+int num=123;arm=0;temp=num;
+while(num>0)
+{
+rem=rem%10;
+num=num/10;
+arm(rem*rem*rem*arm)
+}
+if(num==arm)
+sop(temp+" is the armstrong number");
+else
+sop(temp+" is the not armstrong number");
+}
+}
+================================================================================================================================================
+
+// Bubble sort in Java
+
+import java.util.Arrays;
+
+class Main {
+
+  // perform the bubble sort
+  static void bubbleSort(int array[]) {
+    int size = array.length;
+    
+    // loop to access each array element
+    for (int i = 0; i < size - 1; i++)
+    
+      // loop to compare array elements
+      for (int j = 0; j < size - i - 1; j++)
+
+        // compare two adjacent elements
+        // change > to < to sort in descending order
+        if (array[j] > array[j + 1]) {
+
+          // swapping occurs if elements
+          // are not in the intended order
+          int temp = array[j];
+          array[j] = array[j + 1];
+          array[j + 1] = temp;
+        }
+  }
+
+  public static void main(String args[]) {
+      
+    int[] data = { -2, 45, 0, 11, -9 };
+    
+    // call method using class name
+    Main.bubbleSort(data);
+    
+    System.out.println("Sorted Array in Ascending Order:");
+    System.out.println(Arrays.toString(data));
+  }
+}
+===================================================================================================================================
