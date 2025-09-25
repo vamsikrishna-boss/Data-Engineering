@@ -1,0 +1,379 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1112.0850                               -->
+<workbook original-version='18.1' source-build='2024.3.1 (20243.24.1112.0850)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sales (Concentrix Interview Questions-Tableau)' inline='true' name='federated.03kicij17k1msl17gp2xk1ppgb3c' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Concentrix Interview Questions-Tableau' name='excel-direct.1s63bgs0dmv2w61356zw80wt0euj'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Power BI/Concentrix Interview Questions-Tableau.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1s63bgs0dmv2w61356zw80wt0euj' name='Sales' table='[Sales$]' type='table'>
+          <columns gridOrigin='A1:B9:no:A1:B9:0' header='yes' outcome='2'>
+            <column datatype='string' name='SalesPerson' ordinal='0' />
+            <column datatype='string' name='Sale Value' ordinal='1' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sales]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B9:no:A1:B9:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SalesPerson</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[SalesPerson]</local-name>
+            <parent-name>[Sales]</parent-name>
+            <remote-alias>SalesPerson</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sales_516731AFC0804D49AE2E07E08E0D4472]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sale Value</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sale Value]</local-name>
+            <parent-name>[Sales]</parent-name>
+            <remote-alias>Sale Value</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sales_516731AFC0804D49AE2E07E08E0D4472]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Total Sales' datatype='real' name='[Calculation_260364382016704512]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='' />
+      </column>
+      <column caption='Sales Person' datatype='string' name='[SalesPerson]' role='dimension' type='nominal' />
+      <column caption='Sales' datatype='table' name='[__tableau_internal_object_id__].[Sales_516731AFC0804D49AE2E07E08E0D4472]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sales' id='Sales_516731AFC0804D49AE2E07E08E0D4472'>
+            <properties context=''>
+              <relation connection='excel-direct.1s63bgs0dmv2w61356zw80wt0euj' name='Sales' table='[Sales$]' type='table'>
+                <columns gridOrigin='A1:B9:no:A1:B9:0' header='yes' outcome='2'>
+                  <column datatype='string' name='SalesPerson' ordinal='0' />
+                  <column datatype='string' name='Sale Value' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='Store Sales (Concentrix Interview Questions-Tableau)' inline='true' name='federated.1i9qn081jtgkyi1blx3bo18h94us' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Concentrix Interview Questions-Tableau' name='excel-direct.0frobzv0n6f69t173kqhk17fszu9'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Power BI/Concentrix Interview Questions-Tableau.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0frobzv0n6f69t173kqhk17fszu9' name='Store Sales' table='[&apos;Store Sales$&apos;]' type='table'>
+          <columns gridOrigin='A1:B10:no:A1:B10:4' header='yes' lost='0' outcome='1' processed='6'>
+            <column datatype='string' name='Store' ordinal='0' />
+            <column datatype='integer' name='Sale Value' ordinal='1' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Store Sales]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B10:no:A1:B10:4&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Store</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Store]</local-name>
+            <parent-name>[Store Sales]</parent-name>
+            <remote-alias>Store</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Store Sales_E57A6C162DE04A33AD91C9F840A39D13]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sale Value</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sale Value]</local-name>
+            <parent-name>[Store Sales]</parent-name>
+            <remote-alias>Sale Value</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Store Sales_E57A6C162DE04A33AD91C9F840A39D13]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Output:1' datatype='integer' name='[Calculation_260364382018404353]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Sale Value] &lt;= 100 THEN 6&#13;&#10;ELSEIF [Sale Value] &lt;= 200 THEN 5&#13;&#10;ELSEIF [Sale Value] &lt;= 300 THEN 4&#13;&#10;ELSEIF [Sale Value] &lt;= 400 THEN 3&#13;&#10;ELSEIF [Sale Value] &lt;= 500 THEN 2&#13;&#10;ELSE 1 END' />
+      </column>
+      <column caption='Output:2' datatype='integer' name='[Calculation_260364382018535426]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Sale Value] &lt;= 100 THEN 6&#13;&#10;ELSEIF [Sale Value] &lt;= 200 THEN 5&#13;&#10;ELSEIF [Sale Value] &lt;= 300 THEN 4&#13;&#10;ELSEIF [Sale Value] &lt;= 400 THEN 2&#13;&#10;ELSE 1 END' />
+      </column>
+      <column caption='Output:3' datatype='integer' name='[Calculation_260364382018625539]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Sale Value] &lt;= 100 THEN 5&#13;&#10;ELSEIF [Sale Value] &lt;= 200 THEN 4&#13;&#10;ELSEIF [Sale Value] &lt;= 300 THEN 4&#13;&#10;ELSEIF [Sale Value] &lt;= 400 THEN 2&#13;&#10;ELSE 1 END' />
+      </column>
+      <column caption='Output:4' datatype='integer' name='[Calculation_260364382018834436]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Sale Value] &lt;= 100 THEN 6&#13;&#10;ELSEIF [Sale Value] &lt;= 200 THEN 4&#13;&#10;ELSEIF [Sale Value] &lt;= 300 THEN 4&#13;&#10;ELSEIF [Sale Value] &lt;= 400 THEN 2&#13;&#10;ELSE 1 END' />
+      </column>
+      <column caption='Store Sales' datatype='table' name='[__tableau_internal_object_id__].[Store Sales_E57A6C162DE04A33AD91C9F840A39D13]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Store Sales' id='Store Sales_E57A6C162DE04A33AD91C9F840A39D13'>
+            <properties context=''>
+              <relation connection='excel-direct.0frobzv0n6f69t173kqhk17fszu9' name='Store Sales' table='[&apos;Store Sales$&apos;]' type='table'>
+                <columns gridOrigin='A1:B10:no:A1:B10:4' header='yes' lost='0' outcome='1' processed='6'>
+                  <column datatype='string' name='Store' ordinal='0' />
+                  <column datatype='integer' name='Sale Value' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Store Sales (Concentrix Interview Questions-Tableau)' name='federated.1i9qn081jtgkyi1blx3bo18h94us' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1i9qn081jtgkyi1blx3bo18h94us'>
+            <column caption='Output:1' datatype='integer' name='[Calculation_260364382018404353]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Sale Value] &lt;= 100 THEN 6&#13;&#10;ELSEIF [Sale Value] &lt;= 200 THEN 5&#13;&#10;ELSEIF [Sale Value] &lt;= 300 THEN 4&#13;&#10;ELSEIF [Sale Value] &lt;= 400 THEN 3&#13;&#10;ELSEIF [Sale Value] &lt;= 500 THEN 2&#13;&#10;ELSE 1 END' />
+            </column>
+            <column caption='Output:2' datatype='integer' name='[Calculation_260364382018535426]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Sale Value] &lt;= 100 THEN 6&#13;&#10;ELSEIF [Sale Value] &lt;= 200 THEN 5&#13;&#10;ELSEIF [Sale Value] &lt;= 300 THEN 4&#13;&#10;ELSEIF [Sale Value] &lt;= 400 THEN 2&#13;&#10;ELSE 1 END' />
+            </column>
+            <column caption='Output:3' datatype='integer' name='[Calculation_260364382018625539]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Sale Value] &lt;= 100 THEN 5&#13;&#10;ELSEIF [Sale Value] &lt;= 200 THEN 4&#13;&#10;ELSEIF [Sale Value] &lt;= 300 THEN 4&#13;&#10;ELSEIF [Sale Value] &lt;= 400 THEN 2&#13;&#10;ELSE 1 END' />
+            </column>
+            <column caption='Output:4' datatype='integer' name='[Calculation_260364382018834436]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Sale Value] &lt;= 100 THEN 6&#13;&#10;ELSEIF [Sale Value] &lt;= 200 THEN 4&#13;&#10;ELSEIF [Sale Value] &lt;= 300 THEN 4&#13;&#10;ELSEIF [Sale Value] &lt;= 400 THEN 2&#13;&#10;ELSE 1 END' />
+            </column>
+            <column datatype='integer' name='[Sale Value]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Store]' role='dimension' type='nominal' />
+            <column-instance column='[Store]' derivation='None' name='[none:Store:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_260364382018404353]' derivation='Sum' name='[sum:Calculation_260364382018404353:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_260364382018535426]' derivation='Sum' name='[sum:Calculation_260364382018535426:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_260364382018625539]' derivation='Sum' name='[sum:Calculation_260364382018625539:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_260364382018834436]' derivation='Sum' name='[sum:Calculation_260364382018834436:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sale Value]' derivation='Sum' name='[sum:Sale Value:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1i9qn081jtgkyi1blx3bo18h94us].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1i9qn081jtgkyi1blx3bo18h94us].[sum:Sale Value:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1i9qn081jtgkyi1blx3bo18h94us].[sum:Calculation_260364382018404353:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1i9qn081jtgkyi1blx3bo18h94us].[sum:Calculation_260364382018535426:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1i9qn081jtgkyi1blx3bo18h94us].[sum:Calculation_260364382018625539:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1i9qn081jtgkyi1blx3bo18h94us].[sum:Calculation_260364382018834436:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1i9qn081jtgkyi1blx3bo18h94us].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1i9qn081jtgkyi1blx3bo18h94us].[sum:Sale Value:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1i9qn081jtgkyi1blx3bo18h94us].[sum:Calculation_260364382018404353:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1i9qn081jtgkyi1blx3bo18h94us].[sum:Calculation_260364382018535426:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1i9qn081jtgkyi1blx3bo18h94us].[sum:Calculation_260364382018625539:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1i9qn081jtgkyi1blx3bo18h94us].[sum:Calculation_260364382018834436:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1i9qn081jtgkyi1blx3bo18h94us].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1i9qn081jtgkyi1blx3bo18h94us].[none:Store:nk]' value='88' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1i9qn081jtgkyi1blx3bo18h94us].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1i9qn081jtgkyi1blx3bo18h94us].[none:Store:nk]</rows>
+        <cols>[federated.1i9qn081jtgkyi1blx3bo18h94us].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{607C3942-6DA6-48BA-A162-6513AB761450}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1i9qn081jtgkyi1blx3bo18h94us].[none:Store:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A153F0A4-3596-4665-B557-318FEA3B8705}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
