@@ -1,0 +1,829 @@
+Power Bi Desktop:
+=================
+
+==> What is power bi?
+A: Power bi is nothing but it is a business intelligence tool and that power bi is the uses the analysis and clean data converting into the visual format and create reports and dashboards that is called Power Bi.
+
+ Here it is classified 3 types
+Power Query:
+============
+1.What is Power Query?
+2.Difference between Power Query and Power View , Power Query and Power Pivot ,Power Query and DAX?
+3.Difference between Pivot ,Unpivot and Transpose?
+4.How to Identify duplicate and remove duplicate?
+5.Difference between APPEND and MERGE?
+6.Difference between Duplicate and Reference?
+7.Difference Roundup and Round Down?
+8.Parameters?
+9.What is Query folding? ------ Pending , 
+
+========================================================================================================================================================================================
+==> What is Power Query?
+
+A: Power Query is nothing but It is ETL(Extract transformation load]
+    power query can do extract the data from data source. Like: Excel, CSV, Xml,
+    When my data is not proper that time it is used.
+    power bi >> Home >> transformation data >> will take power query  editor window.
+=========================================================================================================================================================================================
+==> Difference between Power Query and Power View , Power Query and Power Pivot ,Power Query and DAX?
+
+A:                      Power Query                                                                                                                                                                   Power View                                                                                                                                                                                                          Power Pivot
+
+   ==> Data Connect and transformation tool. It is used to extract data from data source.                  ==> Interactive data Visualization tool. It is used to create interactive visuals and Dash boards.          ==> Power pivot is nothing data modelling and in-memory analytics. It is used creating data models and relationships.
+
+                             DAX
+   ==> It is Data Analysis expression and it is used creating and calculate columns, measures, and custom tables. And collection of functions, operations and that can be used formula, or expression calculate oe or more values.
+================================================================================================================================================================================================================================================================
+==> Difference between Pivot ,Unpivot and Transpose?
+A:                                Pivot                                                                                                                   Unpivot                                                                                                                 Transpose
+
+-> Pivot is nothing but it is used convert rows into column.                        -> It is used converted into column into rows.                                 -> It is used nothing but rows into column and column into rows.
+==================================================================================================================================================================================================================================
+==>  How to Identify duplicate and remove duplicate?
+
+A: Select which column you want find out the Duplicate Select the rows and click the dropdown rows after that Unselect all particular option select find out the user id multiple times it is repeated some duplicates are there.
+     Select the rows and click the dropdown rows and select all and go to home => Remove columns option there click that option and select remove duplicate option once click on that option
+     Automatically remove those duplicates in columns.
+	 Dax:
+	 Duplicates= If(Countrows(Filter('order','order'[Sales]=EARLIER('order'[sales]))>1,"Duplicate","unique"))
+=======================================================================================================================================================================================================
+==> Difference between APPEND and MERGE?
+A:                                                                                   Append                                                                                                                                                                Merge
+       -> Append is nothing but Append the data both table and create separate file.                                                                                         -> it is used merge the two tables.
+       -> in the append combined rows from two or more tables.                                                                                                                            -> I t is used combined columns from two or more tables.
+       -> Union SQL joins.                                                                                                                                                                                                     -> Similar to SQL joins (left, right, Full, Inner)  
+       -> Here is should be common name in a column                                                                                                                                                 -> Here common should be there both tables.
+=======================================================================================================================================================================
+==> Difference between Duplicate and Reference?
+A:                                                Duplicate                                                                                                                                                                                                              Reference
+   -> When we click on the duplicate that time Automatic save the Right side applied steps.                                             -> When We click on the reference that time Applied steps are not copied.
+   -> When we Delete column in the main table that time not deleted in the duplicate table.                                            -> When we deleted the column in the main table that time we are delete reference also.
+   -> Duplicate Query is not depend main query                                                                                                                              -> Reference Query is based on the main query.
+   -> Suppose if we have change in the duplicate table that time not replace in main table.                                               -> While we have change in the reference table that time automatically replace in main table also.
+  -> Less efficient as it copies the entire data set.                                                                                                                           -> more efficient as it copies the entire data set.
+===========================================================================================================================================================================
+==> .Difference Roundup and Round Down?
+A:                                            Round Up                                                                                                                                                                                                               Round Down
+      -> It is nothing but we have selected decimal column that time click on round up                                                             -> It is nothing but we have selected decimal column that time click on round up
+          that particular value convert decimal to normal round value it's showing.                                                                             that particular value convert decimal to normal round value it's showing.
+================================================================================================================================================================================
+==> What is Manage Parameters?
+A: Whenever you want to change the data source Dynamically that time it is used manage parameters.
+     For ex: if you want swich from dev to Test and production that time this parameters are going to help us dynamically. Switch dynamically between Environments.
+    options >> power query >> paramete>> select the check mark button. That we get the option.
+(Ex: we have click on Get data >> Sql server >> Open the SQL Server database >> Server click on New parameter and give the server name in name >>in the current value after Server name >> Click ok
+Tab will go to SQL server data base tab After Give the data base name like Data base >> Select Import option >> Click ok Automatically load the data in SQL server.
+
+
+
+========================================================================================================================================================================
+
+Power Pivot:
+============
+1. What is modelling?
+2. Types of relationship?
+3. Cross filter direction and types?
+4. Difference between Dimension table and Fact Table ?
+5. Difference between Star schema and Snowflake schema ?
+6. How to handle many to many relationship / How to avoid many to many relationship / Bridge table concept?
+7. Is it possible to create more than 1 active relationship between 2 tables?
+8. How to Make Active Relation as In-Active Relation?
+9. How to make use In-Active relationship ? 
+
+==> What is modelling?
+A: Modelling is nothing but we get the data from multiple tables and connect together and create relationship between two tables that is called data modeling.
+=========================================================================================================================================================================
+==> Types of relationship?
+A:  4-types of Relation ships
+      One - to - one
+      one - to - many
+      Many - to -one
+      many - to - many
+==========================================================================================================================================================================
+==> Cross filter direction and types?
+A: Cross Filter is nothing but it is use the data flow one table to another table that is called Cross filter direction.
+    There are two types of Cross filter directions.
+      (Single and both)
+======================================================================================================================================================================================
+==> Difference between Dimension table and Fact Table ?
+A:                                    Dimension                                                                                                                                                                                                             Fact table
+-> Dimension table that can give descriptive information that can slice and dice from the fact                                   -> Fact table is nothing but keep the numeric data and aggregated and reporting visualization.
+    table.
+-> Dimension table is give detailed information.                                                                                                                      -> Fact table is give numeric values.
+-> Dimension table is having primary key.                                                                                                                                  -> Fact table is having foreign key.
+-> Dimension table we can see the hierarchy data.                                                                                                                  -> Fact table can't see the hierarchy data.
+-> Dimension table less rows.                                                                                                                                                        -> Fact table huge number of rows.
+========================================================================================================================================================================================
+==>  Difference between Star schema and Snowflake schema ?
+A;                                              Star Scheme                                                                                                                                                                                          Snowflake
+-> Fact table connecting with multiple table that is called Star Scheme.                                                                            -> Fact table Connecting with dimension table and again dim table connecting with Sub dim to gather that is called Snowflake table.
+-> Less tables                                                                                                                                                                                     -> More tables.
+-> It reads Data fast.                                                                                                                                                                        -> It reads data Slow.
+-> Data transformation (Insert/Update/Delete) Slow.                                                                                                            -> Data transformation (Insert/Update/Delete) Fast.
+-> Large amount of data.                                                                                                                                                                -> less amount of data.
+=================================================================================================================================================================================================
+==> How to handle many to many relationship / How to avoid many to many relationship / Bridge table concept?
+A:  When you have handle the relationship that time we have to create separate table and we have to keep unique values that is called bridge table.
+      That table we can create relationship between two table avoid many to many relationship.
+
+To avoid the many to many relationship and can I implement bridge table and take unique values and manage the many to many and fact  table and bridge table connect the relationship.
+==============================================================================================================================================================================
+==>  Is it possible to create more than 1 active relationship between 2 tables?
+A: No, it is not possible to create more than one active relationship between two tables in Power BI. 
+Each pair of tables can have only one active relationship at a time. However, you can create multiple inactive relationships between the same tables.
+==================================================================================================================================================================================
+==> How to Make Active Relation as In-Active Relation?
+A: When you have relationship in a Dots(…..) That relationship is called In-active relationship. 
+     When you have relationship in a Dots(----) That relationship is called active relationship. 
+============================================================================================================================================================================================
+==> How to make use In-Active relationship ? 
+A:  When we have a right click on line and and click on properties after able to see Edit relationship and in that page we can manage the active and in active relationships.
+========================================================================================================================================================================
+
+
+Power View:
+============
+
+1. What are the types of components?
+2. Type of connection modes and difference between them?
+3. What are data sources you connected?
+4. what are charts you used ?, Can you explained about them?
+5. Types of filters?
+5. Difference Between Drill through and Drilldown?
+6. Difference between Filter and Slicer/Sync slicer ?
+7. What is the Bookmarks ?
+9. what is Power BI desktop storage capacity ?
+10.Filter context and Row Context ?
+11.About Field Parameter?
+12.How to Sort Month Names in Ascending or Descending Order?
+13.Edit interactions 
+14.What is Row Level Security and types of RLS
+15.What are the building blocks?
+
+==>  What are the types of components?
+A: Important components of Power BI are: 1) Data Integration, 2) Data Processing, and 3) Data Presentation ============================================================================================================================================================================
+==> What are the connections and difference between them?
+A:                     Import                                                                                                                                                                                                                         Direct query mode                                                                                                                     Live Connection
+=> When you have change the data that time we can refresh and change the data.                                                   => When You have the change the data that time we are using we can't do change.                      ==> When you have power bi model and analysis of the service we are using that live connection mode.
+=> Performance wise Import mode is good.                                                                                                                         => Performance wise Direct query mode is not good.
+=> When you huge data that time import can't support.                                                                                                   => When you have huge data that time we can support DQM.
+=> Import can support all kind of DAX functions.                                                                                                                 => DQM can't all kind of DAX functions.
+==> Excel and flag files we are using Import mode                                                                                                              => SQL data base we are using direct query mode.
+
+==================================================================================================================================================================================================================================
+==> What are data sources you connected?
+A; Mostly we are connected SQL server and Excel.
+================================================================================================================================================================================
+==> what are charts you used ?, Can you explained about them?
+A: Stacked bar chart: It is used due to the display the horizontal bars. Each category represent by a bar. Each segment represent sub-category whole.
+     Stacked Column chart: It is used vertically showing the data. And it each category represent by a column and each segments represents sub-category whole.
+     Clustered bar chart: It is used due to the display the data horizontally bars and each category represents by a group of bars clustered together and each segment is represents different sub-category or groups.
+     Clustered Column chart: It used due to the display the data in the vertical columns. By data represent and vertical bars and clustered to gather and each column represented sub-category or groups.
+     Line chart: It is used due to the trend analysis.(we want to 5 months of sales result that time  trend is going to analysis of the data that's why we are using these line chart).
+     Waterfall chart: It is used due to the helps understand one value to another value.(Ex: if you have Jan to fep sales changing whether values increasing or decreasing).
+     Funnel Chart: It can represents the data stages.
+     Scatter chart: It is used due to the two numeric values relation we are going use the Scatter chart.
+     Pie chart: When you have use <5 to <10 values that time we are using this pie chart. More than ten values it's showing clumsy.
+     Donut chart: It is use the type of pie chart and it is displays each segment and represents the whole and showing different categories. 
+     Tree map: It is used due to the data display in the Rectangular boxes left to right displays large boxes high values and small boxes low values.
+
+     Map: These 3-maps are using geo-graphical only. When we want to sales from state wise that time we use this map visuals.
+     Filled map: it is used due to the to see the locations tooltips of a data.
+     Shape map: it is used to see the location with shape of the countries without latitude and longitude.
+     Gauge: Guage is used due to the heighlet the business. This is one of the work like KPI. KPI is nothing but set the target.
+     Card: in this card we are using the any data we can se the single value like sales, profit, and quantity.
+     Multi-row card: Multiples values are presented in a table we want display that time we are used this visuals.
+     Slicers: It is used filter the values in report that time we are used this slicer.
+     Table: It is uses the some information in excel sheet how it's showing in excel that same kind of thing we want to see that time this is used.
+     Matrix: the matrix table is same pivot table.
+     Decomposition tree: it is used to give the route cause analysis of the breaking down the major.
+======================================================================================================================================================================
+ ==>  Types of filters?
+A: It is use the filter the values
+     it is 3-types of the filters
+Visual level filter: It is used due to the filter the values in particular o specific visual.
+Page level filters: It is used due to the apply the filter specific page.
+Report level filter: It is used due to the filter the all reports.
+===========================================================================================================================================================================
+==> Difference Between Drill through and Drilldown?
+A: Drill Down: It I used due to the it is power full feature of the power bi. User navigates different levels of the data in visuals. That is used due to the analysis purpose only.
+     Drill through: It is used due to the user navigate to the one page to another page view more detailed that time we are used drill through
+===================================================================================================================================================================================
+==> Difference between Filter and Slicer/Sync slicer ?
+ A:                             Filter                                                                                                           Slicer                                                                                                     Sync slicer
+=>  Filters are is one of the feature in PBI.                                            => Slicers are using one of the visual in PBI.                                          => it is used to feature of the pbi.
+=> There is a page level, report level, visual level.                               => Slicers are only sync slicer.
+=> Report lev filters are using filter the values in across the pages. => Sync slicer are filter across all pages.
+=> performance wise filter is good.                                                        => Sync slicer is not good for performance.
+=> It supports for measure.                                                                      => It doesn't support for measure.
+
+Sync slicer: Synch slicer is nothing but it is feature of PBI. When this feature is used. In one page you put the filter and you can filter reports in other page that time we can use the one symbol and sinch the that page.
+===============================================================================================================================================================================================
+==>  What is the Bookmarks ?
+A: Bookmarks is nothing but capture and store the particular report with include slicers all of this thing s. Bookmarks are using especially creating interactive reports and navigation.
+======================================================================================================================================================================
+==> what is Power BI desktop storage capacity ?
+ A: while Power BI Desktop does not have a hard storage limit, For larger datasets, utilizing Power BI Premium.
+======================================================================================================================================================================================
+==> Filter context and Row Context ?
+A: Filter Context refers to the set of filters applied to the data model when a calculation is evaluated. 
+    Ex: For instance, CALCULATE(SUM(Sales[Amount]), Sales[Year] = 2020) changes the filter context to only include sales from the year 2020.
+    
+    Row context:it refers is the context that applies to the evaluated individual rows of a table.
+     Ex: Sales[Total] = Sales[Quantity] * Sales[Price]
+============================================================================================================================================================================
+==> What is  Field Parameter?
+A: Field parameter is nothing but it used to create interactive reports and dynamic reports by a enabling selection of the different field levels without having manual change. It is especially creating interactive reports.
+Parameterised data source
+Use in parameters in  data source
+============================================================================================================================================================================================
+==> How to Sort Month Names in Ascending or Descending Order?
+A:  go to visual … --> sort axis >> click moth >> what you want ascending or decending order.
+==================================================================================================================================================================================
+==> Edit interactions 
+A: When you have to change one visuals but when you applied filter that time all visuls are change that time go to Format >> Edit interaction >> Click on non visuals remaining all.
+=================================================================================================================================================================================
+==> What is Row Level Security and types of RLS?
+A: Row level security is nothing but secure your data row level and with security filter based on create your roles.
+     using manage roles button in modelling tab you can create roles based on Dax expression to control each role.
+     once publish the web, you can assign users to each role.
+
+   => Static RLS: When we have limited user when we have to see the limited values that time we can create static row level security.
+   => Dynamic RLS: Suppose one user he wants to see the multiple states of sales 
+        
+
+======================================================================================================================================================================================
+==> What are the building blocks?
+A: That we are using 5 major parts.
+    1. Visualization: 
+    2. Data set: 
+    3. Reports:
+    4. Dashboards.
+    5. Tiles.
+=======================================================================================================================================================================================
+==> Query folding is ntg but translating of power query transmition in the native queries that are executed by the improving the data source.
+==> Tile is ntg but arrange the grid like layout with rows and columnssimilar to floors.
+==> Stack is ntg but arrenge the vertical and horizantal in a single linier sequence.
+
+
+
+POWER BI:
+======================
+
+==> What is Power BI?
+A:  Power bi is nothing but it is business intelligence tool . It is used due to the analysis of the data and clean the data and convert into the visual format and creating reports and dashboards.
+
+ It is used due to classified into three parts:
+  Power Query, Power View, Power Pivot.
+================================================================================================================================================================================
+==> What is Power Query?
+A: Power Query is nothing but it is used transmition of the data. When my data is not proper that we are used power query.
+
+==> What is power view?
+A: It I used due to the in the app left we are able to see the options that is called report view.
+
+==> Power Pivot?
+A: Suppose we get the data from different tables one table one information and another table another information. That we take final information from two table create relationship between two tables.
+===========================================================================================================================================================================
+==> What are all data source we use/
+A: Excel, 
+    Test/CSV(Flag files)
+    SQL Server
+    SSAS package analysis server
+    Folders.
+==============================================================================================================================================================================
+==> How many records stored in 1 excel file?
+A: 10 laks upto 1GB.
+===================================================================================================================================================================================
+==> When you have 10 laks of the data that what your using?
+A: That time we are using .txt file.
+===================================================================================================================================================================================
+==> What is the capacity for .txt file and SQL server?
+A: .txt file is up to 2GB
+    SQL server is Min 1terabyte
+    1terabyte = 100GB
+===========================================================================================================================================================================================
+===> What is data base?
+A: Data base is nothing but combination of multiple tables. that is called data base.
+=================================================================================================================================================================================
+==> What is import and Direct query mode?
+A:                     Import                                                                                                                                                                                                                         Direct query mode
+=> When you have change the data that time we can refresh and change the data.                                                   => When You have the change the data that time we are using we can't do change.
+=> Performance wise Import mode is good.                                                                                                                         => Performance wise Direct query mode is not good.
+=> When you huge data that time import can't support.                                                                                                   => When you have huge data that time we can support DQM.
+=> Import can support all kind of DAX functions.                                                                                                                 => DQM can't all kind of DAX functions.
+==> Excel and flag files we are using Import mode                                                                                                              => SQL data base we are using direct query mode.
+===============================================================================================================================================================================
+=> What are all data sources which we can use the live connection mode?
+A: one is that power bi sematic model and another one Analysis service.
+================================================================================================================================================================================
+==> What is Row Level Security and types of RLS?
+A: 
+================================================================================================================================================================================================
+
+Power Bi service:
+===================
+==> What is power bi service?
+A: If I want send the reports to the customers. How can I send the reports that time we are using power bi service that is called power bi service.
+==================================================================================================================================================================================
+==> How to install?
+A: we have to refer the app.power bi.com and we can refer some time power bi online and SaaS is part of power bi.
+ What is power bi work flow building reports and dash boards and send the reports to the customer using power bi service.
+==================================================================================================================================================================================
+==> What is my workspace and work space?
+A: My workspace: My work space is nothing but it is my purpose only other can't work in my workspace.
+    Workspace: Work space is nothing but you entire team ca changes anything what they want to do they can do.
+(Ex: if you have 10 memb in your team along with clients also there in you team. They want to see what you had developed reports and dashboards that time work can use. How to use. Add the members and give the accesss that time they can access and see what you update all of those thing they can see.
+).
+These are two types work space and my workspace.
+
+Reports: Reports is nothing but collection of pages which you has visualization.
+Dashboard: Dashboard is nothing but collection of the visualizations that is called dashboards.
+
+======================================================================================================================================================================================
+==> What is view linage?
+A: view linage is nothing but we have connected XLSX and xls files and sequel data base and different data source are connected to data set based on implemented report. That is called view linear.
+=======================================================================================================================================================================================
+==> Difference between Reports and Dashboards?
+A:                                                                      Reports                                                                                                                                                                                     Dashboards
+==> Reports can have multiple pages.                                                                                                                                                                         ==> Dashboards can have multiple visuals.
+==> Each reports can have one dataset.                                                                                                                                                                      ==> Dashboards are pinned create datasets one or more.
+==> In reports we can use filters and slicers.                                                                                                                                                               ==> Dashboards are we can't use slicers and filters.
+==> Reports are interactive.                                                                                                                                                                                            ==> Dashboards are not interactive.
+==> Reports are not limited. We can build multiple pages.                                                                                                                                     ==> Dashboards are limited.
+=========================================================================================================================================================================================
+==>  What is power apps?
+A: power apps is nothing but app related combines content. Dashboards and reports all in one page.
+    content is nothing but dashboards and reports is nothing but content.
+
+
+   Power apps is done developer admin
+  power apps is nothing but one or more of each content bundled together.powr app create in workspace.
+===================================================================================================================================================================================================
+==> How to run the reports in power bi server and how to do the shedule refresh?
+A: First we have to do the Create the reports and publish the power bi Servic and go the My workspace and open the sematic models file.
+   again in  the sematic model eplops and settings and go to the create gateway connections and if we don't create connection then we install and 
+   cretae the gate way connections and go the data set and Shedule refresh the report if we have to change anything in the excel it will reflect.
+===================================================================================================================================================================================================
+==> How do you create Reports in Power bi service?
+A: First we need to click on new then click on report and then we are seeing two options paste or manually enter data or pick the published dashboard the you
+   have to click on exsting data and click on ok it willl open we will do this report creation.
+===================================================================================================================================================================================================
+==> How to create data gate way connections?
+A:    
+
+
+
+
+
+
+	· Overall, 2 years of experience in Software testing in Manual testing and automation testing.
+	· Having good experience in Manual testing and automation testing in API testing and web UI testing and B2C testing in Azure active directory.
+	· Create and execute manual and automation test cases
+	· Worked on Row Level Security.
+	· Good knowledge on API testing UI testing using tools Rest Assured, ready API, SOAPUI, POSTMAN, Test complete, Selenium WebDriver.
+	· Experience on Dashboards, Reports and Datasets in the Power bi services.
+	· Hands on experience with build test plan, test case creation in Ready API tool, build the cucumber framework in Test complete.
+	· Hands on experience in test scenarios for user authentication using Azure Active Directory ensure secure login experience for customers.
+	· Having good knowledge on Integration testing, System testing, regression testing, Accessibility testing, security testing, Sanity testing, localization testing, static testing and dynamic testing.
+	· Good interpersonal skills & capable of learning new technologies quickly.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==> What is Dax?
+A: Dax is nothing but Data analysis expression it is nothing but create measures and columns and collection of functions using formulas and calculated columns one or more values.
+=========================================================================================================================================================================
+==> Difference between Caluclulated column and calculated measure?
+A:                                                Measures                                                                                                                                                                                     Columns
+==> It is uses due to the calculate the overall row.                                                                                                                     ==> IT is uses the calculated row by row and give the final value.
+==> It is uses to find the calculator symbol is there.                                                                                                                   ==> it is uses the find out the summation symbol is there.
+==> It is uses the When we create measure we can't see in a table.                                                                                       ==> It is uses the when we create column we can see the column in a table.
+==> We can use slicers and filters the values.                                                                                                                              ==> it does not support for slicers.
+==> Calculate based on row context.                                                                                                                                             ==> Calculate based on context.
+=========================================================================================================================================================================
+1.Diff b/w Sum and SumX
+2.Diff b/w value and Values
+3.Diff B/w IF and Switch
+4.Diff b/w Calculate and Calculated Table
+12.TopN and Rankx?
+13.DateADD,DateDiff
+14.DatesinPeriod
+15.SamePeriodLastYear
+16.Parallelperiod
+17.Format
+18.Diff b/w Calendar and Calendar Auto 
+19.Diff b/w Calculated Measure and Calculated Column
+20.Diff among Summarize ,Summarize column and Group By
+21.Related and Lookup
+22.DatesYTD vs TotalYTD
+23.Variable
+24.All,AllSelected and All Except
+
+
+Aggrigated functions,logical functions, filter functions, date and time functions, table manupulated functions, relationship functions.
+
+
+
+
+15.UserName ,UserPrincipleName,UserRelatioship
+
+4. Top N values in Filter on All Pages
+5. How get current date.
+6. Write DAX for last 6 months sales.
+7. what is switch dax.
+8. What is Filter Dax.
+6.What is All and Selected.
+7.What is M Language.
+8.types of filters.
+9. Difference between Sumarize and Group by.
+
+
+==> Aggregate functions:  We can use measures only.
+
+==> 1.Diff b/w Sum and SumX?
+
+A: Sum: It is use the addition of the numbers in column.
+      Ex: Sum = Sum('order'[Sales])
+
+     SumX: It is uses the Evaluation of the Each row in a table and it gives each row in a table.
+      Ex: SumX = SumX('orders','orders'[product]*'orders'[Quantity]).
+	  
+	 Count A= CountA('orders'[status]) 
+	  
+	 CountX: CountX(Filter('sales','sales'[status]=false(),'sales'[sales]) 
+	  
+	  A = Status[Boolean True or false], X = Filter function. 
+	  
+======================================================================================================================================================================
+==> Text Functions: Columns only
+
+5.Diff b/w value and Values?
+A: Value: it is uses the that text string represents to the numbers.
+     DAX: Currency vale = Value('order'[currency])
+    
+     Values: It is uses the return the unique values that is called values.
+     DAX: Values = Values('order'[currency])
+========================================================================================================================================================================
+==> Logical functions: Columns
+
+==> 2.Diff B/w IF and Switch?
+Both we are using same functions. Sitch also using whenever we have multiple conditions that time we are writing nested if and switch function we are using.
+A: If: This is uses the we are give one value and that is true otherwise written second value.
+    Dax: If = IF('Prd1'[Sales]>3100,"True","False")
+             
+    Nested IF: It is uses the write one logic again write another logic.
+	   DAX: Nested IF = IF('Prd1'[Address]="HYD","True",IF('Prd1'[Product]="BLR","False","Medium"))
+       Dax: If=If('order'[Sub-category]="Chairs", "Furniture", If('order'[sub-category]="chairs", "Furniture", "Others")
+
+    Switch: It is uses the Evaluate the expression and give the multiple values and give the possible result expression.
+	DAX: SWITCH = SWITCH(TRUE(),'Prd1'[Address]="HYD","Import",'Prd1'[Address]="BLR","Export",'Prd1'[Address]="KLR","Import","Unclassified")
+    Dax: Switch = Switch(true(), 'order'[Sub-category]="Chairs", "Tables", "Others", 'Order'[Sub-category]="tables", "furniture's", "Others")
+=======================================================================================================================================================================
+==> Filter functions;measures
+
+==> 3.Diff b/w Calculate and Calculated Table?
+A; Calculate: Evaluate expression to modified filter context.
+     Dax: Filter = Calculate(sum('order'[sales]),'order'[state]="California")
+
+    Calculate table: Evaluate the table expression modified filter context
+    Dax: Filter= CALCULATETABLE('order', 'order[state]="california")
+========================================================================================================================================================
+==> Difference between RankX and TOPN?
+A: TopN: It is used due to the write the top N rows in specified table that time we are used.
+     DAX: TOPN(10,'order','order'[sales],ASC)
+   
+     RANKX: It is used due to the Ranking of the number each row in a table that time we are using.
+	 1. Total sales = SUM('Order'[Sales])
+     DAX: RankX = RankX(ALL('ORDERS','Order'[sub-category]),[total sales],,ASC)
+=====================================================================================================================================================================
+Sum = Sum('orders'[Sales])
+Sumx = Sumx('order','orders'[product]*'orders'[Quantity])
+Countx= Countx(Filter('orders','orders'[Status]=False(),'orders'[Sales]))
+Value = Value('orders'[Currency])
+Values = Values('orders'[Currency])
+If = If('prd'[Sales]>31000,"True","false")
+Nested If = If('orders'[Sub-Category]="Furniture","Table",If('orders[Sub-category]="Chair","TV"))
+Switch = Switch(True(),'orders'[Sub-Category]="Table","Chair",'orders'[Sub-category]="Chair","Table")
+Calculated Value = Calculate(Sum('order'[Sales]),'order'[Satate]="California")
+Caluclulated table = Caluclulatedtable('ORDER','Order'[state]="California")
+TopN = TOPN(5,'ORDERS','ORDERS'[Sales],ASC)
+RankX = RankX(ALL('orders','orders'[Sub-category],[Total Sales],,ASC))
+Date Add = Calculate(Sum('order'[Sales]),DateAdd('order'[Order date],-1,year))
+Date Diff = DateDiff(DOB[year],Today(),Year)
+Dateinperiod = Calculate(Sum('order'[Sales]),Datesinperiod('order'[Order-date],max('order'[order-date],-5,year)))
+sameperiod last year = Calculate(Sum('orders'[Sales]),Sameperiodlastyear('order'[sales]))
+Format = Format('order'[Order-date],"MMM")
+Summerize = Summerize('order','order'[State],"Total Sales",Sum('order'[SALES]))
+Summerized Column = Summerized Column ('order'[state],"Total Sales",Sum("order'[Sales]))
+Group by = Groupby('order'[State],"Total Sales",SumX(Current group(),'ORDER'[Sales]))
+Related = Related('prd'[PRODUCT])
+Lookup value = lookup('prd_p'[Sales],'prd_p'[prodduct],'prd_s'[product])
+Total YTY = var CY = Calculate(Sum('order'[Sales],DateADD('ORDER'[ORDER-DATE],0,YEAR)))
+                PY = Calculate(Sum('order'[Sales],DateADD('ORDER'[ORDER-DATE],-1,YEAR)))
+             Return
+			 Divide(cy-py/py)
+Variable = var Age = Datediff(Dob[Year],Today(),Year)
+           Return
+            Age
+
+			
+
+
+
+
+
+
+
+
+
+
+==> Date and time functions:
+
+==> Difference between Date ADD and Date Diff?
+A: Date ADD: It is nothing but add the Specific number of units. that is called Date ADD.
+    DAX: Date ADD('order'[order date],15,DAY)
+
+    Date Diff: it is uses due to the return the count of intervals boundaries crossed b/w two tables.
+    DAX: DATEDIFF(DOB[YEAR], Today(),year)
+====================================================================================
+==> What is Dates in period?
+A: Dates period is nothing but it is used due to the will give the all the dates in period.
+ DAX: DATESINPERIOD(fact Table[Order date],[date]),LASTDATE(FACT table[order date],-1,year)  
+                                                            (Or)
+      DATESINPERIOD = CALCULATE(SUM('Order'[Sales]),DATESINPERIOD('Order'[Order Date], LASTDATE('Order'[Order Date]), -6, MONTH))
+=====================================================================================
+==> What is SamePeriodLastYear?
+A: Same period table function we are using the columns in the one year back in the specified column.
+DAX: CALCULATE(SUM('ORDER'[SALES]),SAMEPERIODLASTYEAR('ORDER'[SALES])).
+========================================================================================================================================================================
+==> Parallel period:
+Parallel period is nothing but return the table of the date of the specific dates column represents of the parallel dates of the specific dates columns that time we are using.
+DAX: CALCULATE(SUM('order'[sales]),PARLLELINPERIOD('order'[order date],-1,YEAR))
+
+==> Format:
+Format is nothing but Text string converts into values that time we are used.
+DAX: FORMAT('order'[sales],"Currency"),
+          FORMAT('order'[ship-date],"DDDD"),
+          FORMAT('order[ship-date],"MMMM").
+========================================================================================================================================================================		  
+
+==>Table manipulation functions:
+
+4.Diff among Summarize ,Summarize column and Group By?
+A:   Summarize: return the summery table for the requesting tools over the set of groups.
+                             We should pass the table names.
+                             Doesn't have any filter function.
+       Ex: we have sales and states columns we want particular state wise total sales that time we are using this function.
+       DAX: Summarize = Summarize('order', 'order'[state],"Total sales", SUM('order'[sales]))
+
+      Summarize column: Returns the summarize table requesting tools over the set of groups.
+      DAX: SUMMERIZE COLUMN('order'[state],"Total sales", Sum( 'order'[sales]))
+
+     Group BY: It is uses the group by function is uses due to the group of the data based on the one or more in data set that time we are using this column.
+     DAX: Group By = GroupBy('order', 'order'[state], "Total sales", SUMX(Current group(), 'Order'[sales]))
+=========================================================================================================================================================================
+
+==> Static functions:
+=======================================================================================================================================================================
+==> Relationship function:
+==> Difference between Related and lookup value?
+
+A; Related: Related is nothing but returns the related values from the table
+DAX: RELATED('DIM_Product'[product])
+
+Lookup value: it is used due to the We get the data from other table based on the Search column.
+DAX:  Lookup value = LOOKUPVALUE('SALES_P'[Sales], 'sales_p'(product_id), 'prod_p'[product])
+=====================================================================================
+==> Difference between DATES YTD and TOTALYTD?
+
+DatesYTD: It is uses due to the return the table contain column of the dates for the year to date of current context.
+DAX: Calculate(SUM('order'[sales]), DatesYTD('order'[order date]))
+
+TotalYTD: It is uses due to the evaluate of the current context of the year to date.
+Dax: CALCULATE(SUM('ORDER'[sales]),TOTALYTD('Order'[order date]))
+=========================================================================================
+==> What is Variable?
+A:->  Variable is nothing but it is used to store the Any type of DAX expression.
+    -> Variable is nothing but it is hardcoded value.
+    -> Variable is nothing but it is calculated any type of calculated column and calculated measures and tables.
+    -> Variable is nothing but it is important two reasons 1 is code readability and performance.
+
+DAX: Variable my variable = Expression
+          Return
+          My variable.
+Ex: Var Age = DATEDIFF(DOB[year],Today (), Year)
+       Return
+       AGE
+===========================================================================================
+==> UserName ,UserPrincipleName,UserRelatioship
+User name: User name is ntg but it is findout the particular name in account.
+DAX: Username = Username()
+
+User principle name: is ntg btit is identi
+User Relationship: That user relationship is nothing but it is uses the specific calculation that one exists between column 1 and column 2.
+DAX: CALCULATE(SUM('Fact_table'[sales]),USERRELATIONSHIP('fact_table'[Duedate-key],'dim'[duedate-key]))
+=============================================================================================
+==> What is .All, All Selected and All Except?
+A: ALL: All is nothing but it is used due to the ignoring the any type of filter and creating calculation on all the rows in a table.
+     DAX: Calculate(SUM('order'[sales]),ALL('order'[sub-category])) 
+
+    All Selected: All selected is nothing Ignore the any type filter that might be applied inside the query keeping the filters come from out.
+    DAX: Calculate(SUM('order'[sales]),ALLSELECTED('order'[sub-category]))
+
+    All Except: It is used due to the remove the all the filters except filters applied that specified columns.
+    DAX: Calculate(sum('order'[sales]),ALLEXCEPT('ORDER','ORDER'[Sub-category]))
+=================================================================================================
+==> Diff b/w Calendar and Calendar Auto?
+A: Calendar: Calendar is nothing but it is used due to the suppose we have to take one table in that table separate column is there column name DATE in that date we have to findout the 
+                          range of the date b/w two start date to end date.
+     DAX: CALENDER(DATE(2021,01,01),date(2024,12,31)
+     
+     Calendar Auto: Calendar auto is nothing but the range of date calculated and automatically based on the model. 
+     DAX: CalenderAuto = CAlenderAuto()
+
+=========================================================================================================================================================================
+
+
+Can we show this year sales and previous year sales?
+
+This year sales= Calculate(SUM('order'[sales]),Year['Order'[order-date]) = year(today())
+previous year= Calculate(SUM('order'[sales]),Sameperiod last year('order'[sales]) 
+Year to Year Sales growth = devide([this year sales] - [previous year sales],[previous year sales],0)
+last 6 years data: Calculate(SUM('order'[sales]),datesinperiod('order'[order-date],lastdate('order'[orderdate],-6,year)
+sales this year November month = Calculate(SUM('order'[sales],year['order'[order-date]),-1,month('order'[order-date])=11
+This Year Sales: Calculate(Sum('order'[sales],
+previous year revenue: Calculate(SUM('order'[sales]),sameperiodlastyear('order'[order-date])
+previousyeartotalcosts = Calculate(SUM('order[sales],sameperiod last year['order'[order-date])
+previous year profit = [previous year total revenue] - [previousyeartotalcosts]
+this year profit = [this year total revenue] - [thisyeartotalcosts]
+year to year revenue growth: [Current sales] - [previous sales],[previous sales],0,*100
+
+
+Aggrigated functions,logical functions, filter functions, date and time functions, table manupulated functions, relationship functions.
+
+
+
+
+YOY: (Curent year - previous year)/previousyear
+YOY = var CY= CALCULATE(SUM('Order'[Sales]),DATEADD('Order'[Order Date],0,YEAR)
+      Var PY= CALCULATE(SUM('Order'[Sales]),DATEADD('Order'[Order Date],-1,YEAR))
+	  returns
+	  divide(cy-py,py)
+	  
+	  
+CALCULATE(SUM('Order'[Sales]),DATEADD('Order'[Order Date],0,YEAR)-CALCULATE(SUM('Order'[Sales]),DATEADD('Order'[Order Date],-1,YEAR))/CALCULATE(SUM('Order'[Sales]),DATEADD('Order'[Order Date],-1,YEAR)))
+
+=========================================================================================================================================================================
+
+CALCULATE
+SUM and SUMX
+CALCULATETABLE
+RANKX
+DATEDIFF
+DATEADD
+COUNT and COUNTROWS
+LOOKUPVALUE
+FILTER
+RELATED
+
+
+==> How do you optimize sql queries in SQL Server
+A: First When we working in large data sets that time we need see the carefully
+
+  1. First we need to choose correct indexing like where,join,order by, group by they are improving query speed.
+  2. Avoid over index like insert, update, delete.
+  
+  1. Most of the time aviod seelect * why bcz we need to write so many data retrived.
+  2. as well as avioding where clause also why bcz that function also rewrite functions and store the more spaces.
+  3. if it's possible use the inner join instead of outer join.why bcz we need only spl values.
+  4. if it's possible we need to use temp tebles bcz it's increasing the query spped.
+  5. regularly re building the indexes improve the performance.
+  6. remove the unnesserly data.
+  
+  applying this techniques we need to optimize queries.
+  ========================================================================================================================
+==> What is normalization and de narmalization?
+  A: Normalization is ntg but it is used to structure the data table and dividing tables logically.
+      https://chatgpt.com/c/6735fcf1-ae08-8003-8d6d-58ca468f0c2e
+  
+    Denormalization: Denormalization is the process merging the tables and improving the query faster.it is using the complex data queries like data warehouse and large data sets.
+===================================================================================================================================================
+==> What Null and blank?
+A: Null is ntg but it's missing values in the database.it means that data does not existed and they didn't provided empty.
+   Blank is empty string like it's existed the string but inside no content. that is showing as blank values in the query exicution time.
+===================================================================================================================================================   
+==> How to SQL QUery execution plan?
+A:
+===================================================================================================================================================   
+==> i will compare with last year sales based on this year sales same duration?
+
+==> What is M language?
+A: m lang is also called mashup lang and this mashup lang i will call it as whenever you doing any transformation it's just like drag and drop and replace removing
+   columns transfomation everything but internally recording should happened how many times transformed how many time you applied that everythig converted
+   into code is called m-lang.you do any transformation internally function will return that will be place of in terms m code.
+===================================================================================================================================================   
+==> Which transformation you have to used in your project?
+A: i have to used star and snowflake schema and used text transformations,number tranformation, column transformations,i was append and merge the queres
+   this type of things done power query editor window.
+===================================================================================================================================================   
+
+Select year, Sum(sales) from table group by year
+Select year, Sum(sales) from table group by year
+
+==> What are the challenges faced in the your project?
+A: gather the data most chal
+
+lenging client didn't provide stright forword data set and you need to search for it and understand data.
+   Dax functions also big challenge.
+===================================================================================================================================================   
+Data Analyst:
+
+==> What Is Daata analytics?
+A: Data Analytics Is ntg but Examination and Cleansing and transformating to exatract the useful informationand Decision making.
+=================================================================================================================================================
+==> What are the Types of Data Analysis?
+a: Descriptive,prescriptive,predective,diagnostic.
+=================================================================================================================================================
+==> What is The difference between Qualitative Data AndQuantitative Data?
+A: Qualitative: Text or Image textual Data.
+   Quantitative: this is based on numeric data like: Measurements or Counts.
+=================================================================================================================================================
+==> What is Data Cleansing?
+A: Data Cleansing is ntg but Mnage the null values and remove ing the duplicates,verify the correct alignements and appedn the quaries and formatting...
+=================================================================================================================================================
+==> What is Outlier?
+A: Outlier is ntg but data point significantly deferes from rest of the data points in a data set.
+=================================================================================================================================================
+==> What is Difference between SQL and NOSQL?
+A: SQL is ntg but it is relation data base and it is use Structured query language and it is used to schemas.
+   No SQL is ntg but it is non-relational data base and it is use the  various query languages and it is used dynamic schemas.
+=================================================================================================================================================
+==> What Is ETL?
+A: ETL is ntg Extract transformation load it is ntg ntg but retrive the data from various data sources.that data load into useful formats into the data warehouse.
+=================================================================================================================================================
+==> What Is Primary key?
+A: Primary ke is ntg but Unique identifier in for each record in a database.
+=================================================================================================================================================
+==> What is Foregin Key?
+A: Foreigin key is ntg but field in table that refers to the primary field table aand reation ship between two tables then that is called Foreigin key.
+=================================================================================================================================================
+==> What is Inner Join and Outer join?
+A: Inner Join: Inner join is ntg but matching record from both tables.
+   Outer join: Outer join is ntg but one table matching the records filling the null values and non matching records also.
+=================================================================================================================================================
+==> What is histogram?
+A: Histogram is ntg but that is geographical representation of distribution of the data set. Showing the frequency of the data set   
+=================================================================================================================================================
+==> What is Box plot?
+A: Box plot is ntg but that is geographical represnetaion of the distribution of the data. Showing the Quartlier and possible outlier.
+=================================================================================================================================================
+==> What Is linear regression?
+A: Linear regresiion is ntg but sattical methods and model the dependent variablea and one or more idipendent variables.
+=================================================================================================================================================
+==> Explain Difference between R squard and adjusted r squard?
+A: R squard is ntg but variation of the dependent and independent variable.
+   Adjusted R squard Adjust the dependent and independent variable in a model
+=================================================================================================================================================
+==> What is Confusion Matrix?
+A: Confusion mtrix is ntg but table it is evaluate the performance of the classification model that is called Confusion matrix.true positive and false positive
+   fase positive and false negative.
+=================================================================================================================================================
+==> What is Cross validation?
+A: Cross validation is ntg but evaluate the performance of the moddel by splitting the data set into the training and testing evaluate the average performance.
+=================================================================================================================================================
+==> What is The over fitting?
+A: Over fitting is ntg but complx queries and performance well.
+=================================================================================================================================================
+==> What is Decision tree?
+A: Decision tree is ntg but flowchart and  like structure used in decision making and machine learning.
+=================================================================================================================================================
+==> WHat is the difference between Supervised and Usupervised?
+A: Supervised: Supervised is ntg but labled data knon the output.
+  Un Supervised: Unsupervidssed is ntg but unlabled the data discover pattern strucure of the data.
+=================================================================================================================================================
+
+   
+   
+one companyand    sales amount
+   
+
+==> What IS KPI?
+A: KPI IS ntg but Key performance indicator. we try to measure the performance of certain things given indicator that is called Key performance indicator.
+Ex: Your working in sales that time your sales performance might be required to be given target. so that's called KEY Performance indicator.
+===========================================================================================================================================================
+  
+   
+   

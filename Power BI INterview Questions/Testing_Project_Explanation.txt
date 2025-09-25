@@ -1,0 +1,294 @@
+
+
+
+
+The project is CSI_EBG_DIGITAL_TRASFORMATION
+
+         CSI is company name.Coputer service INC.
+		 EBG it is service
+		 Digital transformation is the b2c Business to employee experience.
+    
+	-> CSI is the leading fintech and financial technology and core banking process and electronic and print distribution and digital banking and payments process and compilence.
+	   CSI is the fourthlargest core banking proceess in U.S in 2017. and CSI is raanking IDC financeal insight fintech.
+       CSI is recognized by the american banking it's inagurated an list of 20 Best fintech work for us.
+       CSI is the High fintech and cyber security operations and interaction and innovation and service.
+    
+   In this Identity Server In this Two things.   
+  
+     Identity Server: Identity server is the service and in this give platform login to the digital banking.
+
+     Identity Provider: Identity provider means like bank like CSI. they will provide Username and password.
+  
+     Identity provider will be provide authentication and server it will login.
+	 
+	 Ex: Instagram page is server and the user name and password you are giving it's a provider. That is called identity provider.
+	 
+	 These are 2 users like One is mobile user and second one is the Laptop user.
+	 =========
+	 Laptop: In this user use the it will ask for username and password after checkin login button. then trying to login wit credentials. then it valid by Open Id.
+	 
+	 Open ID is a protocol and it is valid Security if incase user credetials is valid.
+	  
+	 Once give the credentials after login to the application openid checks and used by authentication. 
+	 ==========
+	 In this user use the it will ask for username and password once give the credentials after open Id that is protical.that protocol generate one token that is called JWT.
+	 
+	 You got some doubt? Y this token is generate?
+	 
+	 iam user you know but Computer don't know so that's why i have access to take some kind of modules in the application.so each user help of the creationg one autherization token.
+	 
+	 What it will do ?
+	  
+	 That autherization is nothing but some kind of nformation.
+	 
+	 Once login to the customer then authentication and autherization done User and admin login to the application.Like token is produced from Oauth protocol or FDX.
+	 
+	 After passing the tokenit will redirect and checks who is the Admin who is the user.
+	 
+	 Admin is nothing but employee and user is nothing but Cutomer.
+	 
+	 After login the server will use the Oauth protocol from the Admin. Genaerate the JWT token hit the server.
+	 
+	 Oauth is knothing but Some part of the Authentication.
+	 
+	 Server and JWT token some parts of the authentication.
+	 
+	 ========================
+	 If the Customer is the USER.
+     
+     The Cx is bank of america user.
+
+     These will be two users. first user will do give the username and password directly go through to the authentication.
+
+    Identity server Two types 1. CSI provider   2. Bank provider.
+
+    CSI provider:
+    =============
+
+    There are bank of america many banks is there.but they want to use OWN authentication. This CSI not only bank OF america this CSI under so many banks ar there.but there are less security.
+    Then CSI will ask to Create Identity provider them. then After creating validate username and password is like. these it will identity provider. the Identity server will check these person give the 
+    credentials that credentials write or wrong.
+
+    It will send the JWT token to the CX who has loged in. that JWT token goes to the FDX Where all API s are storedd.Fdx TOKEN WILL SEND IT VALIDATION. Like RBAC.
+    Then it will check auterized API. then Authentication is completed.
+
+    If the Cx wants to check the loans but he doesn't have permission  becz there is no loans are FDX WILL NOT CHECK.LIKE FAILED.
+
+    user is based on the newtwork. employe will go the identity Server and 	open iD connect then will provide the access to user. this is the Overall project.
+	
+	==============================================
+	Roles and response:
+   ============================
+ -> Work related to bug fixes and enhancement in API.
+ -> Collaborated with the development team to understand API
+ -> specifications and requirements for various banking B2C applications.
+ -> Write manual test cases after which we have test the manual that text cases converted Automation.
+ -> Utilized ReadyAPI tool to design, create, and execute test cases for API. endpoints, ensuring compliance with functional and non-functional requirements.
+ -> Conducted through API testing, including verifying data integrity, response formats, error handling, and performance.
+ -> Designed and executed test scenarios for user authentication using Azure Active directory, ensuring secure login experiences for customers.
+ -> Generated comprehensive test reports detailing test execution results, issues found and recommended for improvement.
+ -> Worked closely with cross-functional teams to resolve API issues,
+ -> validate fixes, and ensure the overall quality of the applications.
+ -> Re-testing the defects and closed them if they meet the testcases.
+ -> Developed the End-to-End UI-Testing framework Cucumber.
+ -> Developed the End-to-End API-Testing in Postman and swagger and Automate the
+ -> API’s in Ready API tool.
+ -> Participation in scrum meetings along with developers team and BA to
+ -> understand and analyze business requirements.
+ -> I have involved organizing and monitoring defect management process handling changes and conducting regression tests.
+ -> Tracking and reporting the bugs using Jira.
+ -> Conduct Internal Test Case Peer Reviews.
+ -> Participated in Daily Scrum Meetings.
+	
+
+•	Collaborated to fix 50+ API bugs, reducing downtime, and enhanced functionality, resulting in a 15% improvement in user experience.
+•	Applied ReadyAPI for 100+ API test cases, ensuring a 95% test coverage and compliance with requirements.
+•	Conducted API testing, resolving 30+ data integrity issues, improving data reliability, and optimizing response formats for a 20% increase in accuracy.
+•	Executed 50+ test scenarios for user authentication, reducing login errors, and generated reports, reducing issue resolution time.
+•	Automated API testing in ReadyAPI, achieving a 40% reduction in testing time, and developed an End-to-End UI-Testing framework using Cucumber, increasing test coverage.
+
+
+
+Project 1
+
+Roles and response:
+============================
+
+Managing users and groups for security concerns.
+
+Monitoring the licenses for Azure AD issues, resolving license issues for users and Application integration with Azure AD SSO.
+
+Configuration, troubleshooting SSO based enterprise applications and self developed registered apps.
+
+Enabling and managing Multifactor authentication for end users using azure MFA and Managing the corporate devices by configuring Device.
+
+Registration features like Hybrid Azure AD join, Azure AD join and Azure AD registered.
+
+Analyzing audit and sign-in logs for the users. and Imposing security policies for end users using Conditional access policies. Configuring.
+
+Product information management, Identity protection for the users.Registering the applications using app registration using Oath, OpenID
+protocols and integrating on-prem applications into azure through application proxy and Enabling Self-service password reset (SSPR).
+
+
+•	Implemented Azure AD SSO, reducing login time, and resolved license issues, ensuring a 15% increase in application accessibility.
+•	Configured MFA, enhancing end-user security, and managed corporate devices, achieving a efficiency improvement in device registration.
+•	Analyzed audit logs, imposing Conditional Access Policies, resulting in reduction in security incidents. Managed Identity Protection for 500+ users.
+•	Registered applications using OAuth and OpenID, integrating on-prem applications into Azure, achieving a 25% reduction in integration time.
+•	Enabled SSPR, reducing password reset requests, and conducted training sessions for 50+ employees on secure identity practices, contributing 
+    to a 25% decrease in security-related incidents.
+	
+=================================================================================================================================================================================
+==> 	 
+==> What is the scrum? How will you maintain?
+
+A: Scrum is nothing but Agile framework: complete complex projects.
+
+  The key elemets are scrum roles:
+  
+  1. product owner :: Set the vision
+  2. Scrum master  :: ensure smoth process
+  3. Dev team :: Create the product
+  
+  The scrum events : 
+  
+  1. Sprint planning: to decide the tasks
+  2. Daaily scrum: to discuss the progress
+  3. SPRINT REVIEW:: 2 to 4 weeks sprint review meetings.
+  4. Sprint retro:; Show cases the output 
+  
+  Sprint artifacts:
+  
+  1. product backlog: lists all features.
+  2. sprint backlog: holds and current sprint tasks
+  3. product increment: usable sprint output
+  
+                                                                                  Mobile Testing
+																				  
+==> What is mOBILE tESTING?
+A: Mobile testing is a process which is mobile apps and digital experiences like (web sites and ecomerce) are tested for relevent functionality and usability and consistency.
+==================================================================================================================================================================================
+==> What is OS?
+A: The operating system is nothing but bridge between your software and hardware.so it drives as a medium for the commuication b/w your software and hardware.																				  
+==================================================================================================================================================================================																				  
+==> 1) Explain what is the difference between Web testing and WAP testing?
+
+A: Wap Testing: Wap testing is nothing but ( Wireless application protocol ) it is used network application.
+   WEB Testing: Web testing is nothing but web application testing it is used such as web sites and portals.
+=================================================================================================================================================================================
+==> 2) List out some of the automated mobile testing tools?
+
+A: For mobile testing, two kinds of automation tools are available to test mobile Applications.
+
+   Object based mobile testing tools: Jama solution, Ranorex,
+   Image based mobile testing tools: RoutinBot, Egg Plant, Sikuli.
+===================================================================================================================================================================================
+==> Difference between Simulator and emulator?
+
+A: Simulator: Sumulator is nothing but it is a electronic network it is a simulator equipement and base station equipement for CDMA/CMA mobile phones.it helps latching the home networks
+              and without roming service and can move voice and sms.
+   Emulator: Emulator is nothing but mobile application without live handset.
+========================================================================================================================================================================================
+==> List out the types of mobile app testing?
+
+A: Usability Testing: Usability testing is nothing but verify the design of the application and findout the users are used application.
+   Compatbility Testing:  compatibility testing is to define the set of environments or platforms the application is expected to work on.
+   Performance Testing:
+   Security Testing:   
+======================================================================================================================================================================================
+==> mention the what is andriod test statergie?
+A: The standartise andriod testing is 
+   Unit Test:
+   Integration test:
+   Operating test :
+   System test:
+========================================================================================================================================================================================
+==> Explain Android testing framework?
+
+Android testing framework includes three segments
+
+Application Package: It is the target application that requires to be tested
+Instrumentation TestRunner: It is a Test Case runner that runs test cases on target application. 
+                             It includes an SDK tools for building test and a tool that provides APIs for writing program that control an android device, for example, MonkeyRunner
+Test Package:             It includes two classes, Test case classes, and Mock objects. Test case classes include test methods to perform on target application, 
+                            while mock object includes mock data that will be used as sample input for test cases.
+							
+
+
+ Explain what is Robo-electric testing framework?
+Testing done on Android Testing Framework for emulators or device is difficult. Running and building test case sometimes takes lots of development effort.
+ Robo-electric framework allows you to run Android test directly on JVM without the need of a device or an emulator.							
+===================================================================================================================================================================================================================================================================   
+==>  List out the best practices for Android Testing?
+
+A: Developer should write the test cases at the same time writing the code
+   together source code all the testcases should be stored.
+   use the cotinous integration execute the test cases every time changew the code.
+   avoid the emulator and roming.
+=============================================================================================================================================================================================
+==> Mention what are the common bugs found while mobile testing?
+A: 
+    Critical: it is nothing but you mobile crash when we are testing particular feature that is Critical
+    Block: When your mobile unable to do anything that is called block.
+    Major: unable to do test with particular feature that is called major
+    Minor: under minor bugs are usually GUI falls.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+==>  Explain how A/B testing is done for ios app?
+A:   Configure a test: It prepares two versions of your iOS app (A&B) and test metric
+                 Test: Tests two iOS versions above on devices simultaneously
+              Analyze: It select and measure better version to release 	
+===========================================================================================================================================================================================
+==> While performing end to end mobile testing what are the major criteria, you have to take in consideration?
+
+A: Installation
+   Application launching without having network
+   Uninstallation of app
+   Orientation of app if it supports
+   Testing application performance on a different kind of devices and network scenarios
+   Testing the application response how it is responding
+=================================================================================================================================================================================================
+==> List out the features does monkey tool provides?
+A: Basic configuration options
+   Operational constraints
+   Event types and frequencies
+   Debugging options
+===========================================================================================================================================================================================
+==> Mention what should be the selecting criteria for Test Automation Tool for mobile Testing?
+
+For mobile testing, the test automation tool should have following criteria
+
+Multi-platform support: Ensure that the tool does support your current and future target platform
+Script Usability: Object-based tools provides a high degree of the script usability
+Jailbreak Requirement: If the tool uses rooted devices, it may not support latest OS version and may be incompatible with MDM policies
+Source Code Changes: Sharing source code may not be possible always
+Lead time for New OS version: How soon tool can support new iOS/android/other OS version
+==============================================================================================================================================================================================
+==>  List out the most common problem that tester faces while doing mobile testing?
+
+A: Subscription model
+   High Costing
+   Lock-in
+   Internet connectivity issues
+   Automation is image based and time-consuming
+   Automation cannot be used outside the framework
+=========================================================================================================================================================================================
+==> Explain what does mobile security testing includes?
+
+Mobile security testing includes
+
+Checks for multi-user support without interfering with the data between them
+Checks for access to files stored in the app by any unintended users
+Decryption or Encryption method used for sensitive data communication
+Detect sensitive areas in tested application so that they do not receive any malicious content.
+==========================================================================================================================================================================================
+==>  List out some iPhone and iPad testing tools?
+
+iPhone tester: Test your web interface in an i-phone sized frame
+Appium: It is a test automation tool used with native and hybrid ios application
+iPad Peek: Test your web application using an iPad interface
+Test Studio: It enables you to record, build and run automated tests for your iPad and iPhone applications.
+==========================================================================================================================================================================================
+==>  Explain how you can install SD card in emulator?
+To install SD card in emulator, you have to use the command
+
+MKsdcrd –I mySDCard 1024M mySdCardFile.img
+=====================================================================================================================================================================================================	

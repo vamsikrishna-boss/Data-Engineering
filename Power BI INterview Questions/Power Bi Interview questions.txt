@@ -1,0 +1,715 @@
+Power Bi Desktop:
+=================
+
+==> What is power bi?
+A: Power bi is nothing but it is a business intelligence tool and that power bi is the uses the analysis and clean data converting into the visual format and create reports and dashboards that is called Power Bi.
+
+ Here it is classified 3 types
+Power Query:
+============
+1.What is Power Query?
+2.Difference between Power Query and Power View , Power Query and Power Pivot ,Power Query and DAX?
+3.Difference between Pivot ,Unpivot and Transpose?
+4.How to Identify duplicate and remove duplicate?
+5.Difference between APPEND and MERGE?
+6.Difference between Duplicate and Reference?
+7.Difference Roundup and Round Down?
+8.What is Manage Parameters?
+9.What is Query folding? ------ Pending ,
+10.What is Stack?
+11.What is the tile? 
+
+========================================================================================================================================================================================
+==> What is Power Query?
+
+A: Power Query is nothing but It is ETL(Extract transformation load]
+    power query can do extract the data from data source. Like: Excel, CSV, Xml,
+    When my data is not proper that time it is used.
+    power bi >> Home >> transformation data >> will take power query  editor window.
+=========================================================================================================================================================================================
+==> Difference between Power Query and Power View , Power Query and Power Pivot ,Power Query and DAX?
+
+A:                      Power Query                                                                                                                                                                   Power View                                                                                                                                                                                                          Power Pivot
+
+   ==> Data Connect and transformation tool. It is used to extract data from data source.                  ==> Interactive data Visualization tool. It is used to create interactive visuals and Dash boards.          ==> Power pivot is nothing data modelling and in-memory analytics. It is used creating data models and relationships.
+
+                             DAX
+   ==> It is Data Analysis expression and it is used creating and calculate columns, measures, and custom tables. And collection of functions, operations and that can be used formula, or expression calculate oe or more values.
+================================================================================================================================================================================================================================================================
+==> Difference between Pivot ,Unpivot and Transpose?
+A:                                Pivot                                                                                                                   Unpivot                                                                                                                 Transpose
+
+-> Pivot is nothing but it is used convert rows into column.                        -> It is used converted into column into rows.                                 -> It is used nothing but rows into column and column into rows.
+==================================================================================================================================================================================================================================
+==>  How to Identify duplicate and remove duplicate?
+
+A: Select which column you want find out the Duplicate Select the rows and click the dropdown rows after that Unselect all particular option select find out the user id multiple times it is repeated some duplicates are there.
+     Select the rows and click the dropdown rows and select all and go to home => Remove columns option there click that option and select remove duplicate option once click on that option
+     Automatically remove those duplicates in columns.
+   
+DuplicateFlag = 
+IF(
+    COUNTROWS(
+        FILTER(
+            TableName,
+            TableName[ColumnA] = EARLIER(TableName[ColumnA]) &&
+            TableName[ColumnB] = EARLIER(TableName[ColumnB])
+        )
+    ) > 1,
+    "Duplicate",
+    "Unique"
+)
+If (Countrows
+=======================================================================================================================================================================================================
+==> Difference between APPEND and MERGE?
+A:                                                                                   Append                                                                                                                                                                Merge
+       -> Append is nothing but Append the data both table and create separate file.                                                                                         -> it is used merge the two tables.
+       -> in the append combined rows from two or more tables.                                                                                                                            -> I t is used combined columns from two or more tables.
+       -> Union SQL joins.                                                                                                                                                                                                     -> Similar to SQL joins (left, right, Full, Inner)  
+       -> Here is should be common name in a column                                                                                                                                                 -> Here common should be there both tables.
+=======================================================================================================================================================================
+==> Difference between Duplicate and Reference?
+A:                                                Duplicate                                                                                                                                                                                                              Reference
+   -> When we click on the duplicate that time Automatic save the Right side applied steps.                                             -> When We click on the reference that time Applied steps are not copied.
+   -> When we Delete column in the main table that time not deleted in the duplicate table.                                            -> When we deleted the column in the main table that time we are delete reference also.
+   -> Duplicate Query is not depend main query                                                                                                                              -> Reference Query is based on the main query.
+   -> Suppose if we have change in the duplicate table that time not replace in main table.                                               -> While we have change in the reference table that time automatically replace in main table also.
+  -> Less efficient as it copies the entire data set.                                                                                                                           -> more efficient as it copies the entire data set.
+===========================================================================================================================================================================
+==> .Difference Roundup and Round Down?
+A:                                            Round Up                                                                                                                                                                                                               Round Down
+      -> It is nothing but we have selected decimal column that time click on round up                                                             -> It is nothing but we have selected decimal column that time click on round up
+          that particular value convert decimal to normal round value it's showing.                                                                             that particular value convert decimal to normal round value it's showing.
+================================================================================================================================================================================
+==> What is Manage Parameters?
+A: Whenever you want to change the data source Dynamically that time it is used manage parameters.
+     For ex: if you want swich from dev to Test and production that time this parameters are going to help us dynamically. Switch dynamically between Environments.
+    options >> power query >> paramete>> select the check mark button. That we get the option.
+(Ex: we have click on Get data >> Sql server >> Open the SQL Server database >> Server click on New parameter and give the server name in name >>in the current value after Server name >> Click ok
+Tab will go to SQL server data base tab After Give the data base name like Data base >> Select Import option >> Click ok Automatically load the data in SQL server.
+
+
+
+========================================================================================================================================================================
+==> What Is Query Folding?
+Query Folding in Power BI: The process of pushing data transformations back to the data source for optimized performance.
+========================================================================================================================================================================
+==> What is Satck and Tile?
+Stack: Stack Is ntg but display the viaualization Vertically That is Calaled Stack
+Tile: Tile is ntg but Arranged to the Side bY side Horizantally That is heples to the better performance.
+========================================================================================================================================================================
+
+
+Power Pivot:
+============
+1. What is modelling?
+2. Types of relationship?
+3. Cross filter direction and types?
+4. Difference between Dimension table and Fact Table ?
+5. Difference between Star schema and Snowflake schema ?
+6. How to handle many to many relationship / How to avoid many to many relationship / Bridge table concept?
+7. Is it possible to create more than 1 active relationship between 2 tables?
+8. How to Make Active Relation as In-Active Relation?
+9. How to make use In-Active relationship ? 
+
+==> What is modelling?
+A: Modelling is nothing but we get the data from multiple tables and connect together and create relationship between two tables that is called data modeling.
+=========================================================================================================================================================================
+==> Types of relationship?
+A:  4-types of Relation ships it is ntg but unique ness of the data values in the table. It defines relation ship between two tables instances of one table values matches or not another table then that is called cardiality,
+      One - to - one
+      one - to - many
+      Many - to -one
+      many - to - many
+==========================================================================================================================================================================
+==> Cross filter direction and types?
+A: Cross Filter is nothing but it is use the data flow one table to another table that is called Cross filter direction.
+    There are two types of Cross filter directions.
+      (Single and both)
+======================================================================================================================================================================================
+==> Difference between Dimension table and Fact Table ?
+A:                                    Dimension                                                                                                                                                                                                             Fact table
+-> Dimension table that can give descriptive information that can slice and dice from the fact                                   -> Fact table is nothing but keep the numeric data and aggregated and reporting visualization.
+    table.
+-> Dimension table is give detailed information.                                                                                                                      -> Fact table is give numeric values.
+-> Dimension table is having primary key.                                                                                                                                  -> Fact table is having foreign key.
+-> Dimension table we can see the hierarchy data.                                                                                                                  -> Fact table can't see the hierarchy data.
+-> Dimension table less rows.                                                                                                                                                        -> Fact table huge number of rows.
+========================================================================================================================================================================================
+==>  Difference between Star schema and Snowflake schema ?
+A;                                              Star Scheme                                                                                                                                                                                          Snowflake
+-> Fact table connecting with multiple table that is called Star Scheme.                                                                            -> Fact table Connecting with dimension table and again dim table connecting with Sub dim to gather that is called Snowflake table.
+-> Less tables                                                                                                                                                                                     -> More tables.
+-> It reads Data fast.                                                                                                                                                                        -> It reads data Slow.
+-> Data transformation (Insert/Update/Delete) Slow.                                                                                                            -> Data transformation (Insert/Update/Delete) Fast.
+-> Large amount of data.                                                                                                                                                                -> less amount of data.
+=================================================================================================================================================================================================
+==> How to handle many to many relationship / How to avoid many to many relationship / Bridge table concept?
+A:  When you have handle the relationship that time we have to create separate table and we have to keep unique values that is called bridge table.
+      That table we can create relationship between two table avoid many to many relationship.
+
+To avoid the many to many relationship and can I implement bridge table and take unique values and manage the many to many and fact  table and bridge table connect the relationship.
+==============================================================================================================================================================================
+==>  Is it possible to create more than 1 active relationship between 2 tables?
+A: No, it is not possible to create more than one active relationship between two tables in Power BI. 
+Each pair of tables can have only one active relationship at a time. However, you can create multiple inactive relationships between the same tables.
+==================================================================================================================================================================================
+==> How to Make Active Relation as In-Active Relation?
+A: When you have relationship in a Dots(…..) That relationship is called In-active relationship. 
+     When you have relationship in a Dots(----) That relationship is called active relationship. 
+============================================================================================================================================================================================
+==> How to make use In-Active relationship ? 
+A:  When we have a right click on line and and click on properties after able to see Edit relationship and in that page we can manage the active and in active relationships.
+========================================================================================================================================================================
+
+
+Power View:
+============
+
+1. What are the types of components?
+2. Type of connection modes and difference between them?
+3. What are data sources you connected?
+4. what are charts you used ?, Can you explained about them?
+5. Types of filters?
+5. Difference Between Drill through and Drilldown?
+6. Difference between Filter and Slicer/Sync slicer ?
+7. What is the Bookmarks ?
+9. what is Power BI desktop storage capacity ?
+10.Filter context and Row Context ?
+11.About Field Parameter?
+12.How to Sort Month Names in Ascending or Descending Order?
+13.Edit interactions 
+14.What is Row Level Security and types of RLS
+15.What are the building blocks?
+
+==>  What are the types of components?
+A: Important components of Power BI are: 1) Data Integration, 2) Data Processing, and 3) Data Presentation 
+Data Integration: it is used to combining the data from different data source and provide user with unified viewa.
+Data present: is nothing but it is use to display the reports and dashboards that is called data presentation.
+============================================================================================================================================================================
+==> What are the connections modes and difference between them?
+A:                     Import                                                                                                                                                                                                                         Direct query mode                                                                                                                     Live Connection
+=> When you have change the data that time we can refresh and change the data.                                                   => When You have the change the data that time we are using we can't do change.                      ==> When you have power bi model and analysis of the service we are using that live connection mode.
+=> Performance wise Import mode is good.                                                                                                                         => Performance wise Direct query mode is not good.
+=> When you huge data that time import can't support.                                                                                                   => When you have huge data that time we can support DQM.
+=> Import can support all kind of DAX functions.                                                                                                                 => DQM can't all kind of DAX functions.
+==> Excel and flag files we are using Import mode                                                                                                              => SQL data base we are using direct query mode.
+
+==================================================================================================================================================================================================================================
+==> What are data sources you connected?
+A; Mostly we are connected SQL server and Excel.
+================================================================================================================================================================================
+==> what are charts you used ?, Can you explained about them?
+A: Stacked bar chart: It is used due to the display the horizontal bars. Each category represent by a bar. Each segment represent sub-category whole.
+     Stacked Column chart: It is used vertically showing the data. And it each category represent by a column and each segments represents sub-category whole.
+     Clustered bar chart: It is used due to the display the data horizontally bars and each category represents by a group of bars clustered together and each segment is represents different sub-category or groups.
+     Clustered Column chart: It used due to the display the data in the vertical columns. By data represent and vertical bars and clustered to gather and each column represented sub-category or groups.
+     Line chart: It is used due to the trend analysis.(we want to 5 months of sales result that time  trend is going to analysis of the data that's why we are using these line chart).
+     Waterfall chart: It is used due to the helps understand one value to another value.(Ex: if you have Jan to fep sales changing whether values increasing or decreasing).
+     Funnel Chart: It can represents the data stages.
+     Scatter chart: It is used due to the two numeric values relation we are going use the Scatter chart.
+     Pie chart: When you have use <5 to <10 values that time we are using this pie chart. More than ten values it's showing clumsy.
+     Donut chart: It is use the type of pie chart and it is displays each segment and represents the whole and showing different categories. 
+     Tree map: It is used due to the data display in the Rectangular boxes left to right displays large boxes high values and small boxes low values.
+
+     Map: These 3-maps are using geo-graphical only. When we want to sales from state wise that time we use this map visuals.
+     Filled map: it is used due to the to see the locations tooltips of a data.
+     Shape map: it is used to see the location with shape of the countries without latitude and longitude.
+     Gauge: Guage is used due to the heighlet the business. This is one of the work like KPI. KPI is nothing but set the target.
+     Card: in this card we are using the any data we can se the single value like sales, profit, and quantity.
+     Multi-row card: Multiples values are presented in a table we want display that time we are used this visuals.
+     Slicers: It is used filter the values in report that time we are used this slicer.
+     Table: It is uses the some information in excel sheet how it's showing in excel that same kind of thing we want to see that time this is used.
+     Matrix: the matrix table is same pivot table.
+     Decomposition tree: it is used to give the route cause analysis of the breaking down the major.
+     Ribbon chart: it is used to sales growth revenue as well as previous year growth it's ribbons.
+     Sankey chart: 
+     Energy Flow: Visualizing energy distribution (e.g., energy input and how it's distributed across different sectors).
+•      Customer Journey: Showing how customers move from one stage to another (e.g., from website visits to purchases).
+•      Data Processing Flow: Tracking how data moves through different stages or systems in a workflow. 
+
+======================================================================================================================================================================
+ ==>  Types of filters?
+A: It is use the filter the values
+     it is 3-types of the filters
+Visual level filter: It is used due to the filter the values in particular o specific visual.
+Page level filters: It is used due to the apply the filter specific page.
+Report level filter: It is used due to the filter the all reports.
+===========================================================================================================================================================================
+==> Difference Between Drill through and Drilldown?
+A: Drill Down: It I used due to the it is power full feature of the power bi. User navigates different levels of the data in visuals. That is used due to the analysis purpose only.
+         Ex: WWhen
+     Drill through: It is used due to the user navigate to the one page to another page view more detailed that time we are used drill through
+===================================================================================================================================================================================
+==> Difference between Filter and Slicer/Sync slicer ?
+ A:                             Filter                                                                                                           Slicer                                                                                                     Sync slicer
+=>  Filters are is one of the feature in PBI.                                            => Slicers are using one of the visual in PBI.                                          => it is used to feature of the pbi.
+=> There is a page level, report level, visual level.                               => Slicers are only sync slicer.
+=> Report lev filters are using filter the values in across the pages. => Sync slicer are filter across all pages.
+=> performance wise filter is good.                                                        => Sync slicer is not good for performance.
+=> It supports for measure.                                                                      => It doesn't support for measure.
+
+Sync slicer: Synch slicer is nothing but it is feature of PBI. When this feature is used. In one page you put the filter and you can filter reports in other page that time we can use the one symbol and sinch the that page.
+===============================================================================================================================================================================================
+==>  What is the Bookmarks ?
+A: Bookmarks is nothing but capture and store the particular report with include slicers all of this thing s. Bookmarks are using especially creating interactive reports and navigation.
+======================================================================================================================================================================
+==> what is Power BI desktop storage capacity ?
+ A: while Power BI Desktop does not have a hard storage limit, For larger datasets, utilizing Power BI Premium.
+======================================================================================================================================================================================
+==> Filter context and Row Context ?
+A: Filter Context refers to the set of filters applied to the data model when a calculation is evaluated. 
+    Ex: For instance, CALCULATE(SUM(Sales[Amount]), Sales[Year] = 2020) changes the filter context to only include sales from the year 2020.
+    
+    Row context:it refers is the context that applies to the evaluated individual rows of a table.
+     Ex: Sales[Total] = Sales[Quantity] * Sales[Price]
+============================================================================================================================================================================
+==> What is  Field Parameter?
+A: Field parameter is nothing but it used to create interactive reports and dynamic reports by a enabling selection of the different field levels without having manual change. It is especially creating interactive reports.
+Parameterised data source
+Use in parameters in  data source
+============================================================================================================================================================================================
+==> How to Sort Month Names in Ascending or Descending Order?
+A:  go to visual … --> sort axis >> click moth >> what you want ascending or decending order.
+==================================================================================================================================================================================
+==> Edit interactions 
+A: When you have to change one visuals but when you applied filter that time all visuls are change that time go to Format >> Edit interaction >> Click on non visuals remaining all.
+=================================================================================================================================================================================
+==> What is Row Level Security and types of RLS?
+A: Row level security is nothing but secure your data row level and with security filter based on create your roles.
+     using manage roles button in modelling tab you can create roles based on Dax expression to control each role.
+     once publish the web, you can assign users to each role.
+
+   => Static RLS: When we have limited user when we have to see the limited values that time we can create static row level security.
+   => Dynamic RLS: Suppose one user he wants to see the multiple states of sales 
+
+
+
+        
+
+======================================================================================================================================================================================
+==> What are the building blocks?
+A: That we are using 5 major parts.
+    1. Visualization: 
+    2. Data set: 
+    3. Reports:
+    4. Dashboards.
+    5. Tiles.
+=======================================================================================================================================================================================
+
+
+
+
+POWER BI:
+======================
+
+==> What is Power BI?
+A:  Power bi is nothing but it is business intelligence tool . It is used due to the analysis of the data and clean the data and convert into the visual format and creating reports and dashboards.
+
+ It is used due to classified into three parts:
+  Power Query, Power View, Power Pivot.
+================================================================================================================================================================================
+==> What is Power Query?
+A: Power Query is nothing but it is used transmition of the data. When my data is not proper that we are used power query.
+
+==> What is power view?
+A: It I used due to the in the app left we are able to see the options that is called report view.
+
+==> Power Pivot?
+A: Suppose we get the data from different tables one table one information and another table another information. That we take final information from two table create relationship between two tables.
+===========================================================================================================================================================================
+==> What are all data source we use/
+A: Excel, 
+    Test/CSV(Flag files)
+    SQL Server
+    SSAS package analysis server
+    Folders.
+==============================================================================================================================================================================
+==> How many records stored in 1 excel file?
+A: 10 laks upto 1GB.
+===================================================================================================================================================================================
+==> When you have 10 laks of the data that what your using?
+A: That time we are using .txt file.
+===================================================================================================================================================================================
+==> What is the capacity for .txt file and SQL server?
+A: .txt file is up to 2GB
+    SQL server is Min 1terabyte
+    1terabyte = 100GB
+===========================================================================================================================================================================================
+===> What is data base?
+A: Data base is nothing but combination of multiple tables. that is called data base.
+=================================================================================================================================================================================
+==> What is import and Direct query mode?
+A:                     Import                                                                                                                                                                                                                         Direct query mode
+=> When you have change the data that time we can refresh and change the data.                                                   => When You have the change the data that time we are using we can't do change.
+=> Performance wise Import mode is good.                                                                                                                         => Performance wise Direct query mode is not good.
+=> When you huge data that time import can't support.                                                                                                   => When you have huge data that time we can support DQM.
+=> Import can support all kind of DAX functions.                                                                                                                 => DQM can't all kind of DAX functions.
+==> Excel and flag files we are using Import mode                                                                                                              => SQL data base we are using direct query mode.
+===============================================================================================================================================================================
+=> What are all data sources which we can use the live connection mode?
+A: one is that power bi sematic model and another one Analysis service.
+================================================================================================================================================================================
+==> What is Row Level Security and types of RLS?
+A: 
+================================================================================================================================================================================================
+
+Power Bi service:
+===================
+==> What is power bi service?
+A: If I want send the reports to the customers. How can I send the reports that time we are using power bi service that is called power bi service.
+==================================================================================================================================================================================
+==> How to install?
+A: we have to refer the app.power bi.com and we can refer some time power bi online and SaaS is part of power bi.
+ What is power bi work flow building reports and dash boards and send the reports to the customer using power bi service.
+==================================================================================================================================================================================
+==> What is my workspace and work space?
+A: My workspace: My work space is nothing but it is my purpose only other can't work in my workspace.
+    Workspace: Work space is nothing but you entire team ca changes anything what they want to do they can do.
+(Ex: if you have 10 memb in your team along with clients also there in you team. They want to see what you had developed reports and dashboards that time work can use. How to use. Add the members and give the accesss that time they can access and see what you update all of those thing they can see.
+).
+These are two types work space and my workspace.
+
+Reports: Reports is nothing but collection of pages which you has visualization.
+Dashboard: Dashboard is nothing but collection of the visualizations that is called dashboards.
+
+======================================================================================================================================================================================
+==> What is view linage?
+A: view linage is nothing but we have connected XLSX and xls files and sequel data base and different data source are connected to data set based on implemented report. That is called view linear.
+=======================================================================================================================================================================================
+==> Difference between Reports and Dashboards?
+A:                                                                      Reports                                                                                                                                                                                     Dashboards
+==> Reports can have multiple pages.                                                                                                                                                                         ==> Dashboards can have multiple visuals.
+==> Each reports can have one dataset.                                                                                                                                                                      ==> Dashboards are pinned create datasets one or more.
+==> In reports we can use filters and slicers.                                                                                                                                                               ==> Dashboards are we can't use slicers and filters.
+==> Reports are interactive.                                                                                                                                                                                            ==> Dashboards are not interactive.
+==> Reports are not limited. We can build multiple pages.                                                                                                                                     ==> Dashboards are limited.
+=========================================================================================================================================================================================
+==>  What is power apps?
+A: power apps is nothing but app related combines content. Dashboards and reports all in one page.
+    content is nothing but dashboards and reports is nothing but content.
+
+
+   Power apps is done developer admin
+  power apps is nothing but one or more of each content bundled together.powr app create in workspace.
+===================================================================================================================================================================================================
+
+
+
+
+
+
+
+	· Overall, 2 years of experience in Software testing in Manual testing and automation testing.
+	· Having good experience in Manual testing and automation testing in API testing and web UI testing and B2C testing in Azure active directory.
+	· Create and execute manual and automation test cases
+	· Worked on Row Level Security.
+	· Good knowledge on API testing UI testing using tools Rest Assured, ready API, SOAPUI, POSTMAN, Test complete, Selenium WebDriver.
+	· Experience on Dashboards, Reports and Datasets in the Power bi services.
+	· Hands on experience with build test plan, test case creation in Ready API tool, build the cucumber framework in Test complete.
+	· Hands on experience in test scenarios for user authentication using Azure Active Directory ensure secure login experience for customers.
+	· Having good knowledge on Integration testing, System testing, regression testing, Accessibility testing, security testing, Sanity testing, localization testing, static testing and dynamic testing.
+	· Good interpersonal skills & capable of learning new technologies quickly.
+
+
+## Infosys ##
+
+==> What are the latest updates in power bi?
+
+A: Power bi in feb several new features are updated:
+1. Copoilet and AI Enhancement
+2. Reporting improvements
+3. Visual Calculations updated.
+4. Small multiple new card visuals.
+5. New visual Text Slicer.
+6. Define new measure with dax query view quick quaries.
+=================================================================================================================================================================================
+==> What are the different types Slicers?
+
+A:1. List Slicer
+    2. Drop down Slicer
+    3. Tile Slicer
+    4. Date Slicer
+    5. Hirarchical Slicer
+    6. Relative Date Slicer
+    7. Text Slicer
+=================================================================================================================================================================================
+==> How can you fetch rows from left table that don't have a significant match in the right table using SQL?
+
+A: We can using left join with is NULL once it is used readibility and performance of the index column.
+   SELECT 1*, FROM TABLE r
+   LEFT JOIN Left_table l ON r.id = l.id
+   Where l.id IS NULL;
+=================================================================================================================================================================================
+==> Give two table one is product and second one is Sales How would you identify the products that have not sold?
+
+A: WE HAVE TO USE LEFT JOIN WITH IS NULL
+   Select * from product p
+   Left join Sales S ON P.product_id = S.product_id
+   Where s.product_id is NULL;
+=================================================================================================================================================================================
+ ==>  Are you familier with Performance Aanlyiser in Power BI?
+
+A: Yes.We have to use Mesure the performance of the visuals.
+Breakdown query execution Helps to see pinpoint where it running slowof DAX Caluculation.
+Capture and Review the DAX Quaries.
+Optimize reports.  
+=================================================================================================================================================================================
+==> How do you analyse slow performing DAX Functions in A report?
+
+A: First we use the performance Aanlyiser.
+   Enable the Query Daignistics.File >> Options >> Daignostics >> Enable power bi Query Daignostics.
+   Check the Storage Engine and performance Engine.
+   Optimize Data Model.
+=================================================================================================================================================================================
+==> What is the Use Of Advance Editor in Power BI ?
+
+A: Advance Editor is ntg but View and Editing and underlaying the MCOde in power Query Editor. It is allow the optimize the Transformation.
+   Modify the power Query
+   copy and reuse queries
+   optimize query performance
+   Debugging and Trouble shooting.
+=================================================================================================================================================================================
+==> How do you find out the Duplicates and Deletes in SQL?
+A: Find column wise:
+
+   Select Column1, Column2, Count(*) As Duplicates
+   from Table t1
+   Group by Column1, column2
+   Having Count(*) > 1   
+   
+   Find All the table;
+
+   Select * From table t1
+   Where Exists(Select 1 from Table t2
+        Where t1.column1 = t2.column1
+        And t1.column2 = t2.column2
+		And t1.id > t2.id    
+		
+   Delete Duplicates:
+   
+   With CTE AS(
+      Select *,ROW_NUMBER, OVER(Partition by column1,column2,order by id),rid from table
+) 
+Delete from CTE where rid > 1
+=================================================================================================================================================================================
+==>  What transformations have you used in Power Query?
+
+A: Basic Data Cleanig: Remove Duplicates,Trim the data,remove Empty Spaces, Replace values.
+   Column& row Transformations: Split the Column, Merge the column.
+   Changing Data Types
+   Joins AND MERGE queries
+   Grouping and Aggrigation.
+=================================================================================================================================================================================
+==> How do you identify and handle blanks or missing values in a large dataset using Power Query?
+
+A: Find out the Blak rowa
+   Transform >> Fiter the Rows for blank or null >> they are missing Data.
+   Transform tab >> Coditional column >> Column, Null, "Missing value",OK,NO
+   
+   Replace the values:
+   
+    Transform tab >> Replace the values.
+	Mcode: =table.replacevalue(Source, Null, "N/A", REPLACE.REPLACEVALUE, {cOLUMNnAME})
+	Fill up / Fill Down
+=================================================================================================================================================================================
+==> How can you set up Alerts in Power BI Service?  
+ A: Navigate to the power bi service >> Open Dashboard >> Click More options >> Select Manage Alert >> Add Alert >> Add Tittle,Condition, Frequency >> Save.
+      Manage Alerts: Power Bi Service >> Setting >> Alerts >> Modify.
+      Receive  Alerts: When Condition is meet Power bi send alert your mail Id. 
+=================================================================================================================================================================================
+==> How can you extract the first and second names separately in Power Query?
+A;  We can use in this question Split column option in the power query. use this option we can write name separately.	
+=================================================================================================================================================================================
+==> How can you concatenate the category and quantity columns using a custom column?
+A: = [Category] & " - " & Text.From([Quantity])
+   We can use this above formula and 
+   
+ Explanation:
+& concatenates values.
+" - " adds a separator (you can change it).
+Text.From([Quantity]) converts numbers to text (to avoid errors).
+=================================================================================================================================================================================
+==> What are the different ways to handle missing or null values in Power Query? What approach u will follow to impute missing values?
+A: "Home" Tab → "Remove Rows" → "Remove Blank Rows"
+   "Filter" Column → Uncheck "(null)"
+   "Transform" Tab → "Replace Values" → Replace null with a default (e.g., "Unknown" or 0)   
+   "Transform" Tab → "Fill Down" (previous value fills nulls)
+   "Fill Up" (next value fills nulls, less common)
+=================================================================================================================================================================================
+==>What does EDA (Exploratory Data Analysis) mean, and how can you perform it in Power Query?
+   Exploratery Data Analysis is ntg but the process of analyse and summerize and visualize of the data set to the understaning the structure and insight meaning full insight before applying transformations.
+A: Load the Data Set
+   Check the Data Types
+   Handle Null and Duplicate values
+   Summery Statstics
+   Detect Outlier
+   Visualize Report  
+=================================================================================================================================================================================
+==>  How can you create a dynamic date table using the CALENDAR function, starting from January 2015 to the current date?
+A: we can use the Calender function it will generate Start and Ending column
+   DateTable = CALENDER(DATE(2015,1,1), TODAY())  
+=================================================================================================================================================================================
+
+HCLTech Data Analyst Interview Experience for (0-2 years)
+
+==> What are the important components of power Bi?
+A: Important components of power bi is Data Integration and Data processing and Data presentation. that is called Components.
+===================================================================================================================================================================
+==> What is DAX and different data types of DAX?
+A: DAX is nothing but Data analysis Expression.it is used due to the create column and measures using formula language calculated column and column  feature
+    Data types:
+    Numeric, Boolean, String, Date and Time, Decimal.
+===================================================================================================================================================================
+==> What is Calculated Column?
+A: Calculated column is nothing but expression of DAX. Which is calculated data stored in separated column that is called Calculated column.
+====================================================================================================================================================================
+==> What is custom visuals?
+A: Custom visuals is nothing but which visuals not available in power bi. that time we have to imported from market place for better visualization.
+==================================================================================================================================================================== 
+==> What are the types of the filters?
+A: Visual-level-filter
+    Report-level-filter
+    page-level-filter
+    Drill-through-filter.
+====================================================================================================================================================================
+==> What is DATEDIFF Function do?
+A: DateDIFF function is nothing but It is difference between 2 dates based on specific part.
+====================================================================================================================================================================
+==> How many time we can scheduled refresh?
+A: We can scheduled refresh Pro users 8 tames can do and Premium can do 48 times scheduled refresh.
+====================================================================================================================================================================
+==> Does Power Bi supports Mac?
+A: No, Power bi not supported Mac OS.
+====================================================================================================================================================================
+==> What is Power query transformation?
+A: Filtering the data, Merge the tables, append tables, Add and removing the columns, convert numeric to Text, splitting the columns etc..
+====================================================================================================================================================================
+==> What is Language is used in power Query?
+A: In the power query we have to used M-code language. It is easy to use similar other languages and m-code is case sensitive language.
+====================================================================================================================================================================
+==>Explain step-by-step how will you create a sales dashboard from scratch. 
+A: First we have to see the data objectives like : Kpi and Sales performance and revenue and sales growth.
+    Identifying the data source like excel or flat or SQL.
+    Design the layout like first which we want find out create a visual we find out like Sales by the region, Sales growth by the subcategory
+    Choose the visualization like we pic the POWER BI.
+    Create a visualization.
+    deploy the share using power bi service.
+    Monitor update. Update the data daily new data.
+====================================================================================================================================================================
+==> Explain how you can optimize a slow Power BI report?
+A:  Reduce the data: It is used to importing and filter only necessary data.
+     Optimize the data models:  use the star schema for better performance.
+    Disable the auto date and time and optimise the dax formulas also.
+    Limited visuals and slicers.
+    Use the incremental reresh: why bcz large data set to create incremental refresh wto new data set create d instead of entire data.
+This significant we want to optimise.
+===================================================================================================================================================================
+==> The filter at the visual level that time we take one one visual in the report filter the particular region.that we are change the report level that time when we change region filter it's showing blank..
+===================================================================================================================================================================
+=> How to optimize Power BI Report? How to improve power BI report performance?
+
+A:          -> Data Source level:
+	           Check the data connection Whether import mode or Direct query mode.
+	            Keep/Selected Required columns and avoid historical data/keep only required data.
+	           Aggregate the data at the source level only
+	
+	     -> Data Modelling:
+          Schema structure has to follow a star scheme,
+          Avoid many to many relationships
+	          Avoid bi directional filter
+	
+	   -> Others: 
+       we can limit RLS Logic
+	       Delete duplicate columns
+	       Delete table mark as a date/calendar table
+	       Select auto time and date intelligence in the settings-> options.
+
+	     -> DAX functions: 
+       use the divide function instead of "/".
+	       Try to avoid calculated columns and use measures.
+	       Avoid if error function 
+
+	     -> Visualization Level: 
+       Import visual performance by performance analysis
+	       You shouldn't use more slicers.
+	       You shouldn't use more custom visuals.
+	                                    ==============================================================================================================================================================
+	==> What are the callenges faced in company/Project:
+
+I have Faced o many problems:
+
+-> When I opened another file that time it's loading slow.
+	-> Handling the large data sets and ensuring the reports and dashboards loading slowly.
+	-> When I use Import mode that time Load slowly data bases.
+	-> Continuously learning DAX function,Writing the complex dax formulas that is very deficulties.
+	-> Understanding and translating requirement and Implement the reports and Dashboards. User may have high expectations on report visulas.
+	-> Use the RLS and DDEFINE THE roles carefully.
+	-> We will do and Follow the power bi updates.adapt which is new.
+	==============================================================================================================================================================
+	==> How to Enable the Calculation function in Power Bi Application for visual level Write the Dax Function.
+	A: Go to Settings>> Options>>Prereview features >> Visual Calculations Enable that time it is visible in the application.
+	
+	-> What is the Run Sum?
+	A: It is ntg but above and below addition of it then that is called Run Sum.
+	
+	-> Whatis KPI?
+	A Key Performance Indicator (KPI) is a measurable target that indicates how individuals or businesses are performing in terms of meeting their goals.
+	
+==============================================================================================================================================================
+	==> How do you deal with Power BI report refresh issues? 
+	A: Check the Data source Accessibility,
+	   Optimised Queries,
+	   Increase Data Performance,
+	   Review Sheduled refreshes,
+	   Resolve Gateway issues,
+	   Use Incremental Refresh,
+	   Truble shooting Complex issues.
+	==============================================================================================================================================================
+	==> You get complaints from users that they are seeing incorrect data. How do you investigate the issue?
+	A:   Confirm the Issue: Ask User Deails,ask exact is what issue your facing,Validate the Complaint.
+	       Verify Data Source and Refresh Issue.
+	       Analyse the Power Query Transformation.
+	      investigated Gateway connection.
+	      Connection Finding AND rewolve.
+	==============================================================================================================================================================
+	==> Your team is working on multiple reports that access 10-15 tables. Imagine you have 10 reports, and each report is using some redundant tables. 
+	       How would you address this?
+	A:   Create Data Model Conect and Publish that table to power Bi Service and Connectiong report to Dataset andd using Live Connection mode and build the individual reports
+	       by connecing shared data set and Avoiding redudnet tables.
+	==============================================================================================================================================================
+	==> How do you train your team to write proper DAX queries?
+	A:    First I wwill train to Employes basic concept like basic formulas.
+	        then Explain Measures and Columns
+	        then Explain Core function SUM,Average...
+	        Explain Rela based Scenario Questions.
+	=================================================================================================================================================================> If a Power BI scheduled refresh takes significantly longer without any changes to the internet, credentials, or settings, several factors could contribute to the delay. Here's a breakdown of possible reasons:
+	1. Growth the Data Source.
+	2. Data Source Performance Issues.
+	3. High memory Usage in Power BI Service.
+	4. Gateway Performance Issue.
+	5. Data Soure Locking and Update.
+	7. Power bI Service update.
+	=================================================================================================================================================================> Your PBIX file is not getting published. What are the possible reasons?  
+	A: ==> File Siz exceed.
+	   ==> Power BI Service Issues.
+	   ==> Authentication Issues.
+	   ==> Data Source Connectivity Issues.
+	   ==> Browser or Power Bi Desktop Versions issues.
+	=================================================================================================================================================================> Why is my Power BI report slow in Power BI Service?
+	A: 1. Large Data Model.
+	   2. Complex DAX calculations.
+	   3. Data Modeling poorly.
+	   4. SLOW internet 
+	   5. Power BI Service Performance.
+	=================================================================================================================================================================> Why are your Power BI visuals not updating after the data refresh?
+	A: 1. Data Model or Data set Not refreshed.
+	   2. Cached Data In vIsual.
+	   3. Data Load Issues Or Erors.
+	   4. Incorrect Relationships.
+	   5. Data Source Connectivity.
+	   6. Server Isssues.
+	   
+	   =================================================================================================================================================================>
+	
+                                              

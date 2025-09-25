@@ -1,0 +1,2712 @@
+
+Can you brief interduce you self?
+
+-->Hi my name is vamsikrishna
+  
+-->iam started my carrier as a testing excutive 1.5 yr of back with mindtree.currently iam working on Test engineer.
+	
+-->My responsibilities is understand the business requirements specifications and high level scenaris and to convert them into test cases automation scripts 
+   if required
+
+((-->Execution of test cases and reporting of defects to the developer if there any get them fixed.i have experience on functional testing and Automation,Regression,Smoke,
+   sanity.
+
+  -->In my previous project  i have worked on automation testing where we have Post man for Api testing and test complete using java script.
+  
+  --> For building management & Test cases management we have used Azure devops.))
+
+(-->Execution of test cases and reporting of defects to the developer if there any get them fixed. i have experience on functional testing and Automation,Regression,Smoke,
+   sanity,web analytics and mobile testing.
+2
+-->In my previous project  i have worked on automation testing where we have selenium with java and TestNG Cucumber frame work for approch BDD. we have page object model 
+   where we have separated our testcases with page object. 
+
+-->For building management tool we using Maven for verson controling  we are using Git and for automating our jobs for nighly.
+
+--> for defect management & test case management  we have used  JIRA, Test Rail & HP ALM. )
+
+
+--> Iam working on Agile management we have daily stand up calls and we have  2- week sprint cycle .iam part of 8-members team out of which we are 3- tester,
+    4dev,1 manager,1 scrum master. 
+
+--> Then we have our daily scrum meeting where we used to tell our previous day action what we  did.what we are planning for today  and if we have blockers to discuss
+    product owner scrum master help to us resolved that blocker after that i need pending tasks i need to action.
+--> whether  creating test cases and execution and defects retesting if any.	
+============================================================================================================================================================================
+Tell me You day to day activities?
+
+--> First thing i do after login my system. i check active sprint in azure for our project.there i can see my assigned tasks and open tasks. after check my mail any 
+    importnat need to take action on. then we have our daily scrum meeting and where we used to tell previous day action and wht we did and what plan today and we 
+	have any doubts any blockers discussed with product owner and scrum master help to us resolve our doubts.after that i need to take the pending tasks need to do 
+	create test cases and execution and defects retesting if any.
+============================================================================================================================================================================
+QA Testing Activities/Responsibles?
+
+--> Understanding the Requirement and specifications of the application
+--> identifing required test scenario
+--> Design test cases valid scenarios
+--> Log test results(How many test cases pass/fail)
+-->Defect reporting
+-->Retest fixed defects
+-->Report the test lead abot task status
+-->Participated in regular team meetings
+-->Creating automation testing for regression testing.
+============================================================================================================================================================================
+What are the scenarios not automated?
+
+ --> in my experience 
+    1. CAPTCHA Scenarios: best way to handle is tell your dev team diable make it static
+	2. Video streaming scenarios:Selenium wont be recorganise video controls.
+	3. Code reading scenarios: If your web apps is bar codes and qr codes it's not benficial automate it.
+	4. Crash recovery scenarios: you might want to testapplication crash recovery.this scenario best for manually.
+	5. performance testing: it can be automated but its best not to automate performance testing using selenium.
+======================================================================================================================================================================
+ What are the challenges faced in selenium?
+ 
+ --> Supports only web bases application: Selenium only automated testing for web based application can't test window based application.
+ 
+ --> Timeout/Synch isssue: Whether the call it a timeout or synch issue.it is the one of the most common challenge in selenium test automation.if you don't issue carefully.
+ 
+ --> No Captcha Handling: With selenium.you can't handle captcha completly. Though there are some third partytools that can help in automation captcha.
+ 
+ --> No Reporting: No doubts selenium can enormosly improve automation testing capabilitybut due to some limitations.it generate good testing reports.
+ 
+ -->Need programming Language support:
+ 
+ -->Windows  Pop-Up:
+ 
+ --> Identifying Dynamic Elements:
+ 
+ --> Cross browser Testing:
+ 
+ --> Mobile apps:
+ 
+ --> Multi tab testing:
+ 
+ -->Scalability:
+ =======================================================================================================================================================================
+ Roles and Responsibles
+ =============================
+ 
+  
+	 
+	==> The project is CSI_EBG_DIGITAL_TRASFORMATION
+
+         CSI is company name.Coputer service INC.
+		 EBG it is service
+		 Digital transformation is the b2c Business to employee experience.
+    
+	-> CSI is the leading fintech and financial technology and core banking process and electronic and print distribution and digital banking and payments process and compilence.
+	   CSI is the fourthlargest core banking proceess in U.S in 2017. and CSI is raanking IDC financeal insight fintech.
+       CSI is recognized by the american banking it's inagurated an list of 20 Best fintech work for us.
+       CSI is the High fintech and cyber security operations and interaction and innovation and service.
+    
+	
+	There are bank of america many banks is there.but they want to use OWN authentication. This CSI not only bank OF america this CSI under so many banks ar there.but there are less security.
+    Then CSI will ask to Create Identity provider them.
+	
+    In this Identity Server In this Two things.   
+  
+     Identity Server: Identity server is the service and in this give platform login to the digital banking.
+
+     Identity Provider: Identity provider means like bank like CSI. they will provide Username and password.
+  
+     Identity provider will be provide authentication and server it will login.
+	 
+	 Ex: Instagram page is server and the user name and password you are giving it's a provider. That is called identity provider. 
+	 
+	 then After creating validate username and password is like. these it will identity provider. the Identity server will check these person give the 
+    credentials that credentials write or wrong.
+	
+	 Mobile user: Once give the credentials after login to the application openid checks and used by authentication. 
+	 ==========
+	 In this user use the it will ask for username and password once give the credentials after open Id that is protical.that protocol generate one token that is called JWT.
+	 
+	 You got some doubt? Y this token is generate?
+	 
+	 iam user you know but Computer don't know so that's why i have access to take some kind of modules in the application.so each user help of the creationg one autherization token.
+	 
+	 What it will do ?
+	  
+
+    It will send the JWT token to the CX who has loged in. that JWT token goes to the FDX Where all API s are storedd.Fdx TOKEN WILL SEND IT VALIDATION. Like RBAC.
+    Then it will check auterized API. then Authentication is completed.
+
+    If the Cx wants to check the loans but he doesn't have permission  becz there is no loans are FDX WILL NOT CHECK.LIKE FAILED.
+
+    user is based on the newtwork. employe will go the identity Server and 	open iD connect then will provide the access to user. this is the Overall project.
+	
+	
+	
+	B2c customers : like b2c customer is business to customer like this projects are run into B2c packages. like business means provide the authentication and autherization customer a well.
+	
+	FDX: it is the bi directional communication system. in this two end nodes 1 is that SEND 2. Receive. at the same single carrier and dual communication that is called FDX.
+	
+	JWT is nothing but JSON Web token.It means some kind of information.
+	 
+ 
+ 
+ 
+•	Collaborated to fix 50+ API bugs, reducing downtime, and enhanced functionality, resulting in a 15% improvement in user experience.
+•	Applied ReadyAPI for 100+ API test cases, ensuring a 95% test coverage and compliance with requirements.
+•	Conducted API testing, resolving 30+ data integrity issues, improving data reliability, and optimizing response formats for a 20% increase in accuracy.
+•	Executed 50+ test scenarios for user authentication, reducing login errors, and generated reports, reducing issue resolution time.
+•	Automated API testing in ReadyAPI, achieving a 40% reduction in testing time, and developed an End-to-End UI-Testing framework using Cucumber, increasing test coverage.
+ 
+   
+• Work related to bug fixes and enhancement in API.  
+• Collaborated with the development team to understand API    
+   specifications and requirements for various banking B2C applications.  
+• Utilized ReadyAPI tool to design, create, and execute test cases for API 
+   endpoints, ensuring compliance with functional and non-functional 
+   requirements.  
+• Conducted through API testing, including verifying data integrity, 
+   response formats, error handling, and performance.  
+• Designed and executed test scenarios for user authentication using 
+   Azure Active Directory, ensuring secure login experiences for 
+   customers.  
+• Generated comprehensive test reports detailing test execution results, 
+   issues found, and recommendations for improvements.  
+• Worked closely with cross-functional teams to resolve API issues, 
+   validate fixes, and ensure the overall quality of the applications.  
+• Retesting the defects and closed them if they meet the testcases.  
+• Developed the End-to-End UI-Testing framework Cucumber.  
+• Developed the End-to-End API-Testing in Postman and swagger.
+
+
+  
+
+
+
+Roles and response:
+============================
+
+Managing users and groups for security concerns.
+
+Monitoring the licenses for Azure AD issues, resolving license issues for users and Application integration with Azure AD SSO.
+
+Configuration, troubleshooting SSO based enterprise applications and self developed registered apps.
+
+Enabling and managing Multifactor authentication for end users using azure MFA and Managing the corporate devices by configuring Device.
+
+Registration features like Hybrid Azure AD join, Azure AD join and Azure AD registered.
+
+Analyzing audit and sign-in logs for the users. and Imposing security policies for end users using Conditional access policies. Configuring.
+
+Product information management, Identity protection for the users.Registering the applications using app registration using Oath, OpenID
+protocols and integrating on-prem applications into azure through application proxy and Enabling Self-service password reset (SSPR).
+
+
+•	Implemented Azure AD SSO, reducing login time, and resolved license issues, ensuring a 15% increase in application accessibility.
+•	Configured MFA, enhancing end-user security, and managed corporate devices, achieving a efficiency improvement in device registration.
+•	Analyzed audit logs, imposing Conditional Access Policies, resulting in reduction in security incidents. Managed Identity Protection for 500+ users.
+•	Registered applications using OAuth and OpenID, integrating on-prem applications into Azure, achieving a 25% reduction in integration time.
+•	Enabled SSPR, reducing password reset requests, and conducted training sessions for 50+ employees on secure identity practices, contributing 
+    to a 25% decrease in security-related incidents.
+
+
+
+How to speak recruiters:
+
+==> good morning,
+
+my name is jaya, and iam calling to Enquire about any job openings at ----company.I have 2 yr of ecxp in Manual andautomation testing and particularly intrested in 
+roles and related to testing. i recently heard about --- company's reputation for yout innovation and sustainability intiatives. you workplace culture looks too good as
+well, and iam excited about the opportunity to potentially join your team.
+====================================================================================================================================================================
+                                                                         Manual Testing
+
+==> What is software testing?
+A: Software testing is nothing but verification and validation of the Software.
+   The main goal of the software testing identifing bugs and Acceptance functionality as per the application.
+   =================================================================================================================================================================
+==> What is Manual Testing?
+A: Manual testing is knothing but it is an appliovcation without using the tool. and manual testing is application identifing the bugs and manually.
+
+==> What is Automation testing?
+A: Automation testing is knothing but is an application and technology with using the tool.write the test script and test cases and if required test scripts also.
+   The main goal of automation testing is reduce the no of testcases and not eliminate manual together.
+========================================================================================================================================================================
+==> What is SDLC?
+A: it is software developement life cycle.
+    It is an procedural developement software requirement.
+	
+	 requirement analysis >> Requirement collection >> Develop >> Testing >> Installation >> Maintanance.
+	 
+==> What is STLC?
+A: It is software testing life cycle.
+  It is proceduraltesting software requirement.
+  
+  Test requirement >> test planing >> test case develop >> test environmenet set up >> test case execution >> test closure.
+  
+==> What is Dlc or Blc
+A: Defect life cycle is knothing but bug life cycle Which is defect goes through the lifetime.
+
+    New >> Aiign >> Active >> test >> Verified >> Closed.
+                               ||
+							 Reopen
+=====================================================================================================================================================================
+==> What is black box testing?
+A: Black box testing is knothing but user interface of the testing.it is done by the test engineers.
+
+==> what is white box testing?
+A: White box testing is knothing but Source code of the testing. it is done by the developer.
+
+==> Grey box testing?
+A: Grey box testing is konthing but user interface and souce coad of an application.then it is done both employes involved.
+=====================================================================================================================================================================
+==> What is Functional testing?
+A: Functional testing is knothing but write the test cases and test scenarios and execute the business logic and functionality as per expected from the application.
+
+==> What is non-functional testing?
+A: Non- functional testing is knothing but it is a type of testing. it is verifies non-functioanl aspects of the product. such as performance, load , stress testing.
+======================================================================================================================================================================
+==> What is Integration Testing?
+ A: Integration testing is knothing but data flow b\w two dependent modules.
+    Ex: First we will do the functional testing in the login page after we will do the username and password and submit buttion and cancel button then this called as 
+	   Integration testing.
+	 
+==> What is Unit testing?
+A: Unite testing is knothing but testable units of the code.
+EX: developer write the code and verifies of the some units of the code.
+
+==> What is the sanity testing?
+A: Sanity testing is knothing it is an application. it is quickly evaluated functionality of new build is working or not.
+
+==> What is System Testing?
+A: System testing is knothing but it is an apploication test in End-to-End.like user.
+
+==> What is Smoke Testing?
+A: Some testing is knothing but it is an application it is basic to cretical features of an application.like fun,sys.
+
+==> What is Regression teting?
+A: Regression testing is knothing but it is an application.in the test with in particular impactr area of the system.
+
+==> What is Acceptance testing?
+A: Acceptnce testing is knothing but it is an application. it is developed by the physically challanged peoples.
+
+==> What is Interface testing?
+A: it is test of an application it is verifies interaction b\]w two different software systems.
+
+======================================================================================================================================================================
+==> What is performace testing?
+A: Performance testing is knothing responce time of n apploication by applying the load.
+
+==> What is Load testing?
+A; load testing is knothing but it an testing it is performed by the system peak load conditions.
+
+==> What is stress testing?
+A: Streess testing is knothing but of an application it is application and systes how it works under extreem level then that is called Stress testing.
+
+==> What is security testing?
+A: Security tetsing is knothing but verifies the software compilance security standards and security features and mechanisms.
+
+=====================================================================================================================================================================
+==> What is water fall model?
+A: Water fall model is nothing but it is sequential process.when cx freazes the requirement that is called water fall model.
+
+    Requirement analysis >> Requirement collection >> Developed >> Testing >> Installation >> Maintanace.
+
+==> What is spiral model?
+A: Spiral model is knothing but when cx give the requirement step by step.
+
+==> What is V and V model?
+A: Verification and validation? it is cx needs high quality product.
+
+==> What is proto type?
+A: The prototype when Cx confused with own requirement.
+
+==> What is Agile methodology?
+A: Agile is knothing but incremental or iterative methodology.when they requirement and changing in developemtnt stage and testing stage but finally give the software
+   to cx with in shortspan of time.
+
+   Inc: it is knothing but adding the module.
+   Iter: It is knothing but process of repeat and repeat.
+   
+   Adv: It is change requirement any stage.
+
+   Dis: It is less focus on design and documemtation.
+
+=======================================================================================================================================================================
+==> What is Bug?
+A: Bug is knothing but informal name of defect
+  it should be raised the developers. once developer accept the defect. then it is termed as a bug.
+
+==> What is Error?
+A: Mistake source code that is called error.
+
+==> What is Priority and Sev?
+A: Sev is nothing but how sevearly defect functionality of an application.
+   Priority is nothing but how fast we need to fix the bugs.
+   
+==> What is Test case, Test plan, test scenario?
+
+    Test case: Test case is nothing but action required to verify feature or functionality of an application.
+    Test plan: A detail documentation of the objectives shedule and estimation deadlines etc..
+    Test Scenario: it documentation of use case.
+
+==> Test Case Template
+    
+    Test case Id:
+    Test case tittle:
+    module Id:
+    Precondition:
+    Test steps:
+    Test Data:
+    Expected result:
+    Actual Result:
+    Status:
+
+==> What is Bcklog?
+A: Backlog is nothing but buildup and work that needs to be completed.
+   The team has no of backlogs uses in accounting and finance.
+   in agile model product backlog is list and priorities and delivered.
+
+==> What is locators?
+A: locators is nothing but static method of string arguments and belong into by class and by class into selenium library.
+      Id, Name, Class name, Tag name, linked list, Css selectyor, X-path.
+======================================================================================================================================================================
+==> What is the principles of software testing?
+A: Early testing, Defect clustering, testing is contest dependent, abscence of error failure, Exhastive testing impossible.
+
+==> What is Alpha testing?
+A: Alpha testing is knothing but end to end product enswer meet business requirement.
+
+==> What beta testing?
+A: it is opportunity for real users and use to production environment to uncover bugs or issues generally release.
+
+==> What is test case Attributes?
+A: Test case attribute is knothing but useful parts of the testcase.they can run used in the creteria of test case run.
+
+====================================================================================================================================================================
+
+                                                               Test Complete Questions.
+															   
+==> What is the Test Complete? 
+A: Test complete is automation tool smart bear automation product. it is used automation the software testing process. unit testing, smoke testing, regression testing,
+   functional testing.distributed testing.load testing. supported by test complete.
+
+==> Which technology is used in the test complete?
+A: java script, pthon,
+
+==> What is the data driven testing?
+A: data driven testing running tests with various input data confirm the app brehaves expected for multiple values. we can perform the various data base tables.
+
+==> different types of capthuring objects?
+A: Recording object spy
+   finf,findAll,find chaild, find all children.
+
+==> challenges facing in test complete?
+A: cross browser testing: requiring browser level-configuration if we run our scripts on the client system.validate the cross browser testing.
+   Windows with windows pop ups : it may fail when trying to upload ordownload files from the application.
+   Working with dynamic objects: this entaire dealing with an object changes frequently unexpectedly.
+   Page loading: unable to anticipate hoe long will take page to load.
+   Technical supports.: test complete no longer provide support assist.
+
+==> What is the use of Test complete?
+A: testers allows testers write code automated tests microsoft windows,web,andriod, and IOs application.test can recorded written, or manually withkeyword  driven
+   activity snd used automated error records.
+
+==> What is the keyword driven testing?
+A: keyword driven testing is an approach which the test case design separates from software execution. the test carries specific keywords entire browser.
+
+==> Test complete support browser?
+A: Microsoft edge, microsoft internet explorer, google chromre, Mozilla firefox, 
+
+==> What is the name mapping?
+A: Name mapping is the one of the most significant features of the test complete that aloows us to specify the custom name.
+
+==> What is test plan?
+A: test plan is that document outlining testing scope. the methodology to be utilized, resource needed. the estimated complete testing process.
+
+==> What is the test scenario?
+A: Test scenario is nothing but test end- to- end scenario for specific complex software problem, scenario makes easy to test evaluate end-to-end.issues
+
+==> What does open application mean?
+A: Open application for test complete referes to an application that exposes it's internal object properties and methods to test complete.
+
+==> How do i run an application in test complete?
+A: TO RUN THE APPLICATION YOU RECENTLY TESTED. RIGHT CLICK IT IN THE PROJECT EXPLORERE AND  pick run from the context menu in the tetsed apps editor,right click the program,
+   select run from the context menu.
+
+==> What are the different ways of capthuring objects in test complete?
+A: To replicated user action an object in your tested application automated tests, you must try first identify the object instructing test complete where to find   
+   the objects in your test application.
+   By search creteria,
+   Object browser naming notations
+   using microsoft active accessbility
+   using microsoft UI automation gtechnology.
+
+==> IT is possible perform a record and play back machanism in Test complete?
+A: Yes, test complete has recorded and play back system. in test complete recording there are 2 process.
+   1. Record- Start A tests recording or re starts a paused recording. Shift f1 is default.
+   2. Low-level - record - begin recording a new low- level procedure based on coordinaes on the screen 
+
+==> What is cross browser testing?
+a: Yes, test complete we can perform  cross browser testing,cross browser testig is a specify of test complete.
+
+==> What is eception handled?
+A: we an handle the exception in test complete using on error resume next command. on error resume next statement exception window will perform the following action,
+   and get skipped.
+
+==> What is the Cucumber frame work?
+A: Cucumber fame work in selenium is an open- source testing frame work that supports behaviour driven developement for automation testing of web application.
+   The testers are ffirst written simple scenario.
+
+What is MAVEN?
+
+--> maven is a project management tool that is based on (POM Page object model).it is used for build the project and dependancy and documentation.
+
+What is Meta Data?
+
+--> Data about data that is called meta data
+
+
+Assertions: Asser,verifuy,wait for
+
+Exceptions: NoSuchElement exception, Nosuchframe exception, NoSuch window exception, Stele element relavence exception, Time out exception.
+
+==> how to manage cookies?   
+A: How to manage cookies 
+
+==> What is feature file,Step definition, test runner?
+A: Feature file: Feature file is knothing but common file containing the feature description, scenarios, and step for testing a features.
+
+   Step definition: Step definition file maps the test case steps in the features file(interduced by given when then to code.
+   
+   TEST Runner: Test runner is tool it is used to run or execute tests and export results.
+   
+==> What is tags?
+A: Tags are used in the associate a test like smoke, regression with particular scenario.
+
+==> how will you generate reports?
+A: Emaillable reports.
+   Index reports.
+
+==> How to run skipped test in selenium?
+A: @Test(enable=false) annotation is used to skip a test case if it is not ready to test.
+
+==> Challanges facing in Test complete?
+A: Increased cost and Time and resources.
+   Error due to mistake.
+   less test coverage 
+   less collabaration.
+   
+   
+=========================================================================================================================================================================
+
+                                                                              API Questions
+																			  
+==> What is API?
+A: API is knothing but application program interface.
+   API is enable the communication and exchange data b\w 2 different software systems.
+   API is enverstment is due to the functions and sub-routines which can be opened as software systems.
+   
+   when we have an API in local environment then it is clled as API.
+===============================================================================================================================================
+
+What is Meta Data?
+
+--> Data about data that is called meta data.
+================================================================================================================================================================================
+--> How do APIs work?
+    
+	Suppose Client request to web service.web service request to server.server response to web service. web service response to client.
+
+A: The general API works of takes the request and data validation,data base interaction,data processing and then resultant and send back the source. Api provides business Logic as they not exposed to the world.
+    Ex: Google API,Amezon API,Twitter API
+=================================================================================================================================================================
+=> Advantage of API Testing:
+A: Core functionality Testing
+   Time and Cost Efficiency
+   Language-Independent
+   Ease of integration with GUI
+=========================================================================================================================================
+==> What is client?
+A: Client is nothing but computer hardware device where we have to access the software that access service made by the server.the server often located on the physical computer.
+==================================================================================================================================================================
+==> What is server?
+A: A server is physical computer that dedicated to run service that needs to be other computers. depending on the server is running. it could be file server.data base server    
+   printer server etc....
+======================================================================================================================================================================
+==> What is web service?
+A: web service nothing but service avalible over the web. 
+   Enable the communication between application over the web.
+=========================================================================================================================================
+==> Types of web service?
+A: web service is the two types of web service
+  1. SOAP(Simple object access protocol)
+  2. Rest API( Representation trasfer protocol).
+
+1. SOAP: Soap is Simple object access protocol. it is due to the very old technology and supports only XML formats.it supports only POST request only.
+
+2. Rest full API: Representational trasfer protocol.
+                 It is due to the very latest technology and supports multiple waqys communication XML,Json, get, put,patch,etc.. most of the companies uses the now adays  latest featres more features.
+ all the tasks are saved in gmail or logged in the account.
+
+=========================================================================================================================================
+==> What is the collection?
+A: collections is nothing but multiple request combine then it is called collections.
+==========================================================================================================================================
+==> What is Structure URL?
+A: https://regres.in/api/users?page=2
+   
+   Https://regres.in/ = Domine
+   /api/users = path parameter
+   page=2 = Query parameter.
+
+=========================================================================================================================================
+==> How to Create the First get request
+    click on create collection and
+    click on +signin 
+    select GET from the dropdown
+    Put the api URL
+    and hit send
+Once we hit the URL we can see the response below body section. we can see the response multiple ways XML,JSON, TEXT,Json,etc..
+There are multiple respresentational responses.
+=======================================================================================================================================
+Parms: Parameter of the request.
+Authorization: Login Autheriozation,Token and some api are restrict then that time uses the autheroization.
+Headers: receive from the server.
+Body: Contain all rresponse.
+Pre-req-script: Any request we want to exeute before sending the request.
+Test: Most imp and add validation.all otherscripts also this tab.
+=========================================================================================================================================
+Request payload = We need to send data with our request and its optional
+Response payload = We will always get it against any response
+=========================================================================================================================================
+==> wHAT IS dATA DRIVEN TESTING iN POSTAMAN?
+a: dATA-DRIVEN TESTING IN POSTMAN WE CAN RUN SAME REQUEST MULTIPLE SETS OF DATA.    
+=========================================================================================================================================
+==> How to read the CSV file and json file?
+
+Body Request
+{
+"name" : "{{name}}" ,
+"salary" : "{{salary}}" ,
+"age" :"{{age}}"
+}
+STEPS
+1. Prepare the CVS File
+2. Add the above mentioned code in body
+3. Run the Runner (File > New Runner Window)
+4. Runner will get open in new window/sometime as a tab
+5. Select the desired workspace if runner get open as new window
+6. Select/drag the desired collection if runner get open as tab
+7. Select the … and then click on run if runner get open as new window
+8. Select the itereation (depend on data)
+9. Select Delay = should be mini 10 ms because as a bulk API will take time to respond
+10. Select CSV File From PC
+11. Hit the Preview – It will only preview if our data is in correct format
+12. Hit Run.
+=======================================================================================================================================
+==> wHAT IS IMPORT AND EXPORT COLLECTION?
+a; cLICK ON 3 DOTS AND EXPORT IS hson FORMATS
+   click on import which is avalible in the infront of work space.
+==========================================================================================================================
+==> Postman variables?
+A: sometimes we need to use same data multiple requests in multiple APIs so we need to create variable to store the data we don't need to write the data again and again.
+===========================================================================================================================================>
+ What is collection variable?
+A: Collection variable is knothing but use inside only collections.
+
+==> Environment variables?
+A: Environment variable is knothing but use for all collections.
+
+===================================================================================================================================
+==> Types of requests?
+A: pre-request: which is run after the code.
+   Test: WHICH is run before the code.
+====================================================================================================================================
+==> What is JSON?
+A: JSON is (javascript object Nation). it is light weight process and storing transporting the data. it is used data sent from the sserver ansd web.
+====================================================================================================================================
+===> What is XML?
+A: XML is the stands for Extensible markup language.
+   Markup language for documentation containing structured information.
+   Used to describes the contents of the document.
+   useful in exchanging data between the application.
+   Makes data: easy to read, unambiguous, extensible, platform inmdependent.
+====================================================================================================================================================   
+==> What are challanges faced in API testing?
+A: Intial project setup,
+   Lack of JSON KNowledge
+   API sequencing
+   Test coverage,
+   Tool selection process.
+
+==> What are basic checkup in API Testing?
+A: Verify correct HTTP stsus codes.
+   verify response payload,
+   verify corrct application statement
+===================================================================================================================================================================
+--> What is Groovy script?
+     the groovy script is used to generate and provide the data into the groovy test request.it is used to verify the groovy response. it can be used for set
+     of script property different levels. such as request test step and test case and test suite.
+	
+==============================================================================================================================================================
+==> mention different between POST AND PUT?
+     POST: post request is used for creating a resource. it allows client to create resource without knowing the URL of the new resource
+     PUT: put request is used for both creating and updating the new object in the data base if resource already exists the put will updsate resource.
+===========================================================================================================================================================
+ --> what is the protocol do rest API
+     REST api uses the HTTP protocol to communicate the clients. this allows REST APIs easily deployed over the internet. since http is the same peotocol that
+     is used for web pages.
+	 Ex: 
+
+                                                               CORE Java
+
+--> java is a simple programming language
+--> it is write code and compilation and debugging very easy
+--> and it helps create reusable code.
+--> java has a more features.
+
+platform indipendent: During compilation of programs convert into byte.using the byte code and we can run the application anywhere windows,mac,linux,etc..
+open soure: a program in which source code is avalible to the general public use and modification from original design of free of cost is called open source.
+multithredding: java is a multithredding. it enables a program to perform several task simultaniously.
+more secure:it provides the application firevals between the applicationand the computer
+portable: write once run anywhere
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+--> OOPS:(OBJECTED ORIENTED PROGRAMMING Structure)
+      It is used to program methodology and program stetargy it is reqired to full fill the project requirement.
+       it is used to 4 pillers are there  
+
+ -->CLASS: Class is noting but collection of methods collection of objects
+       Syntax: (first type class name and click ctrl +space)
+                public class Bank {
+                  } 
+               //Bank is a class name
+               //public: is a access specifier.
+
+ --> METHOD: Set of actions to be performed. 
+         Syntax: public void dummy {
+                 } // dummy is methos name
+           Main
+                 public static void main(String[] args) {
+                  }
+    ->Public: public is a Access modifier it is used to call any method or class by JVM from anywhere.
+    ->static: without creating object we are access the Static method
+    ->Void: void is return type we can not return the method that time we can use the void
+    ->main: main is the name of method
+    ->(String[] args): It is used to command line arguments
+
+ --> OBJECT: Run the memory allocation
+             using object we call the any method
+         Syntax: (Class name)(object name) = new(class name)
+
+ -->Inheridance: it is used to one class to the methods and variabls are the anothere class rewriting is called inheridance.
+ -->abstraction: it is used to hiding of unnesssary data.
+ -->encapsulation: it is used to secure data (structure of creatingfolders)
+ -->polymorphism: one thing multiple behaviour.
+---------------------------------------------------------------------------------------------------------------------------------
+inheritance types:
+ 1. single level:  one parent class is directly support into one chaild class using extended keyword.
+ 2. multi level :  one chaild class and morethen one parent class.
+ 3. hierarchal  :  one parent class and more then one chaild class.
+ 4. multiple    :  one class inheritance two parent classes at the same time.
+ 5. hybrid      :  it is combination of single and multiple inheridance.
+----------------------------------------------------------------------------------------------------------------------------------
+         Method overloading                                                                         method overriding
+  1. method over loading develop multiple methods same name           1.method over riding  multiple methods same name  
+     different methods is called method overloading.                    different arguments is called method overriding.
+
+  2.over loading is subselected to single class                       2.over riding is inheritance compulsary.
+
+  3.over loading is change the method signature.                      3.over riding is method signature must be same.
+
+  4.we can change the method hadder over loading.                     4.we can't change the method hadder while overriding.
+  
+  5.over loading will be achive compile time.                         5.over riding will be achived run time.
+
+  6.over loading is an example of compile time polymorphism.          6.over riding will be example of run time polymorphism 
+
+  7.example for overloading is payment travelling                     7.example for over riding is change the callertune.
+-----------------------------------------------------------------------------------------------------------------------------------
+Casting:
+ it is used due to the one primitive data type into another data type is called casting.
+1. widening
+2. narrowing
+   
+1. widening:
+   
+   it is used due to the process small primitive data type into another data type is called widening.
+
+2. narrowing.
+  
+   it is used due to the Assigning bigger primitive data type into smaller is called narrowing.
+---------------------------------------------------------------------------------------------------------------------------------
+ encapsulation:
+ the process of wrapping methods and variables into single unit is called encapsulation.
+EX: class
+    {
+      data member
+    }
+ ----------------------------------------------------------------------------------------------------------------
+polymorphism:
+  
+ one thing multiple behaviour is called polymorphism.
+there are two types of polymorphism
+1.compile time polymorphism: it is used to during compile time multiple behaviour is called compile time polymorphism.
+2.run time poly morphism: it is used run/excute one thing multiple behaviour is called run time polymorphism.
+------------------------------------------------------------------------------------------------------------------
+40. Data types:
+ 
+Data types is the some useful information.
+data types are two types 
+1.primitive data type: it is used to the fixd the memory size
+2.non-primitive data type: it is used due to the does't fixed memory size.
+------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
+42. Operator over loading:
+ 
+  out of all arthematic operation and less operation is called operation over loading.
+---------------------------------------------------------------------------------------------------------------
+43.Identifier:
+
+ identifier means name of the program for identification.
+Ex: program name,class namr,variable,method...
+-----------------------------------------------------------------------------------------------------------------
+44.Key word:
+  
+  these are reserve word or predefine word.
+  Access key word : public,private,static....
+  conditional keyword: else if switch break....
+  iterative: for,while
+  class level: class,package,import,
+  Exception : try,catch.
+  data types :int short,long
+  othere: voliate,transuant
+-----------------------------------------------------------------------------------------------------
+45.Prime number:
+ 
+ a number is called prime number it is devided into 1 it self
+   code:
+   public class div
+   {
+   public static void main(string args[])
+   {
+     int num=11,count=0;
+     if(i=1;i<11;i++)
+    {
+        if(num%i==0)
+     {
+        count++;
+       }
+if (count==2)
+sop(num+" is pn);
+else
+sop(num+" is not pn);
+}
+}
+---------------------------------------------------------------------------------------------------------------
+46.Reverse of a number:
+  
+public class reverse
+{
+public static void main(string args[])
+{
+int num123,rev=0.rem;
+while(num>0)
+{
+rem=rev%10;
+num=num/10;
+rev=rev*10+rem;
+}
+sop(rev);
+}
+}
+------------------------------------------------------------------------------------------------
+47. fibnoci series:
+ 
+ it is a series of two numbers 0&1 other thirs bnumber is even number
+code:
+public class div
+{
+public static void main(string args[])
+{ 
+int f1=0,f2=1,f3;
+sop(f1+" "+f3);
+for(i=1;i<12;i++)
+}
+f3=f1+f2;
+sop(" "+f3);
+f1=f2;
+f2=f3;
+}
+}
+--------------------------------------------------------------------------------------------------------
+48. swappin of two numbers
+  code:
+public class swapping
+{
+public static void main(string args[])
+{
+int a=10,b=20,c=?;
+sop("before swapping_"+a" "+b");
+c=a;
+a=b;
+b=c;
+sop("after swapping_"+A" "+B):
+}
+}
+---------------------------------------------------------------------------------------------------------
+49.Armstrong number:
+   a number is called armstrong number it is individually qube and factorial of num same result same number is called armstrong number.
+public class arm
+{
+public static void main(string args[])
+{
+int num=123;arm=0;temp=num;
+while(num>0)
+{
+rem=rem%10;
+num=num/10;
+arm(rem*rem*rem*arm)
+}
+if(num==arm)
+sop(temp+" is the armstrong number");
+else
+sop(temp+" is the not armstrong number");
+}
+}
+-------------------------------------------------------------------------------------------------------------
+50. Factrial:
+code:
+public class Fac
+{ 
+public static void main (string args[])
+{ 
+int num=5,fact=1;
+for(i=5;i>=1;i++)
+{
+fact=fact*i;
+}
+sop(fact);
+}
+--------------------------------------------------------------------------------------------------------------
+51. Java platform independent language or not
+ yes java is independant language develop under one o.s to another o.s.
+-------------------------------------------------------------------------------------------------------------
+52.Jvm is the particular platform independent
+  java is particular the file particular o.s.
+-------------------------------------------------------------------------------------------------------------
+53.Components of JDK
+   jDk means java developement kit
+   jdk is the develop and requirement and excute application.
+JRE: JAVAruntime environment
+  it is used to require support to the excute develop
+JVM: java virtual machine
+  it is used responce every java program.
+----------------------------------------------------------------------------------------------------------------
+54.Explain do while loop
+   int 
+    do
+    {
+       //body of the loop
+    }
+    while(condition);
+-----------------------------------------------------------------------------------------------------------------
+55.different between pre and post increment
+  pre                                                               post
+1.inc                                                             1.assign
+2.assign                                                          2.inc
+3.update                                                          3.update
+-----------------------------------------------------------------------------------------------------------------
+56.breake key word
+ to stop the operation and jvm will out of the body
+------------------------------------------------------------------------------------------------------------------
+57.for loop
+  for(int i=1;i<1;i++)
+{
+sop(i);
+}
+------------------------------------------------------------------------------------------------------------------
+58.features of java
+   object oriented,roubist,secure,simple,platform independent,familier.
+------------------------------------------------------------------------------------------------------------------
+59.difference between c and java
+            C                                                                     JAVA
+1. it procedural programing language                                   1.it is object oriented language
+2. c is more procedural oriented                                       2.java is data oriented.
+3. c is generally break down the functions                             3.java is break down the object.
+4. c platform dependent                                                4.java is independent
+5. c supports pointers                                                 5.java does not suppoerts pointers.
+---------------------------------------------------------------------------------------------------------------------
+ module :2
+
+   method without argument:
+  method with arguments is the due to the will never write a logic in side class and write a logic inside main method
+  Ex: access specifier static/non-static return type
+       {
+          body of method
+       }
+
+method with arguments:
+method without arguments is the due to the area of the rectangle area of square method are multiple times same output is the
+method with arguments
+Ex: public static void add();
+
+method with return type:
+whenever we want to our method return type of the particular valuewith return type.
+Ex: public static int()
+{
+body of the operation
+}
+
+method overloading:
+it is developing multiple method same different methods is called method over loading.
+------------------------------------------------------------------------------------------------------------------------
+51.Variables
+   Variables are two types 
+   local variables
+   global variable
+   
+ local variable:
+ variables are declared inside main method(main() and userdefine)with in the scope of class it is called local variables.
+ it access of the inside method not outside method
+
+ global variable:
+ global variables are due to the declared outside main method(main() and user define ) with in the class such a variables is called 
+ global variables.
+
+ 1.static variables
+ 2.non-static variables
+ 
+ 1.static variables:
+   Variables which are declared out side in the method with in the class such a variables is called static variable.
+  Ex: class ex
+        {
+        static datatype var=value;
+         main();
+}
+
+2.Non-static variable:
+  variables which are declared outside the method with in the class does't contains such a variables is called non-static variable.
+   Ex: class ex
+         {
+           static datatype var=value;
+         }
+}
+
+Variables
+
+ variables is used due to the store the data
+ it is used to 2 tyoes
+1.variable declaration: it is used due to the reserving one block in our own memory.
+2.variable intialization: it is used due to the store the value in reserving block.
+-----------------------------------------------------------------------------------------------------------------------------
+52.what is array
+A. it is used to collection of data.
+---------------------------------------------------------------------------------------------------------------------------
+53.          static                                                                     non-static
+   1.static means single copy                                                     1.non-static means doble copy
+   2.static members is present static pool                                        2.non-static members present in object.
+   3.static members can't be inherited                                            3.non-static members are can be inherited.
+   4.static method can't be over ridden                                           4.non-static members can be overroden.
+--------------------------------------------------------------------------------------------------------------------------
+54.      Constuctor:
+   constructor is a special type of method which excuted whenever we created an object.
+ Ex: Access modifier constructor name
+{
+body of the method
+}
+----------------------------------------------------------------------------------------------------------------------
+55. 1.constructor does't have any arguments is called no-argument constructor.
+    2.constructor does the any arguments is called paremenant constructor.
+----------------------------------------------------------------------------------------------------------------------
+56.constructor chaining:
+   the process of one constructor from another constructor is called constructor chaining.
+------------------------------------------------------------------------------------------------------------------------
+57.constructor over loading 
+ the process of developing  multiple constructor and same constructor name different methods is called 
+  constructor over loading.
+-------------------------------------------------------------------------------------------------------------------------
+58.object class
+  object class is the parent class it is predefined class or user defined class.
+EX: class A
+    {
+      public static void main(string args[])
+     {
+      }
+}
+--------------------------------------------------------------------------------------------------------------------------
+59.String class
+   it is a method of object class .it provides complete information.
+Ex; public string to string()
+{
+return package name,class name
+}
+--------------------------------------------------------------------------------------------------------------------
+60. collection and frameworks:
+   
+   The collection in java  is frame work that provedes store the manupulation of an objects.
+ 
+ frame work:
+
+the it providess readymade architecture
+it represents a set of classes and interfaces.
+
+it is collection frame works are the represents unified architecture store the manupulation of group of objects.
+classes(arraylist,vector,linked list), interfaces(set,list,deque).
+-----------------------------------------------------------------------------------------------------------------------
+61. Exception handling
+    exception handling is the powerful machanism of the handle run time error and norma;l flow of the exception handling
+    Exception handling is abnormal condition.
+-------------------------------------------------------------------------------------------------------------------------
+62. print max element in arr
+   class max
+{
+   public static void main(string args[])
+   int arr[]={10,324,45,90,9808};
+   int max=arrays,stream(arr).max().getas;
+   sop("largest given array is"+max);
+}
+--------------------------------------------------------------------------------------------------------------------
+63.pattern printing:
+  for(i=1;i<row;i++)
+{
+for(j=1;j<1;j++)
+{
+sop("+");
+}
+sop();
+}
+------------------------------------------------------------------------------------------------------------------
+64.bubble sort
+    bubble sort(arr,size)
+    for i=0 to n-i-1
+    for j=0 to n-i-2
+    if arr[j]>arr[j+1]
+    swap arr[j] and arr[j+1]
+------------------------------------------------------------------------------------------------------------------
+65.queue
+   data structure designed to queue.
+-------------------------------------------------------------------------------------------------------------------
+66.linked list
+   linked list is the part of collection frame work present in java.util package.
+    this class implementation of the linked list data structured.
+--------------------------------------------------------------------------------------------------------------------
+67. why do you Wipro?
+  
+   this is one of the fast growing, a well-reputed company in the market, 
+   employe oriented also your provides oppoertunity in future and  well defined adaptable atmosphere.
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+68. prime number
+   
+ public class 
+{
+public static void main(string args[])
+{
+int num=15;
+int count=0;
+for(int i=1;i<=num;i++)
+{
+if(num%1=0)
+{
+count ++;
+}
+}
+if(count==2)
+sop(num+"is prime number");
+else
+sop(num+"is not prime number");
+}
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+69.Different between interface and abstract class
+          
+               abstract class                                                                                    interface
+1. abstract class is does't support multiple inheritance                                              1.interface support multiple inheritance
+2. abstarct class is final and non-final,static and non-static                                        2.interface is the static and final variables.
+3. abstract class is abstract keyword is used declare abstract class.                                 3.the interface keyword is used declare interface.
+4.as abstract class can be extended using keyword extends                                             4.an interface can be implemented using keyword"implemets".
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                                                              
+																			 SQL
+
+SQL:   https://www.w3schools.com/sqL/sql_top.asp
+
+2. what is data?
+A: a pice of useful information.
+
+3.what is data base?
+A: whereve store the data.
+
+4.What is DBMS
+A: data base management system.DBMS is program that you can store the data.retrives and modifiers data in request of DATA BASE.
+   DBMS DIFFERENT TECH development,maintanance of the database.
+
+                                 (or)
+								 
+	DBMS is the software. which is save the data in the form of table it will store the data in data base in the form of organizational and systematic manner.
+     Ex: just like in library we check the material relataed to physics chemistry in one row so we can fetch the data systemattic manneer.
+	 
+5.SQL other name?
+A: SEQUAL(Structured english query language)
+
+6.H DBMS:
+A:store the data hirarchal manner.
+ 
+7.N DBMS:
+A: store the data hirarchal manner and networking structure.
+
+8.R DBMS:
+A:STORE THE DATA TABULAR MANNER
+------------------------------------------------------------------------------------------------------------------------
+9. Diff types of SQL
+    DDL,DML,DTL,DCL,DQL
+    1.DDL(DATA DEFINITION LANGUAGE)
+      Create  : it is used to create a table and coloum name and table name.
+      Alter   : it is used to add a coloum and delete a coloum.
+      rename  : it is used to change table name.
+      truncate: it is used to delete the data inside the table.
+      Drop    : it is used to delete the table.
+    2.DML(DATA MANUPULATION LANGUAGE)
+      Insert  : it is used to insert the data.
+      update  : it is used dueto the change the data present table.
+      delete  : it is used to particular data.
+    3.DTL(DATA TRANSLATION LANGUAGE)
+      Commit  : store the data inside parminantly.
+      save point: it is used to save the data tempararly
+      roll back: it is used to back to the save point.
+    4.DCL(DATA CONTROL LANGUAGE)
+      Grant   : it is used to give permission see our data.
+      Revok   : it is used to take back the parmission.
+    5.DQL(DATA QUERY LANGUAGE)
+      it is used to search the data inside the databse.
+	  
+	  
+	  SELECT * FROM Customers WHERE NAME LIKE '%G';
+	  
+	  SELECT INSTR(CustomerName, "a")
+      FROM Customers;
+--------------------------------------------------------------------------------------------------------------------
+10. Aliasing:
+
+A:  for giving name do there displaying another name is called alising.
+
+     Ex: SELECT customer_id AS id, first_name AS first
+         FROM Customers;
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+11. literal:
+
+A:  litral nothing but data.
+    there are three types of literals.
+    number:420
+    character: 'HELLO'
+    Data :'23-11-1999'
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+12.Concat:
+
+A: it is used to merge the data.
+   EX: SELECT customer_id||first_name
+       FROM Customers;
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+13.Arthematic operator: +,-,*,/
+   relational operator: >,<,<=,>=.
+   
+   logical operator: and,or..
+   special operator: between,if,is,is null....
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+14.Between operator:
+A: whatever you have any range of value that time will makes use the operator.
+EX: 
+   Select * From Customers
+   WHERE age BETWEEN 31 AND 50;
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+15.in operator:
+ 
+A: it is used due to the multiple or condition for a single coloum that is called in operator.
+  EX: select * 
+      from emp 
+      where job;
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+16. is null operator:
+
+A: it is used to the verify the null data present in the table
+   EX: SELECT first_name 
+       FROM Customers
+	   Where first_name IS NULL;
+--------------------------------------------------------------------------------------------------------------- 
+17. Like operator:
+
+A: like opearator is a wild card operator it is used wildcatd operations.there are two wildcard operations
+    1.% ----> 0-N no.of characters
+    2._ ----> used to represent no.of characters.
+------------------------------------------------------------------------------------------------------------------
+18. logical operators
+
+A. it is uses the combinational and other special characters.
+   Ex: select *
+       from emp
+       where comm is not null;
+------------------------------------------------------------------------------------------------------------------
+FUNCTIONS
+19. function is operations.
+     functions are two types of functions
+     1.single row functions: it is used due to the each row input and procedural each row output.
+     2.multi row functions: it is used due to the different outputs only one output.
+	 
+ Single row functions are
+ 
+20. length:
+A:  It is used to the findout the length of the data.
+    EX: select ename length(ename) from emp;
+-----------------------------------------------------------------------------------------------------------------------
+21. Lower:
+    It is used to the lower case to upper case
+     Ex: select ename AS lowercaseename from emp;
+----------------------------------------------------------------------------------------------------------------------
+22.upper:
+    It is used to lower case to upper case.
+    Ex: select ename AS uppercaseename from emp;
+--------------------------------------------------------------------------------------------------------------------
+24.int cap
+   int cap is used to the first letter capital and remaining will lower case.
+    Ex: select ename intcap(ename) from emp;
+-------------------------------------------------------------------------------------------------------------------
+25.concat:
+A: it is used due to the merge the data
+    EX: select ename,jobb concatename,job from emp;
+-------------------------------------------------------------------------------------------------------------------
+26. nested functions:
+A: one function is called inside and other is called nested function.
+  Ex: select ename,job concat(ename,job) length(ename,job)
+        from emp;
+------------------------------------------------------------------------------------------------------------------
+27. Replace
+A: it is used due to the replace sequence of the character in string 
+    replace(ip1,ip2,ip3)
+      Data
+      replace to the 
+      char replace
+replace(java,'a','b')= jbvb.
+---------------------------------------------------------------------------------------------------------------------
+28.Sub string 
+A: it is used due to the partial data or sub data
+    (ip1,ip2,ip3)
+    data
+    starting position 
+    number of character
+select ename substr(ename,1,3) from emp;
+-------------------------------------------------------------------------------------------------------------------
+29.instring
+A: it is used due to the display the position of characters
+ (ip1,ip2,ip3,ip4)
+data
+search the char
+starting position 
+occurence
+select ename instr(ename,1,1) from emp;
+------------------------------------------------------------------------------------------------------------------
+30.System time stamp fun: select sys time stamp from dual;
+31.system date fun: select  6yr from dual;
+32.trunc: truc(data)
+33.round: its give decimal value output integer value
+34.mod: mod(data)
+-------------------------------------------------------------------------------------------------------------------
+Multi row functions:
+1.max(sal)  : max is used uptain max present in the coloum.
+2.min(sal)  : min is used uptain min present in the coloum.
+3.avg(sal)  : avg is used uptain avg present in the coloum.
+4.sum(sal)  : sum is used uptain sum present in the coloum.
+5.count(sal): count is used uptain count present in the coloum.
+ ex: select max(sal) from emp;
+--------------------------------------------------------------------------------------------------------------------
+JOINS:
+joins are used due to the two or more tables will displying single table is known as joins
+                                                  (or)
+joins are used due to the will disply the multiple tables at a time is known as joins 
+
+joins are used diff types
+
+ eqvi joins,non eqvi join, self join,cross join/cortisian join,outer join
+ 
+1.eqvi join/inner join:
+A: eqvi joins are due to the two are more tables will equalto operator is used eqvi joins.
+                                               (or)
+   inner join is used due to the common information different tables.
+EX. Oracle:
+    select * from emp,dept where emp,deptno=dept,deptno;
+    ANSI:
+    select * from emp join dept on emp,deptno=dept,deptno;
+	
+	(Or)
+	
+	Select *
+	From A
+	Inner join B on A.key = b.key
+	
+	Select Coloum_name
+	fROM table 1
+	Inner join table 2
+	on table 1. colum name = table2.column name;
+------------------------------------------------------------------------------------------------------------------------
+2.non-eqvi join:
+
+A: it is used due to the two or more tables equal to operator not used then it is known as non eqvi join
+   ex:  select * from emp,salgrade where emp between hisal and lowsal;
+ANSI:EX:select * from emp join salgrade on emp between hisal and low sal;
+
+
+Select * from EMP,salgrade
+Wher emp between low sal and high sal;
+------------------------------------------------------------------------------------------------------------------------
+3.self join:
+
+ it is used to joining the table self is known as self join
+   select * from e.emp,m.emp where e.mgr=m.empno;
+   select * from e.emp join m.emp on e.mgr=m.empno;
+   
+  Syntax: SELECT column_name(s)
+          FROM table1 T1, table1 T2
+          WHERE condition;
+		  
+  Query: SELECT A.Customername AS Customername1, B.Customername AS Customername2, A.city
+         FROM Customers.A,Customers.b
+		 Where A.Customer ID <> B.customer ID
+		 AND a.city = B.city
+		 Order by A.city;
+------------------------------------------------------------------------------------------------------------ 
+ 4.cross join:
+ 
+  it is used to two are more tables does't provides joing condition is default is known as cross join
+    select * from emp crossjoin deptno;
+	
+	Syntax: SELEECT Column_name
+	        FROM table 1
+			CROSS JOIN TABLE 2;
+			
+	Query: SELECT Customers.first_name,Orders.item
+           FROM Customers
+           CROSS JOIN Orders;		   
+------------------------------------------------------------------------------------------------------------------
+5.outer join
+
+    it is used due to the inner join and left outer join
+	
+6.left outer join:
+    it is use the due to the innerjoin and left outer data left side information.
+ ex: select * from emp,dept where emp,deptno=dept deptno(+);
+ 
+ Syntax: SELECT COLOUMN _NAME;
+         FROM TABLE1
+		 Left JOIN TABLE 2
+		 ON TABLE1.columnname = table 2.coloumn name;
+		 
+ Query: SELECT Customers.customerame, orders.orderID
+        FROM Customers
+		LEFT JOIN Oders
+		ON Customers.customerID = Oders.customer ID
+		Order by Customers.customer name;
+		
+ 
+7.right outer join:
+
+    it is used due to the inner join right outer join leftside of the data.
+ ex: select * from emp where emp,deptno(+)=dept deptno;
+ 
+  SELECT Customers.customerame, orders.orderID
+        FROM Customers
+		Right JOIN Oders
+		ON Customers.customerID = Oders.customer ID
+		Order by Customers.customer name;
+ 
+8.full outer join:
+
+  it is used due to the right and left side of the present in table
+  EX: select * from emp,full outer join dept  on emp,deptno=dept,deptno; 
+
+SELECT Customers.customerame, orders.orderID
+        FROM Customers
+		FULL OUTERJOIN Oders
+		ON Customers.customerID = Oders.customer ID
+		Order by Customers.customer name;
+  
+-------------------------------------------------------------------------------------------------------------------------------
+     =>Where and having?
+	 
+“Where” clause is used to filter the records from a table that is based on a specified condition, then the
+ “Having” clause is used to filter the record from the groups based on the specified condition.
+
+=================================================================================================================================================
+                                                    
+Querys: 
+
+Create:
+
+Create table persons (
+Present ID int;
+first name varchar(255),
+last name varchar(255),
+Address varchar(255),
+City Varchar(255),
+);
+
+                  (or)
+				  
+Select * From Customers;
+========================================================
+
+Alter: 
+
+ALTER TABLE Customers;
+ADD Email varchar(100);
+
+ALTER TABLE Customers;
+DROP Email varchar(100);
+=========================================================
+Rename:
+
+ALTER TABLE Customers
+RENAME COLUMN Emails to Email;
+
+===========================================================
+Trunkte:
+
+TRUCATE TABLE Customers;
+
+===========================================================
+Drop
+
+DROP TABLE Customers;
+===========================================================
+Insert, Update, Delete.
+
+Insert: INSERT INTO Customers (First_name,age,last_name,country)
+        VALUES ("VAMSI","24","KRISHNA","INDIA");
+
+UPDATE: UPDATE Customers
+        SET first_name = vamsi
+        Where customer_id = 5;
+
+Delete: DELETE FROM customers
+        Where customer_id = 5;
+
+================================================================		
+COMMIT, SAVEPOINT, ROLLBACK
+
+COMMIT: commit is nothing but inside data perminently
+
+SAVE THE : inside the data temprorly
+
+Rollback: back to the save point.
+
+=================================================================
+GRANT Revok
+
+Grant: IT is give permission seee our data
+
+Revok: it is take back the permission.
+
+=================================================================
+
+                                                                         Selenium
+																		 
+																		 
+																		 ==> What is the selenium?
+A: Selenium is the portable framework and software testing.selenium is tool playback tool for functional tests no needd to learn scripting languages.
+   Selenium is the one of the mostly wide used open source web UI testig suite.json hugies developed selenium in 2004 international tool at thought works.selenium supports various programming
+   Laungages different browsers and platforms.
+   
+   Selenium is automation tool and it is pen source tool. selenium both functional and non functional testig. selenium supports so many lang: 
+===============================================================================================================================================================================================
+==> What is the test automation and automation testing?
+
+A: test automation:
+   ================
+    Test automation uses the automation tools write the and execute the test cases,no manual involvement is necessary an automated test suite.testers prefer the automation tools to write the test scripts and into
+    test suites.
+
+   Automation testing:
+   ==================
+    Automation testing enable the use of specilization tools manually designed test cases without human inverstment.automation tools can access the test data. control the execution of the
+    test cases and result expected and actual results.generating detail report.
+=============================================================================================================================================================================================
+==> What are the advantages of automation testing?
+A: it save time and money.
+   no need to human erors.
+   it supports executio test cases.
+   Automation testing supports both functional and performance testing.
+==================================================================================================================================================================================
+==> Name of some commonly used automation testing tools used for functional testing?
+A: Tosca test suite.
+   Coded UI
+   Selenium
+   Auto It
+=================================================================================================================================================================================
+==> Name of some commonly used testing tools for NON-Functional testing?
+A: Load runner, J meter, Burp suite.
+=================================================================================================================================================================================
+==> What are the componenets of the selenium?
+a: Selenium(IDE) Integration developement environment
+   Selenium remote control
+   web driver
+   selenium grid
+====================================================================================================================================================================================
+=> List of names of programming langaes and browsers and os?
+    programming Laungages: C#,python, java, java script,PHP,perl.
+    OS: Andriod, IOS, Windows, Linux, Mac.
+    Browser: Google chrome, Mozila firefox,edge,opera safari etc......
+=======================================================================================================================================================================================
+==> What are the significant of the versions selenium?
+A: Selenium V1.0: this is intial release and tools: Selenium IDE seleniumRC and selenium grid.
+   Selenium V2.0: This is Selenium web driver replacing selenium RC tools: Selenium websriver and lagacy package.
+   Selenium V3:  this is the latest selenium 3 has new added features functionality.tools: Selenium IDE, Seleniumweb driver, selenium grid.
+=========================================================================================================================================================================================
+==> List of the some testing types by selenium?
+A: Integration testing. Functional testing, regression testig, cross browser testing, integration testing UI testing, smoke testing, sanity teting.
+======================================================================================================================================================================================
+==> What is selenium IDE?
+A: Selenium IDE is implemented firefox extenction which is provided and playback functionality of the test scripts.it allows testers export the record various languages like HTML,
+   Ruby, java,python, C#, jUnit, TestNG.
+   Selenium IDE limited scope and generated test scripts roubst and portable.
+====================================================================================================================================================================================== 
+==>  What is Selenium Grid?
+A: Selenium grid is nothing but if you have any tests distribute to the multiple machines.you can execute tests some machines firefox, chrome,mac server and with in the same script.
+   It execute the time then that is called selenium grid.
+============================================================================================================================================================================================= 
+==> What is web driver?
+A: Web drver is nothing but it is a open source collection of APIs which is used to testing web applications. The selenium web driver tool help automated the web application is 
+   expected or not. Mainly support browsers : Google,chrome,firefox,internet explorer.etc....
+=======================================================================================================================================================================================   
+==> What are the different ways to selenium locators?
+A: Selenium web elements are identified and located with the help of the locators.
+   ID, Class name, Xpath, Name, Tag name, LinkText, CSS Selectors.
+====================================================================================================================================================================================
+==> How many types of webdrivers API'S ARE present in the selenium?
+A: Andriod driver
+   Chrome driver
+   Fire fox driver
+   Remote web driver
+   Iphone driver
+======================================================================================================================================================================
+==> List out of the some of the automation tools which could integrated with selenium achive continous testing?
+A: Selenium automated functional testing and integrated test tools such as MAVEN, Jenkins, Docker and achive continuos testing. and TestNG and Junit for managing cases and generating process.
+=======================================================================================================================================================================================
+==> What do you mean by assertions in selenium?
+A: Assertion is the verification point. it is verifies due to the application expected.the types of the assertions like assert, verify, wait for.
+===================================================================================================================================================================================
+==> Explain different between assert and verify commanads?
+A: Assert: Asert is checking for condition true or false. if it is true the program will control will execute the next phase and if it false execution will stop.
+   Verify: if any falilure doing verification would not stop execution.
+==================================================================================================================================================================================
+==> What do you mean by XPATH?
+a: Xpath is the XML path,It is used Language query XML document.Xpath is the any element locate or navigate to the webpage. 
+=======================================================================================================================================================================================
+==> What is Xpath attributes and Xpath Absolute?
+
+A: Xpath Absolute: Xpath absolute is nothing but the complete xpath location from HTML tag to the specific element.
+    Syntax: //html/body/tag1[index]/tag2[index]/.../tagN[index]
+    Example: //html/body/div[2]/div/div[2]/div/div/div/fieldset/form/div[1]/input[1]
+   
+   Xpath Attributes: Xpath Attributes is knothing but recommended you don't have any id or name attributes you have locate.
+   Syntax: //htmltag[@attribute1='value1' and @attribute2='value2']
+   Example: //input[@id='passwd' and @placeholder='password']
+===================================================================================================================================================================================
+==>  What is the difference between "/" and "//" in XPath?
+A: Single Slash "/": Single slash is used to create XPath with absolute path.
+
+   Double Slash "//": Double slash is used to create XPath with the relative path. 
+=========================================================================================================================================================================================
+==> What are the different types of annotations which are used in Selenium?
+A: Test
+   Before
+   After
+   Ignore
+   BeforeClass
+   AfterClass
+   RunWith
+=====================================================================================================================================================================================   
+==> What are the WebDriver supported Mobile Testing Drivers?
+A; AndroidDriver
+   IphoneDriver
+   OperaMobileDriver
+=====================================================================================================================================================================================
+==> What are the popular programming languages supported by Selenium WebDriver to write Test Cases?
+A: core java, python, ruby, C#, PHP.
+==========================================================================================================================================================================================
+==> What is the difference between type keys and type commands?
+A: TypeKeys() will trigger JavaScript event in most of the cases whereas .type() won't.
+=============================================================================================================================================================================================
+==> What is the difference between "type" and "typeAndWait" command?
+A: Type keyword is used due to the is their any key values enter in the text box that time it is used.
+   TypeAndWait: is used due to the software application to page relod.
+================================================================================================================================================================================================
+==> What is the difference between findElement() and findElements()?
+A: findElement(): It is used to find the first element within the current page using the given "locating mechanism". It returns a single WebElement.
+
+   findElements(): It uses the given "locating mechanism" to find all the elements within the current page. It returns a list of web elements.
+==============================================================================================================================================================================================
+==> What is the wait? How many types of waits in selenium?
+A: there are two types of waits
+   => implicit wait
+   => explicit wait
+=======================================================================================================================================================================================
+==> How can we launch different browsers in Selenium WebDriver?
+A: WebDriver driver = newFirefoxDriver();
+===================================================================================================================================================================================================
+==> Write a code snippet to launch Firefox browser in WebDriver?
+A: 
+    public class FirefoxBrowserLaunchDemo {  
+  
+    public static void main(String[] args) {  
+  
+   //Creating a driver object referencing WebDriver interface  
+    WebDriver driver;  
+  
+   //Setting webdriver.gecko.driver property  
+    System.setProperty("webdriver.gecko.driver", pathToGeckoDriver + "\\geckodriver.exe");  
+  
+   //Instantiating driver object and launching browser  
+    driver = newFirefoxDriver();  
+  
+   //Using get() method to open a webpage  
+    driver.get("http://javatpoint.com");  
+  
+  //Closing the browser  
+    driver.quit();  
+  
+    }  
+}  
+=================================================================================================================================================================================================
+ ==> Write a code snippet to launch Chrome browser in WebDriver.
+ 
+ A: pubic class chromedriver {
+    public static void main(String[] args) {
+    WebDriver driver;
+    System.setProperty("webdriver.chromedriver", " path ");
+    driver = new chromedriver();
+    driver.get("http:// javatpoint.com");
+    driver.quit():
+}
+}	
+=================================================================================================================================================================================================
+==> Write a code snippet to launch Internet Explorer browser in WebDriver.
+A: pubic class Internetexploreerdriver {
+    public static void main(String[] args) {
+    WebDriver driver;
+    System.setProperty("webdriver.ie.driver", " path ");
+    driver = new InternetExplorerdriver();
+    driver.get("http:// javatpoint.com");
+    driver.quit():
+}
+}
+===========================================================================================================================================================================================
+==> Write a code snippet to perform right-click an element in WebDriver.
+A: 
+   Actions action = NewActions("driver");
+   WebElement element = driver.findElement(By.is("elementid"));
+   actions.contextClick(element).perform();
+======================================================================================================================================================================================================
+==> Write a code snippet to perform mouse hover in WebDriver.
+A:
+   Actions ction = NewActions(driver);
+   WebElement element = driver.findelement(By.is("elementId"));
+   Actions.move to element(element).perform();
+=======================================================================================================================================================================================
+==> How do you perform drag and drop operation in WebDriver?
+A:
+    WebElementfromWebEleemnt = driver.findelemet(By Locater of fromWebElement);
+    WebElementtoWebelement = drver.findElement(By locater of to Web Element);
+	Actions build = New actions(driver);
+	Actions.draganddrop =builder.clickAndHold(FromWebElement).movetoelement(toWebElement).release(to WebElement).build();
+	drangAndDrop.perform();
+========================================================================================================================================================================================
+==> What are the different methods to refresh a web page in WebDriver?
+A: 
+    1. Using driver.navigate command -
+	   driver.Navigate().Refresh();
+	
+    2. Using driver.getCurrentUrl() with driver.get() command -	
+	   driver.get(driver.getCurrewntUrl());
+	   
+	3. Using driver.getCurrentUrl() with driver.navigate() command -
+       driver.Navigate().to(driver.getCurrentUrl());
+    
+    4. Pressing an F5 key on any textbox using the sendKeys command -
+       driver.FindElement(By.textboxlocator).SendKeys(Keys.F5);
+	   
+	5. Passing ascii value of the F5 key, i.e., "\uE035" using the sendKeys command -
+       driver.findElement(By.textboxlocator).sendKeys("\uE035");
+=======================================================================================================================================================================================
+==>  Write a code snippet to navigate back and forward in browser history?
+A:  Back: driver.navigate().back();
+    forword: driver.navigate().forword();
+===========================================================================================================================================================================================
+==>  How to invoke an application in WebDriver?
+a: DRIVER.GET("url")	OR   driver.Navigate().to("Url")
+============================================================================================================================================================================================
+==> What are the benefits of Automation Testing?
+A: 1. save the time and money
+   2. Execution of repeat test cases.
+   3. It enables parallel execution
+   4. Automation Testing encourages unattended execution
+   5. It improves accuracy. Thus, it reduces human-generated errors.
+============================================================================================================================================================================================   
+==> How can we get a text of a web element?
+A: Get command is used for the get the command of web element. get command doesn't required any parameter. but it runs different type of strings.
+
+Syntax: String Text = driver.findelement(By.id("Text")).getText();
+============================================================================================================================================================================================
+==> How to select value in dropdown?
+A: we use the web driver select class
+
+Select By VALUE:
+
+   Select selectByValue = new select.driver.findelement(By.id selectByValue.selectByValue("greenvalue"));
+
+sELECT BY Visible Text:
+ 
+   Select selectByVisibleText = new select.driver.findelement(By.id selectByVisibleText.selectByVisibleText("LIME"));
+   
+========================================================================================================================================================================================
+==> What are the difference types of navigation commands
+
+    Driver.navigate().back();
+    driver.navigate().forword();
+    driver.navigate();refresh();
+    driver.navigate().to("https://google.com");
+==================================================================================================================================================================================
+==> How to deal with frame in Web DRIVER?
+a: driver.SwitchTo().frame("ID");
+
+   driver.switchTo().frame(driver.findElement(By.tagname("Text").get(0));
+   
+   driver.switchTo().frame(0);
+   
+   Driver.switchTo().frame("Nameoftheframe");
+   
+   driver.switchTo().defaultcontent();
+   
+ ==========================================================================================================================================================================================
+==> How to type a text in a textbox using selenium?
+
+A: WebElement username = driver.findelement(By.id("Email"));
+
+    Username.sendkeys("sth");
+
+====================================================================================================================================================================================
+==> How can you find if an element is displayed on the screen?
+A: Web driver allows user to check to visibility of the web element. this web elements can buttons radio buttons drop heck boxes etc..
+
+    -> isDisplayed()
+    -> isSelected()
+    -> isEnabled()
+
+Syntax:
+
+    Is Displayed();
+      
+         boolean buttonPresence = driver.findElement(By.id("abcdefg").isDisplayed();
+
+    Is Selected();
+
+         boolean buttonPresence = driver.findElement(By.id("abcdefg").isSelected();	
+	
+    Is Enabled();
+ 
+         boolean buttonPresence = driver.findElement(By.id("abcdefg").isenabled();	
+		 
+===================================================================================================================================================================================
+==> How to click on a hyper link using link list?
+
+A: driver.findelement(By.linktext("google")).click();
+
+   driver.findelement(By.partiallinkText("google").click();
+=========================================================================================================================================================================================
+==> What is MAVEN?
+
+ maven is a project management tool that is based on (POM Page object model).it is used for build the project and dependancy and documentation.
+=====================================================================================================================================================================================
+==> What is the Cucumber frame work?
+A: Cucumber fame work in selenium is an open- source testing frame work that supports behaviour driven developement for automation testing of web application.
+   The testers are ffirst written simple scenario.
+================================================================================================================================================================================
+Exceptions: NoSuchElement exception, Nosuchframe exception, NoSuch window exception, Stele element relavence exception, Time out exception.
+
+==> What is feature file,Step definition, test runner?
+A: Feature file: Feature file is knothing but common file containing the feature description, scenarios, and step for testing a features.
+
+   Step definition: Step definition file maps the test case steps in the features file(interduced by given when then to code.
+   
+   TEST Runner: Test runner is tool it is used to run or execute tests and export results.
+ =======================================================================================================================================================================================
+ 
+                                                                           Azure Active directory		 
+	
+=> What is Azure?
+A) Azure is A cloud provider owned by microsoft. Which provider its users a wide range of service via school.
+     User >> Cloud/Internet >> Azure Data Centere.
+=========================================================================================================================================
+=> Azure Service?
+A)  PAAS ( Platform As a service )
+    IAAS ( Infrastructure As a Service )
+	SAAS ( Software as a service )
+======================================================================================================================================
+=> What is AAD connect?
+A) Azure Active Directory (Azure AD) is a cloud-based identity and access management service. 
+   Azure AD enables your employees access external resources, such as Microsoft 365.
+                                 (or)   
+	Integrating on-primisive directories with Azure ad makes you users productive and provideing common accessing both cloud and 
+     on primissive resources.
+    Adv:
+       -> user can single identity to access on-primisive application and cloud service.
+========================================================================================================================================
+=>What is MFA and How to enable MFA?
+A) Multi factor authentication It requires are user prompt 2 or more authentication to access resource.
+
+    Home > Users > Password reset > Authentication.
+========================================================================================================================================
+=> What is Identity protection?
+A) identity protection is protect the identitys and protect the risks and Anonymous IP Address and typical travel and malware ip ADDRESS.
+======================================================================================================================================= 	   
+=> What is conditional Access policy?
+A) Conditional Access policy is the tool it is used Azure AD and bring to gether signals and make a decisions and 
+   enforce organizational policy.
+   Home > Conditionalaccess policy > policies.
+======================================================================================================================================
+=> . What is benefits of Azure AD connect?
+
+A:  Synchronize object to Azure AD
+      Password Hash Synchronize
+      Pass through authentication
+      Password write back
+      Single sign on
+      Federation
+      Hybrid Deployment
+========================================================================================================================================
+=> What is SSPR?
+A) Self service password reset. it is a feature of Azure Active directory. which ability to reset and change the password without any contact details.
+   Benfits: Flexible and security and manage the cost.
+====================================================================================================================================================
+=> What is Enterprise application app registration?
+A) EA:- Which are published by the other companies in AAD gallery that can be used in your organization.
+       Ex:- If you want to integrate salesforce and manage the SSO and with in you organization and you can integrate enterprise appllication.
+
+   AR:- App register means which we are creating custom integrated.
+    Home > Enterprise application.
+	   permissions:- 
+=================================================================================================================================================
+=> Two types of permissions?
+
+A) Deligated permissions:- Deligated permissions are used in the deligated scenarios. 
+                           They are permissions to allow the application to actions a user in behalf.
+   Application permissions:-Without username and credentials permissions. it is also scopes and permissions it is known as application permission.
+=====================================================================================================================================================
+=> What is Admin concern and Userconcern?
+A) Admin concern:- Admin can accept the concern can come the prompt to user.
+
+   User concern:- User can accept the concern user can login
+=====================================================================================================================================================
+=> What is protocols?
+A) Azure AD supports many standartized protocols for authentication and autherization. Such as SAML, Open Id, O auth2.0 and WS-federation.
+   SAML:- (Secure asumption mark up language) It is open stands for exchanging the authentication and autherization data between parties.
+           and in between identity provider and security provider.
+   Open ID:-Open id is a protocol and Open id Assitional security layer.open id is a security token and open id is secure client verifies the identity to user.
+
+   OAuth:- Oauth is protocol Open-standard Autherization protocol.this protocol designed to allow the websites or application to access the resorce hosted 
+   by other web apps behalf of user.
+=========================================================================================================================================================
+=> What is ADFS ?
+A) Active directory federation service (ADFS) 
+   ADFS provides simplified Secured identity federation and web single sign on capabilities.
+   federation with azure AD enable the authentication using on-primise credential and access the all cloud resource.
+   
+   prerequisite:- SSL (Secure Socket Layer)
+                  Domaine Administration, 
+                  ADFS Service account.
+				  
+	Certificate:- Service communication
+                  Token-Decrypting 
+                  Token-Service
+======================================================================================================================================================
+Relaying party trust:- A user whos have logged into application ADFS becomes claim provider send to the token.
+
+Claim provider trust:- Claims provider trust is a trust.it is trust is ADDS to ADFS.
+                       ADDS is the all the attributes trying to logged in to the authentication the application and all the attributes take out.sends to
+                       ADDS to ADFS. in terms of all the attributes is called claims					   
+=========================================================================================================================================================
+=> What is Device Registration?
+A) to join our register device to the Domine Either on-primise or Azure to the Access the organizational resource.
+
+=> Why we neeed to bring the Azure AD
+A) Device registration is We are trying to access the resource Worker or school account.
+===============================================================================================================================================
+=>Types of Device registration.
+  -> Azure AD join.
+  -> Azure AD register
+  -> Hybrid azure AD joine.
+
+Azure AD Join:- Azure AD join is the due to the by own organization and sign in with AD account belonging to the organizational.
+
+ It supports:- Wind 10 2019
+==========================================================================================================================================
+Azure AD register:- Azure AD register is due to the device provide the user with the support.to bring your own device or mobille device 
+                    you can signed in your organization.
+==================================================================================================================================================
+Hybrid Azure AD join:- User who has access the application to login On-primissive resource and on-primisive application.
+=============================================================================================================================================
+=> What is DAevice sign-in options?
+A) Username and password.
+==============================================================================================================================================
+=> What is NPS&E?
+A) Network policy Server & Extention create and enforce organizational-wide network Access policy for connecting request authentication and autherization.
+   Extension:- Extention is a middile part of NPN and server and cloud MFA.
+==================================================================================================================================
+=> What is AAD prpxy?
+A) To connect with on-primises and cloud resource acceess the application.
+================================================================================================================================================================
+=> what is service accounts?
+A) service account is used to one or more services or applications in a windows environment. ex: share point, SQL server,IIs internet information server.
+                                                 (or)
+   suppose we created one tenant there multiple peoples 												     
+===================================================================================================================================================================
+=> What is Server? what is he use?
+A: A server is a computer program or device that provides a service to another computer program and its user, 
+   also known as the client. In a data center, 
+   the physical computer that a server program runs on is also frequently referred to as a server.     
+use:-
+   A server stores, sends, and receives data.	
+=======================================================================================================================================================================================
+=> What is domine?
+A:- An Active Directory domain (AD domain) is a collection of objects within a Microsoft Active Directory network.
+    An object can be a single user or a group, or it can be a hardware component, such as a computer or printer.
+	Each domain holds a database containing object identity information. 
+==================================================================================================================================================================================================
+=> What DHCP DNP?
+a: DHCP: Dyanamic host configuration protocol
+   DNP: Dyanamic network protocol.
+=============================================================================================================================================================================================
+=> What types of windows backup?
+A: Full backup 
+   Intermediate backup
+   Diffeencial backup
+   Mirror backup
+===========================================================================================================================================================================================
+=> What are the types of services?
+A: ADDS: Active directory Domine services.
+   ADFS: Active directory federation services.
+   Domine services: Centralized the data and manage the communication.
+   Certificate services: It generate and manage and share the services.
+   light weight services: Supports directory enabled the applications.
+================================================================================================================================================================================================
+=> What class of ip address?
+A: Brod cost 
+   Uni cost
+   Multi cost
+   Anycast
+============================================================================================================================================================================================
+=> Ip Address?
+A: What is IP address?
+Ip address is nothing but "Internet protocol". An ip addresss is unique number of each and every devices.
+======================================================================================================================================================================================================
+   
+                                                                        HR questions
+
+===================================================================================================================================================================================
+1.What’s your weakness?
+ 
+My biggest weekness is that at times i overbudden my self with work.i have conciously worked on this by prioritize.what is most important working according to that.
+
+   Multi-tasking
+==============================================================================================================================================================================   
+   
+2.What’s your salary expectations?
+
+As per industry 50 to 100%
+
+over the 2 years i have lirteally up skilled my self. i belive based on the market but particular this role.
+and my exp and skill set a salery range between 50 to60 would fair appropriate
+
+===============================================================================================================================================================================
+
+3.Why should we hire you?
+
+I have the qualifications, experience, and attitude to contribute to your company.
+I am a quick learner, adaptable, and process excellent communication and
+problem solving skills. E
+
+===================================================================================================================================================================================
+
+4.What are your goals?
+
+My short-term goal is to get a job in your comp. my long-term goal is to see
+myself in a position in your company by doing my work with honesty and 
+hard work. One of my life goals is to gain knowledge and experience to get 
+the job positions my future career achieve.
+
+====================================================================================================================================================================================
+
+5.Do you have any questions?
+
+Are there any suggestions you want to give to me so that I can work on that.
+
+===================================================================================================================================================================================
+
+6.What are your strengths?
+
+Creativity, positive, Teamwork, Enthusiasm, Determination, problem solving.
+
+=======================================================================================================================================================================================
+
+7.What are your hobbies?
+
+I love travelling and try t take evry sesion.travelling adapt new situations and planning skills to enkoy to tyhe fullest.
+
+1.Volunteering & Community Participation Activities
+2.Sports, listening to music.
+
+==========================================================================================================================================================================================
+
+8.What motivates you?
+
+Learning new things,
+acquiring new skills
+meeting deadlines and goals 
+Improving processes
+Finding ways to solving problems
+Being a part of a team
+Overcoming challenges.
+==============================================================================================================================================================================================
+9. wHY DID YOU LEAVE YOUR PREVIOUS COMPANY?
+a;
+
+My mom was not keeping well. that time i had to prioritize my family.so now everything is good and iam very excited to get back work and focused on my carrier.
+
+    1.i want to take new responcibilities that this role and compony couldn't offer.
+	
+	2. i didn't feel the job was using my abilities to the fullest.or chalanging me enoght.
+	
+	3. i had working with the org for 2yr and wanted to experience new environment to continue growing.
+	
+	4. i didn't feel there was an opportunity to grow advancefurthere in the role. so i decide would best my carrerer.
+==========================================================================================================================================================================================
+10. how to say  "I DON'T KNOW" TYO AN INTERVIEWR?
+a: mAM IAM GLAD THAT YOU BROUGHT THIS UP. IAM VERY CLEEN LEARN THISCOURCE AND PURSUING CERTIFICATION COURCE AND IAM STILL IN STUDY STAGE UNDER PROPER GIVE THE GUIDENCE I WILL BE ABLE QUICKLY LEAREN.
+===========================================================================================================================================================================================
+11. hOW DID YOU HERE THIS POSITION?
+a: I am actively searching right now and found your job posting on linkdin while searching for testing position.i reviewed you compony description and and 
+   i want apply andlearn moreabout the opportunbity see if it's good match for me.
+===========================================================================================================================================================================================================================================================
+12. Why do you want this job?
+A: I want this job bcz iam well qualified and for responsibilities that are litsen belo the job description.we spend the lot of time in work.and i want to do something and passionate about.
+=============================================================================================================================================================================================
+13. Can you descripe in one word?
+A: i think one wqord thatdescribes me best "Dyanamic" I can adapt chganges in oprganization.and can adjust quickly.
+===================================================================================================================================================================================
+14. Where your see in you 5 years?
+A:  i would love to be preceived as an expert Devops engineer and i belive you company is the best training ground for someone like me who is immense passion of the industry.
+    iam quickly excited about the working with some of the most brilent upcoming projects. 
+=====================================================================================================================================================================================	
+15.Are you willing to relocate?
+A: i enjoyed this area. and i want love to continue my carrier in this city but  
+
+======================================================================================================================================================================================
+16. if you have any offer in hand? 
+A: i do have a offer in hand but position doesn't intrest me as much as this one. this is the reason i wanted to be interviwed to understand role about the position.
+=======================================================================================================================================================================================
+17. Biggest failed?
+A: My biggest failure as a working professonally is not taking risks in my carrier. i have alwayes been risk-averse, which are limited my opportunity for professonal growth.i regret not
+   not having the courage to try new things and explore different paths earlier in my career. 
+
+=====================================================================================================================================================================================================
+18. How do you handle the presure at workplace?
+A: iam very geneune person i away from office politics and iam only focused on my work are allocated to me.i also meditate every day.this is how maintan pressure stress and anxiety
+   in my personal lie.
+=========================================================================================================================================================================================
+19. What motivated you to apply for this position?
+A: I was excited to see this role posted because it aligns perfectly with my career goals and interests. 
+The job description highlighted a lot of the skills and experiences that I have been developing over the past few years, and I am eager to apply them in a new challenge. 
+Additionally, I admire the company's reputation and values, and I believe that this role would be a great way for me to contribute to a 
+team that shares my values and commitment to quality. 
+=======================================================================================================================================================================================================
+20. What relevent experience do you have forth is role?
+A:   
+=========================================================================================================================================================================================
+21. What is work experience in your previous company?
+A: while iam working at LTIMindtree company. in my previous company i leraned new things and how to handle the difficulties requests from who might be a bit irritated. when aproaching me.
+   i leaned at cool and comfortation.
+=============================================================================================================================================================================================
+22. Describe succes ful team project you are the part of it?
+A: 
+While I don't have personal experiences, I can certainly describe a hypothetical successful team project involving a Test Engineer. 
+Let's call this project "Automated Tester" Software Application."
+
+Background:
+
+The team was tasked with improving the testing process for a complex financial software application. The goal was to enhance test coverage, reduce testing time, and ensure the reliability of critical functionalities. 
+The team consisted of developers, testers, and a dedicated Test Engineer responsible for implementing an automated testing framework.   
+==============================================================================================================================================================================================================================
+23.What are you facing problems in your project?
+A: 
+   We are facing some probles that are: 
+   1. incomplete and changing the requirements.
+   2. Tight timelines
+   3. Limited resource.
+   4. Communication issues.
+   5. security compilance challanges
+   
+  over the challanges and collabarating the team and sucessfully complete this project.
+===============================================================================================================================================================================================================
+24.any questions?
+A: 1. what are the goals company has for the next year.
+   2. how many peoples are there in team i would be par?
+   3. what are expectationsfrom new hire for this position.
+   4. How would you describe compony culture.
+   5. can you describe some of the compony recent challanges and achivement.
+   6. I have learning more about this opportunity what are the next step in the hiring process.
+===========================================================================================================================================================================================
+25. Quality or dedline which one you preffered and y?
+A: Quality of work is more important than meeting deadline and 'meeting deadline' is a quality of your work as well. If quality is not maintained the whole project will get affetced, 
+deadlines are just delaying the commencement of the project but can be met deadlines if break downs are set off in the middle of the project. 
+==============================================================================================================================================================================================
+26.What are your family background?
+A: am we are nuclear family of four members my father is priest and my mother is home maker. i have elder sister. he is work at colins aerospace in developer. we are a closenet family 
+   who are shares a great bond to each other.
+================================================================================================================================================================================================
+27.Describe your friends?
+A: My friends would describe me helpful and communicative. i don't really enjoy idle time, so when a real friend needs to help with something, they will alays find their side.
+   They would certainly say that iam a reliable and patient listener.
+======================================================================================================================================================================================   
+28. Whaat is motivates you?
+A: My three sources of primary motivation are meeting deadlines, learning new things, and providing for my family. To expand on these, firstly, no matter the type of work, 
+I get a great sense of job satisfaction when I have worked hard to complete tasks successfully. Second, I know from my past work experiences that when 
+I work on creative projects where I can learn new skills, I feel energized and excited to be at work each day.
+
+Finally, I have a lot of goals in my personal life and things I want to do for my family, and I know that the best way for me to do this is to be successful at my job.
+===============================================================================================================================================================================================
+29. What is the one word you are the best?
+A: iam a "Versatile" person. 
+   i can easily to adaptable new plans,statertaize and execute the tasks seamlessly.
+   im my exp as test engineer. i have leead termas of the agile cirucmstancws and meet the organization goals last 2yr.
+=====================================================================================================================================================================================
+30. What is biggest achivement?
+A: I have achived several milestones to date in my carrier as a software test engineer.
+=========================================================================================================================================================================================
+32. If iam not getting job ?
+A: I will challanges an opportunities for growth and learning. iam not selected reflect the exp identify areas for improvement and leverage the feed back enhance my skills and approach
+   for future opportunities.
+==================================================================================================================================================================================================
+33. You don't have exp how will you manage this job?
+A: i understand lake of my formal work exp but i belive my bacground skills. i have woked at 2 different projects and make me a strong candidate for this position.
+   I will be happy to learn the required skills to contribute to upcomming projects.
+============================================================================================================================================================================================
+34.ARE YOU PREFERED NIGHT SHIFTS?
+a: yes, sure i will be avalible for night shifts. but iam staying alone at my place so it would any problem for me. however it would great help for me if there is transpotation facility
+   thos work at night.
+========================================================================================================================================================================================
+   
+                                                                   Daily based questions
+
+
+1. What is OS?
+
+A:  Os is nothing but operating system.that Acts as bridge b/w your software and hardware.it drives as communication b/w your software and hardware.
+==============================================================================================================================================================================================================
+2. If your laptop antivirus what you will do?
+A: first reboot my system after that safe mode and run a full scan with antivirus software.
+===============================================================================================================================================================================================================
+3. Who is your role model?
+A: 
+==========================================================================================================================================================================================================
+4. if you want to buy laptop what features are you going to check?
+A: Merory, Os, pROCESSSOR.
+===========================================================================================================================================================================================================
+5. What is LAN and WAN?
+A: LAN: Lan is nothing but (Local area Network).                                     WAN: wan is nothing but (World wide Network)
+        it is used owner ship as private.                                                 it is used to owner ship as private or public.
+        The speed of LAN more then WAN.                                                   The spped as slow.
+		LAN is Data transfer rate 10mbps.                                                 wan is data transfer rate 150mbps.
+		LAN is cheply comparred to wan.                                                   WAN is costly.
+		Ex: college lab system.                                                           EX: pager
+===============================================================================================================================================================================================================
+6. What is ACID properties?
+
+A: A - Atomicity - The entaire  transection taken place at once or doesn't happen at all.
+   
+   C - Consistancy - The data base must be consistancy after and before transactions.   
+
+   I - Isolation - Multiple transection occurs independently without interfaces.
+
+   D - Durability - The changes of successs ful transections even if system is failure occur.
+====================================================================================================================================================================================================================
+7. Rollback and limit
+
+   Rollback: Roll back is nothing but back to the save point.
+ 
+   Limit : The LIMIT clause is used to set an upper limit on the number of tuples returned by SQL.
+===========================================================================================================================================================================================================
+8. What is Error handling?
+A: Error handling is nothing but response and recovery procedure from error condition for software application.
+===============================================================================================================================================================================================================
+9. What is RAM and ROM?
+A: 
+     RAM: Random Access memory                                                                                    ROM: It is used due to the Read only memory.
+          it is used RAM is volitile memory and that could                                                             It is used due to the Voiltile memory and that could be data as long power off.
+           data as long power supplied.		  
+         Read and write operations are supported.                                                                       Read only supported.
+		 It is high speed memory                                                                                        It is slow speed memory.
+		 RAM can store 5gigabytes of data                                                                               It is tored multiple megabites of data.
+==============================================================================================================================================================================================================		 
+10. What is networking?
+A: A computer network is a system it is used to connecte multiple systems.in order to share the information.
+   it is used to 2 or more computer connected together.
+   Computer consists various kinds of nodes,server,networking,hardwares.
+===============================================================================================================================================================================================================
+11. Difference between Software and hardware?
+12. WHAT IS VPN?How it is used?
+13. About trouble shoot?
+14. Fibonociss series?
+15. techonlogy how ia effected kids?
+16. Applications of various of coading languages?
+17. palindrome?
+18. What do you mean by class?
+19. Swapping of two numbes? prime numbers?
+20. Define structure and dis structure and pointers and functions?
+========================================================================================================================================================================================================
+11. Difference between Software and Hardware?
+
+A:                              Software                                                                                                         Hardware
+
+   1. Software is nothing but colloction of programs designed speific needs                                       1. physical components of compuer is called Hardware.
+      is clled Software.
+	  
+   2. Software devided into 3 parts  1. application 2. System 3.general software.                                 2. Input devicess,processsing unit, output devices are called hardware.
+
+   3. EX: Finacial account software, OS, MS- word.                                                                3. Ex: Mouse, printer, cpu, RAM.
+ 
+=================================================================================================================================================================================================================
+12. What is VPN? aND HOW TO USE?
+A: VPN Is nothing but "virtual private network".
+  It is used due to the protect the newtwork connectivity public network. and external access.un encryted data can be see by anyone who has network access and want to see it.with VPN hackers and
+  Cyber criminal can't dispper the data.
+=======================================================================================================================================================================================================================
+13. What is trouble shooting?
+A: Trouble shooting is nothing but system approach the Solving the problem.the goal of trouble shooting what is problem why it is not working expected. and explain resolve tthe problem.
+=============================================================================================================================================================================================================
+14. Techology how it is effected kids?
+A: Technology is uses the childeren two types
+    1. is positive and 2. Negative
+Positive: technology offer various knowledge children explore new things and creativity, it is helps learning processof students.skill development socalization etc..
+Negative: Addiction, explore harmful content, negative impact, chattings, something etc.....
+====================================================================================================================================================================================================================
+15. Applications of various of coading languages?	
+A: Python: ML&AI
+   Java script: Web deelopment.
+   java: Enterprise application development
+   R: Data Analysis
+   C/C++: OS 
+   C#: Application and web development.
+   
+=================================================================================================================================================================================================================
+16. Pointers and functons?
+A: Pointers: Pointers is nothing but storage and manage the dynamically allocated block of memory.
+   Functions: Functions is nothing but set of inputs and only one output.
+==============================================================================================================================================================================================================
+17 Palindrome?
+A: 
+   class palindrome {
+Public static void main(String Args[]){
+
+ Int r,sum=0,temp;
+ Int n=454;
+
+ temp = n;
+ While(n>0){
+ r=n%10;
+ sum=(sum*10)+r;
+ n=n/10;
+
+}
+if(temp==sum)
+System.out.println("palindrome number");
+else
+System.out.println("not palindrome")
+}
+}
+====================================================================================================================================================================================================================
+18. Swapping of two numbers?
+
+A: Public class swapping{
+Public static void main (string args[]){
+
+Int x=100, y=200;
+System.out.println("Before swap");
+System.out.println("x ="+x)
+System.out,print ln("y = "+Y);
+
+//Ater swap
+ Int temp = x, x=y,y=temp;
+ System.out.println("After swap");
+ System.out.println("X ="+x);
+ System.out.println("y ="+Y);
+ ==================================================================================================================================================================================================================
+19.prime numbers?
+A: 
+  Public class Prime number{
+  Public static void main (String args[]){
+  int num=100,count=0;
+  if(i=1;i<11;i++){
+  if(num%i==0){
+  count++{
+  if(count ==2)
+  System.out.println("num+ is prime number");
+  elsesystem.out.println("num+ is not prime number");}
+  }
+  }
+=======================================================================================================================================================================================================================
+20: Fibonociss series?
+A: 
+  Public class Fibonociss{
+Public static void main(String args[]){
+int f1=0;f2=1;f3=?
+for(i=1;i<12;i++){
+f3=f1+f2;
+System.out.println(" "+f3)
+f1=f2;
+f2=f3;
+}
+}
+===================================================================================================================================================================================================================================
+
+  
+                                                                PROgramming 
+																
+																1. Reverse a string?
+
+   String originalStr = "Hello";
+    String reversedStr = "";
+
+for (int i = 0; i < originalStr.length(); i++) {
+  reversedStr = originalStr.charAt(i) + reversedStr;
+}
+
+System.out.println("Reversed string: "+ reversedStr);
+
+                                          (or)
+										  
+										  Public class Reverseofstring {
+										  public static void main(String args[]);
+										  String str = "Geeks", nstr = " ";
+										  char ch;
+										  System.out.print("original word: ");
+										  System.out.println("Geeks");
+										  
+										  for(int i=0;i<str.length;i++)
+										  {
+										  ch=str.charAt(i);
+										  nstr = ch+nstr;
+										  }
+										  System.out.println("Reverse of word:" +nstr);
+										  }
+										  }
+===========================================================================================================================================
+
+2. Largest program in array?
+
+public class Largest {
+
+    public static void main(String[] args) {
+        double[] numArray = { 23.4, -34.5, 50.0, 33.5, 55.5, 43.7, 5.7, -66.5 };
+        double largest = numArray[0];
+
+        for (double num: numArray) {
+            if(largest < num)
+                largest = num;
+        }
+
+        System.out.format("Largest element = %.2f", largest);
+		
+    }
+}
+========================================================================================================================================================================
+3. palindrome:
+
+import java.util.Scanner;
+ class expalindrome 
+{
+public static void main(String args[]) 
+{
+int x,number, y=0,temp=0;
+Scanner s=new Scanner(System.in);
+System.out.println("Enter any number: ");
+number=s.nextInt();
+x=number;
+while(number>0)
+{
+x=number%10;
+number=number/10;
+temp=temp*10+x;
+}
+if(temp==y)
+{
+System.out.println("Number is Palindrome");
+}
+else
+{
+System.out.println("not Palindrome");
+}
+}
+}
+
+                                                                                    (or)
+public class Palindrome {
+public static void main (string arg[]){
+int x,number = 0, temp;
+int n = 454;
+
+temp = n;
+while (n>0){
+x=n%10;
+sum=(sum*10)+x
+n=n/10;
+}
+if (temp==number)
+{
+System.out.println("palindrome number");
+else
+System.out.println("not palindrome");
+}
+}
+																					
+																				
+=================================================================================================================================================
+4. Factorial
+
+
+
+public class Fac
+{ 
+public static void main (string args[])
+{ 
+int num=5,fact=1;
+for(i=5;i>=1;i++)
+{
+fact=fact*i;
+}
+sop(fact);
+}
+===================================================================================================================================================================
+45.Prime number:
+ 
+ a number is called prime number it is devided into 1 it self
+   code:
+   public class div
+   {
+   public static void main(string args[])
+   {
+     int num=11,count=0;
+     if(i=1;i<11;i++)
+    {
+        if(num%i==0)
+     {
+        count++;
+       }
+if (count==2)
+sop(num+" is pn);
+else
+sop(num+" is not pn);
+}
+}
+---------------------------------------------------------------------------------------------------------------
+46.Reverse of a number:
+  
+public class reverse
+{
+public static void main(string args[])
+{
+int num123,rev=0.rem;
+while(num>0)
+{
+rem=rev%10;
+num=num/10;
+rev=rev*10+rem;
+}
+sop(rev);
+}
+}
+------------------------------------------------------------------------------------------------
+47. fibnoci series:
+ 
+ it is a series of two numbers 0&1 other thirs bnumber is even number
+code:
+public class div
+{
+public static void main(string args[])
+{ 
+int f1=0,f2=1,f3;
+sop(f1+" "+f3);
+for(i=1;i<12;i++)
+}
+f3=f1+f2;
+sop(" "+f3);
+f1=f2;
+f2=f3;
+}
+}
+--------------------------------------------------------------------------------------------------------
+48. swappin of two numbers
+  code:
+public class swapping
+{
+public static void main(string args[])
+{
+int a=10,b=20,c=?;
+sop("before swapping_"+a" "+b");
+c=a;
+a=b;
+b=c;
+sop("after swapping_"+A" "+B):
+}
+}
+---------------------------------------------------------------------------------------------------------
+49.Armstrong number:
+   a number is called armstrong number it is individually qube and factorial of num same result same number is called armstrong number.
+public class arm
+{
+public static void main(string args[])
+{
+int num=123;arm=0;temp=num;
+while(num>0)
+{
+rem=rem%10;
+num=num/10;
+arm(rem*rem*rem*arm)
+}
+if(num==arm)
+sop(temp+" is the armstrong number");
+else
+sop(temp+" is the not armstrong number");
+}
+}
+================================================================================================================================================
+
+// Bubble sort in Java
+
+import java.util.Arrays;
+
+class Main {
+
+  // perform the bubble sort
+  static void bubbleSort(int array[]) {
+    int size = array.length;
+    
+    // loop to access each array element
+    for (int i = 0; i < size - 1; i++)
+    
+      // loop to compare array elements
+      for (int j = 0; j < size - i - 1; j++)
+
+        // compare two adjacent elements
+        // change > to < to sort in descending order
+        if (array[j] > array[j + 1]) {
+
+          // swapping occurs if elements
+          // are not in the intended order
+          int temp = array[j];
+          array[j] = array[j + 1];
+          array[j + 1] = temp;
+        }
+  }
+
+  public static void main(String args[]) {
+      
+    int[] data = { -2, 45, 0, 11, -9 };
+    
+    // call method using class name
+    Main.bubbleSort(data);
+    
+    System.out.println("Sorted Array in Ascending Order:");
+    System.out.println(Arrays.toString(data));
+  }
+}
+===================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+																			 
+
+	  
+	

@@ -1,0 +1,55 @@
+------------------------------------------------- HR Interview Questions-------------------------------------------------------------------
+==> Tell me about Your Self?
+
+Hi my name is john Mukthananda, Iam from madanapalle , I have done my degree from [College Names] . 
+
+ i'm a Power BI Developer with 3yr of experience in Concentrix with strong skills in Power BI and SQL and Azure
+ 
+During in this time i was done my [Project Names]
+
+My role and responsiblities: I specialize in building interactive dashboards, creating insightful reports, and transforming data into actionable business intelligence.
+
+ I'm passionate about turning raw data into meaningful visual stories that drive smart decisions.
+
+I am working with DAX and complex calculations and data modeling data from multiple sources such as a SQL, Excel.
+
+I am passionate about data visualization and helping organizations make data-driven decisions.
+
+I look forward to bringing my skills power bi and data analytics to contribute to your team Success.
+ ==========================================================================================================================================
+==> What do you know about HCL?
+A: 1. HCL(Hindustan computer limited) Is a leading global IT Service company. That provides a wide range of services including software   
+      developement, Infra structure management, engineering service, Financial Service, digital transformation solutions, cloud and AI.
+
+   2. it was founded by 1976 and headcoureter in noida, and HCL operates over 50 countries and has strong presence industries like:    
+      BFSI,HELTHCARE, Manufacture and telecommunication.
+	  
+   3. this company follws a customer first approach and promotes innovation through it's leadership culture.
+
+   4. where employesa are encouraged to take initiative. HCL Also known for it's strong ethical values and commitment to sustainability 
+      and social responsibility.
+
+    HCL current ceo is C Vijay kumar.He was appointed in OCT 2016 and later bacame managing director in july 2021.	 
+
+    Peoples : 223000 peoples across 60 countries.
+	Total Public service revenue of 12 months 2025 totaled $13.8billions.
+==========================================================================================================================================
+==> What is youre strength?
+
+my biggest strength is my communication and technical skills, As a powe bi developer part of my job to understandwhat they needs of my clients and maintain and proper transparancy among all the team members.
+
+Iam proud to be mention i always been successful at it. This is not only helped me to eliver best result but also maintaingreat proffessional network.
+                  Or	 
+my biggest strength is my communication and technical skills, i can handle any though situation with my skils and knowledge and communication. 
+==========================================================================================================================================
+==> What is your weekness?
+A: my biggest weekness at times i overbuddden with my self with work. i have sinciarly working with my priortize what is most imp stictly working according to that. i belive chalking out of a plan and working acoording to the time table helps me lot.i overcome important prioratize and time management.
+==========================================================================================================================================
+==> What is your preffered location?
+A: Mypreferred locations are two one is Bengalore and another Hyderabad.
+==========================================================================================================================================
+==> What is Your ssalery Expectations?
+A: My salery Expectations as Per company Norms (or) salery range between 14 to 15 would fair appropriate.
+==========================================================================================================================================
+
+  

@@ -1,0 +1,190 @@
+
+
+==> Tell me about Your Self?
+
+Hi my name is john Mukthananda, Iam from madanapalle , I have done my degree from [College Names] . 
+
+ i'm a Power BI Developer with 3yr of experience in Concentrix with strong skills in Power BI and SQL and Azure
+ 
+During in this time i was done my [Project Names]
+
+My role and responsiblities: I specialize in building interactive dashboards, creating insightful reports, and transforming data into actionable business intelligence.
+
+ I'm passionate about turning raw data into meaningful visual stories that drive smart decisions.
+
+I am working with DAX and complex calculations and data modeling data from multiple sources such as a SQL, Excel.
+
+I am passionate about data visualization and helping organizations make data-driven decisions.
+
+I look forward to bringing my skills power bi and data analytics to contribute to your team Success.
+
+====================================================================================================================================================================
+==> What is the roles and responsibilities in previous company?
+A: 
+Develop interactive dashboards and reports using Power BI.
+
+Write SQL queries to extract, transform, and load (ETL) data from various sources.
+
+Connect Power BI to Azure services like Azure SQL Database and Azure Data Lake.
+
+Design data models to ensure efficient performance and easy reporting.
+
+Optimize DAX formulas and Power BI performance for faster results.
+
+Manage and schedule data refreshes using Azure and Power BI Service.
+
+Collaborate with stakeholders to gather and understand business requirements.
+
+Implement row-level security (RLS) for secure access to sensitive data.
+
+Publish and share reports via Power BI Service and embed in Azure portals.
+
+Monitor, troubleshoot, and improve data pipelines using Azure tools and Power BI.
+====================================================================================================================================================================
+
+==> Difference between Power bi and Tableau?
+
+A:                                 Power BI                                                                                 Tableau
+
+==> Power bi is ntg but user friendly and Espacially who familier with Excel      ==> Tableau is ntg but learning more and offerece more flexibility control 
+    it similar and it's used due to the Power query and DAX Which have excel.         overed masters in the visualization.
+	
+==> It is integrate seamless microsoft products like(Excel,power automate,        ==> it is integration broad data source with cloud platforms it is not tight with 
+    Power apps, sharepointetc)                                               	      microsoft products.
+	
+==> Power bi is opensource                                                        ==> Tableau is overall more expensive.
+
+==> it is provide best range of visualizations and custome visuals also           ==> Tableau is rich and interactive visualization better for detailed dashboard
+    avalible but some complex customization required.                 	              story telling.
+	
+==> It is strong data modeling with Dax and supports complex calculations and     ==> It is less focused in the data modeling compared to power bi. 
+    relationships.	
+	
+==> it is deployement cloud + on prem                                             ==> flexible deployement options.	
+
+====================================================================================================================================================================
+==> Difference between power query and power pivot?
+A: 
+                                Power query                                                                             Power pivot
+								
+==> Power query is ntg but ETL,When my data is not proper that time we            ==> Power pivot is ntg butwe got a data from different sources that time we create
+    are suing Power query								                             relationship between two tables then used KPI AND Dax that s called power pivot.
+	
+==> Power query purpose is data import and transformation and load                ==> Power pivot purpose build the data modeling calculations.
+
+==> Power query is use clean and shape the raw data.                              ==> Power pivot is uses the build measures and columns.
+
+==> It is used to output the cleaned the data.                                    ==> it is out put data modeling with calculations.
+
+==> it is most commnly used Excel and power BI                                    ==> It is most commoly used in Excel and Power BI.
+
+====================================================================================================================================================================
+==> What is power bi desktop?
+A: Power bi desktop is ntg but that is business intiliegence toll and it includes cleansing the data and analaysis of the data that data convert into visualformat
+   create reports and dashboards then that is called power bi desktop.
+   That is classified into 3 parts
+   1. Power query
+   2. Power view
+   3. Power pivot
+====================================================================================================================================================================
+==> What is power query?
+A: Powerquery is ntg but EXTRACT TRANSFORMATION LOAD (ETL).
+   Where we can see the power query  on power query editor window.
+   it is used when my data is not proper that we are using power query.
+   
+====================================================================================================================================================================
+
+==> What is power pivot?
+A; Power pivot is ntg but we got a data from multiple tables from client but each table has differentinformation so that time we can take final data and create a relationship between two tables then that is called power pivot.
+
+====================================================================================================================================================================
+
+==>  What is DAX?
+A: DAX is ntg but data analysis expression it is usedd due to the power bi for creating calculated columns and calculated measures and custom tables. it is collection of functions and opertaions and constant that can be used in formula and expression that can calculate and return the values.
+
+====================================================================================================================================================================
+==> What are the filters in power bi?
+A: in the power bi 3 levels of filters is there 
+  1. Visual Level filter: it is used due t the filters applied only what we choose the visuals.
+  2. Page level filter: This is used filter the specific page.
+  3. Report leve; filter: This filter applies all pages in report.
+  4. Drill through filter: It is used due to the user click right and will see the detailed on other page.
+  5.TOP N: this filter uses will found the top values.
+  
+====================================================================================================================================================================
+==> What are the custom visuals in power bi?
+A; Custom visuals is ntg but third party visuals in power bi. if we want that custom visuals you can got o marketplace and import and use those visuals.
+   1. KPI indicator: It is used due to the display the key performance indicator and icons and color.
+   2. Radar chart: Rader chart is ntg but compare the values in multiple dimensions in a circle.
+   3. Bullet chart:  Shows the performance against in compact spaces.
+   4. Hirarchey slicer: it is used drill down through multiple levels in a single slicer.
+   5. Subardnate chart: It is used due to the display the hirachical data like radial tree.
+   
+====================================================================================================================================================================
+==> What is getdata in power bi?
+A: The get data connection in power bi connect various data source,choose the how to import data source that time we areusing get data.
+
+====================================================================================================================================================================
+==> What are the drawbacks in power bi?
+A: 1. When we import the data set that time limited data set allowed.
+   2. It can be slower with complaex models and large data sets.
+   3. limited formatting and custamization default visuals
+   4. Dax and modeling hard to learn in master.
+   5. Row level security not flexible enough complex scenarios.
+   6. prmium features are most costly.
+
+====================================================================================================================================================================
+==> What are the different connection modes in power bi?
+A: 
+                                   Import                                                                              Direct query mode
+
+==> When we have to use import mode that time we have to change                              ==> Direct query mode is ntg butwhen want to change data source 
+ the data sourcce we can refresh the data source automatically it's update.                      that referesh can't work
+
+==> performance wise import mode is good                                                     ==> Performance wise direct query mode is not good.
+
+==> When we have large data set import mode can't support.                                   ==> When we have large data set it can support.
+
+==> import modes all kind of dax functions are supported.                                    ==> DQM not supported.
+
+==> Excel and csv files are import mode.                                                     ==> sql server is dqm.
+
+Live connection mode: When we have data model and analysis on server that time we are using live connection.
+
+
+====================================================================================================================================================================
+
+==> What is the Reports and dashboards
+
+                         Dashboards                                                                                  reports
+==> Dashboards is ntg but Multiple dashboards.                                                ==> Reports are ntg but multiple pages   
+
+==> Dashboards are pnnned to data source one or more                                          ==> each reports are one data set.
+
+==> in that dashboars we have't to use filter and slicer.                                     ==> in that report we have to use filter and slicer.
+
+==> Dashboard are not interactive.                                                            ==> Reports are intractive.
+
+==> Dashboards arw limited                                                                    ==> Reports are not limited to build the   
+
+====================================================================================================================================================================
+==> What is calculated column and what is calculated measure?
+A:                      Calculated measure                                                                     Calculated column
+   ==> It is uses the calculate the overall row.                                              ==> It is uses the calculate row by row
+   
+   ==> we will find out the calculation symbol                                                ==> It is useto find out the summetion symbol.
+   
+   ==> When we use the measure that time we can't see the table.                              ==> When we used measure that time we will see the column.
+   
+   ==> we can use the filter and slicer.                                                      ==> But columns we can't.
+   
+   ==> Calculation based on the row context                                                   ==> Calculation based on the context.
+   
+ ====================================================================================================================================================================
+
+Line and Clustered column chart: It is uses the combines the line chart side by side and comapare the different measures.
+
+Line and stacked column chart: It is uses the combines the line chart side by side and comapare the different measures.
+
+
+  
